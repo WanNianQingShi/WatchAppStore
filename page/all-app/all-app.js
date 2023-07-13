@@ -31,7 +31,14 @@ function openAppInfoPage(e){
     //console.log(info);
     document.getElementById("app-info-name").innerHTML=info.name;
     document.getElementById("app-info-version").innerHTML=info.version;
-    document.getElementById("app-info-author").innerHTML=info.description;
+    document.getElementById("app-info-description").innerHTML=info.description;
+    document.getElementById("app-info-author").innerHTML=info.author;
+    document.getElementById("app-info-download-btn").setAttribute("onclick","openWindow('"+info.url+"')");
     clonePage("app-info");
 
+}
+
+function openWindow(value){
+    window.open(value);
+    window.history.back();
 }

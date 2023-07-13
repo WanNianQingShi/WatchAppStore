@@ -2,7 +2,7 @@
     "applist": [
         {
             "name": "Hankmi应用商店",
-            "url":"none",
+            "url":"https://api.hankmi.com/appstore/Apps/Hankmi%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97.apk",
             "icon":"none",
             "version": "23.6.11",
             "author":"none",

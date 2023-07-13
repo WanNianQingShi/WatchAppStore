@@ -37,6 +37,11 @@
 .page-name{
     display: inline-block;
     font-size: 25px;
+    width: 40%;
+}
+
+.page-name:active{
+    color: black;
 }
 .page-body{
     background-color: black;
@@ -67,8 +72,16 @@
     height: fit-content;
     margin: 5px auto;
     padding: 10px 0px;
-    background-color:rgb(47, 47, 47);
+    background-color:rgb(50, 50, 50);
 }
+
+.btn:active{
+    background-color: rgb(165, 165, 165);
+    width: 100%;
+    padding: 20px;
+    font-size: 25px
+}
+
 .home-btn{
     color: blue;
 }
