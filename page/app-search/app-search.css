@@ -1,0 +1,15 @@
+#app-search-input{
+    width: 85%;
+    border:blue 3px solid ;
+    font-size: 20px;
+    margin: 10px auto;
+    height: 40%;
+    display: block;
+    border-radius:10px;
+    padding: 4% 5%;
+    
+}
+#app-search-input:focus{
+    outline: none;
+    border:rgb(140, 130, 255) 3px solid 
+}

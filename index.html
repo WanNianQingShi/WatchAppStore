@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Yidang</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="page/all-app/all-app.css">
+    <link rel="stylesheet" href="page/app-search/app-search.css">
+    <link rel="stylesheet" href="page/app-info/app-info.css">
+    <script src="js/index.js"></script>
+    <script src="js/version.js"></script>
+    <script src="page/all-app/all-app.js"></script>
+    <script src="page/app-search/app-search.js"></script>
+
+
+    <!-- <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-7ymO4nGrkm372HoSbq1OY2DP4pEZnMiA+E0F3zPr+JQQtQ82gQ1HPY3QIVtztVua"
+        crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <div id="home">
+        <div id="head">
+            <div id="app-name">{appname}</div>
+            <div id="time">{时间}</div>
+        </div>
+
+        <div id="home-body">
+            <div id="navigation">
+                <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
+                <button id="search-btn" class="navigation-btn" onclick="clonePage('app-search')">搜索</button>
+                <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
+            </div>
+            
+            <button class="btn" onclick="clonePage('all-app')">全部应用</button>
+            <!-- <button class="btn">应用分类</button> -->
+            <!-- <button class="btn">推荐应用</button>
+            <button class="btn">市场设置</button> -->
+
+            <div id="end">
+                <!-- <button class="end-btn">.svg</button>
+                <button class="end-btn">.svg</button>
+                <button class="end-btn">.svg</button> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="page" id="version">
+        <div class="page-head">
+            <div class="page-name">Back|Version</div>
+        </div>
+        <div class="page-body"></div>
+    </div> -->
+
+    <div class="page" id="app-search">
+        <div class="page-head">
+            <div class="page-name">搜索</div>
+        </div>
+        <div class="page-body">
+            <textarea id="app-search-input" class="app-search-input" onkeydown="preventEnter(event)" placeholder="在此输入..." style="resize: none;" ></textarea>
+            <button id="app-search-submit" class="btn" onclick="outSearchResult(event)">查找应用</button>
+        </div>
+    </div>
+
+    <div class="page" id="app-search-result">
+        <div class="page-head">
+            <div class="page-name">搜索结果</div>
+        </div>
+        <div class="page-body">
+
+        </div>
+    </div>
+
+    <div class="page" id="all-app">
+        <div class="page-head">
+            <div class="page-name">全部应用</div>
+        </div>
+        <div class="page-body">
+
+        </div>
+    </div>
+
+    <div class="page" id="app-info">
+        <div class="page-head">
+            <div class="page-name">应用信息</div>
+        </div>
+        <div class="page-body">
+            <div class="app-info-title">应用名称</div>                
+            <div id="app-info-name" class="app-info-text" style="font-size: 25px"></div>
+
+            <button class="btn">下载</button>
+
+            <div class="app-info-title">简介</div>            
+            <div id="app-info-author" class="app-info-text" style="font-size: 20px"></div>
+
+            <div class="app-info-title">版本号</div>            
+            <div id="app-info-version" class="app-info-text" style="font-size: 20px"></div>
+
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
