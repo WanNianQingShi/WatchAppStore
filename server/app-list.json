@@ -9,34 +9,6 @@
             "description":"魅族、vivo、Redmi、小米手表S系列无法使用Hankmi应用商店",
             "cutphoto":"none"
         },
-        {
-            "name": "app1",
-            "url":"none",
-            "icon":"none",
-            "version": "1.0.0",
-            "author":"none",
-            "description":"none",
-            "cutphoto":"none"
-        },
 
-        {
-            "name": "app2",
-            "url":"none",
-            "icon":"none",
-            "version": "2.0.0",
-            "author":"none",
-            "description":"none",
-            "cutphoto":"none"
-        },
-
-        {
-            "name": "app3",
-            "url":"none",
-            "icon":"none",
-            "version": "3.0.0",
-            "author":"none",
-            "description":"none",
-            "cutphoto":"none"
-        }
     ]
 }
