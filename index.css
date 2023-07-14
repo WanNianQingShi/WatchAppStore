@@ -1,0 +1,159 @@
+*{
+    background: black;
+    color:rgb(0, 130, 255);
+    animation: 0.35s;
+    transition: 0.35s;
+    overflow: hidden;
+    
+    font-family:'微软雅黑','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  
+}
+#home{
+    width: 95%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+   
+}
+#home-body{
+    overflow-y: scroll;
+    width: 100%;
+    
+    
+}
+#head{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.page-head{
+    width: 100%;
+    margin: auto;    
+}
+#app-name{
+    display: inline-block;
+    font-size: 25px;
+   width: 70%;
+}
+.page-name{
+    display: inline-block;
+    font-size: 25px;
+    width: 40%;
+}
+
+.page-name:active{
+    color: black;
+}
+.page-body{
+    background-color: black;
+    width: 100%;
+    overflow-y:scroll;
+    font-size: 20px;
+    text-align: left;
+}
+@keyframes page-appear{
+    from {left: 120%;
+    }
+    to{
+        left: 0;
+    }
+}
+#time{
+    display: inline-block;
+    text-align: right;
+    font-size: 28px;
+    margin-top: 0;
+    width: 30%;
+}
+.btn {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+    border: none;
+    width:95%;
+    height: fit-content;
+    margin: 5px auto;
+    padding: 10px 0px;
+    background-color:rgb(50, 50, 50);
+}
+
+.btn:active{
+    background-color: rgb(165, 165, 165);
+    width: 100%;
+    padding: 20px;
+    font-size: 25px
+}
+
+.home-btn{
+    color: blue;
+}
+.page{
+    left: 0;
+    right: 0;
+    width: 95%;
+    overflow-x: hidden;
+    margin: auto;
+   display: none;
+    background-color: black;
+    position:absolute;
+    animation-name: page-appear;
+    
+}
+
+
+
+#navigation{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+  
+}
+
+.navigation-btn{
+   
+    border: none;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    
+}
+#user-btn{
+    display: inline-block;
+    width:20%;
+    padding: 5% 0;
+}
+#download-btn{
+    display: inline-block;
+    width: 20%;
+}
+ #search-btn{
+    display: inline-block;
+    width: 95%;
+    padding: 2% 0;
+    font-size: 23px;
+
+    font-weight:500;
+}
+
+#end{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+
+}
+.end-btn{
+    width:30%;
+    display: inline-block;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.70);
+    
+
+}
