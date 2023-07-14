@@ -17,7 +17,7 @@ function loadAppList(){
             
         }
     }
-    ajax.open("GET","server/app-list.json",true);
+    ajax.open("GET","https://my-web.rth1.one/AppStoreDataBase/app-list.json",true);
     ajax.send();
 }
 
