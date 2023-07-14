@@ -61,7 +61,7 @@
     display: inline-block;
     float: right;
     font-size: 27px;
-    margin-top: 2.5px;
+    margin-top: 0;
 }
 .btn {
     text-align: center;
