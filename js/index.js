@@ -104,6 +104,10 @@ function getTime(){
     var time=new Date;
     var h = time.getHours();
     var min=time.getMinutes();
+    if(h<10){
+        h="0"+h}
+    if(min<10){
+        min="0"+min}
     var out=h+":"+min;
     echoid("time", out);
 }
