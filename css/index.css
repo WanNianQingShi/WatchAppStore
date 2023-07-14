@@ -60,7 +60,8 @@
 #time{
     display: inline-block;
     float: right;
-    font-size: 25px;
+    font-size: 27px;
+    margin-top: 2.5px;
 }
 .btn {
     text-align: center;
