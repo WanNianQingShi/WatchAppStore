@@ -1,6 +1,6 @@
 *{
     background: black;
-    color: rgb(82, 82, 255);
+    color: rgb(0, 130, 255);
     animation: 0.35s;
     transition: 0.35s;
     overflow: hidden;
@@ -130,7 +130,8 @@
     display: inline-block;
     width: 95%;
     padding: 2% 0;
-    font-size: 20px;
+    font-size: 23px;
+      font-weight:500;
 }
 
 #end{
