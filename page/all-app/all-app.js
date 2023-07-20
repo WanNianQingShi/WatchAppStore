@@ -9,7 +9,7 @@ function loadAppList(){
                 var btn=document.createElement('button');
                 btn.classList="btn";
                 btn.setAttribute('value',str);
-                btn.innerHTML=item.name;
+                btn.innerHTML=`${item.name}<span>${item.version}</span>`;
                 btn.setAttribute("onclick","openAppInfoPage(event)")
                 document.getElementById("all-app").children[1].appendChild(btn);
                 
@@ -17,7 +17,7 @@ function loadAppList(){
             
         }
     }
-    ajax.open("GET","https://my-web.rth1.one/AppStoreDataBase/app-list.json",true);
+    ajax.open("GET","server/app-list.json",true);
     ajax.send();
 }
 
@@ -33,12 +33,23 @@ function openAppInfoPage(e){
     document.getElementById("app-info-version").innerHTML=info.version;
     document.getElementById("app-info-description").innerHTML=info.description;
     document.getElementById("app-info-author").innerHTML=info.author;
-    document.getElementById("app-info-download-btn").setAttribute("onclick","openWindow('"+info.url+"')");
+    document.getElementById("app-info-download-btn").setAttribute("onclick","startDownload('"+info.url+"')");
     clonePage("app-info");
 
 }
 
-function openWindow(value){
-    window.open(value);
-    window.history.back();
+function startDownload(value){
+    //Debug   正常使用须传入uniapp下载进度参数
+    clonePage("download-progress");
+    var gress=0
+    var lis=setInterval(function(){
+        gress=gress+14;
+        setDownloadProgressData(gress);
+        if(gress>=100){
+            clearInterval(lis)
+        }
+    },600)
+    //
+    // window.open(value);
+    // window.history.back();
 }

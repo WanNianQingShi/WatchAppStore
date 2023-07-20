@@ -1,19 +1,18 @@
-var on;
-
-function outSearchResult(e) {
+function outAppOtherVersionResult() {
     var ajax = new XMLHttpRequest();
 
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
             document.getElementById("app-search-result").children[1].innerHTML = "";
+            var point=document.getElementById("app-info-name").innerHTML;
             var list = JSON.parse(ajax.responseText);
             list = list.applist;
-            var point = document.querySelectorAll(".app-search-input")[document.querySelectorAll(".app-search-input").length - 1].value
+
             if (point != "") {
                 list.forEach(item => {
-                    //var point = document.getElementById("app-search-input").innerHTML;
-                    var str = JSON.stringify(item);
-                    if (str.search(point) > -1) {
+                    var str = JSON.stringify(item)
+                   
+                    if (JSON.stringify(item.name).search(point) > -1) {
 
                         var btn = document.createElement('button');
                         btn.classList = "btn";
