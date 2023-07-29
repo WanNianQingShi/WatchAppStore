@@ -1,6 +1,33 @@
 {
     "applist": [
         {
+            "name": "<li>简易公告<li>",
+            "url":"none",
+            "icon":"none",
+            "version": "",
+            "author":"authority",
+            "description":"<span>7.29</span>测试内容。",
+            "cutphoto":"none"
+        },
+        {
+            "name": "易档社区",
+            "url":"http://x1.ydyspc.com/yidangshequ_4.1_xlhs.com.apk",
+            "icon":"none",
+            "version": "1.1.0",
+            "author":"奕奕",
+            "description":"易档社区app安卓手机版是一款好玩好用的手机论坛类应用，里面拥有各种资源导航网、破解版软件游戏、热门壁纸图片等资源，体积小巧，免费下载使用吧！",
+            "cutphoto":"none"
+        },
+        {
+            "name": "易档手表GPT问答",
+            "url":"http://xl2.ydyspc.com/yidangsgpt_1.1.0_xlhs.com.apk",
+            "icon":"none",
+            "version": "2.0.0",
+            "author":"奕奕",
+            "description":"易档手表GPT问答app是B站up主开发的一款手表专用应用程序，体积相当的小巧简洁哦！",
+            "cutphoto":"none"
+        },
+        {
             "name": "Hankmi应用商店",
             "url":"https://api.hankmi.com/appstore/Apps/Hankmi%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97.apk",
             "icon":"none",
@@ -13,28 +40,10 @@
             "name": "腕上必应",
             "url":"none",
             "icon":"none",
-            "version": "1.0.0",
-            "author":"none",
-            "description":"none",
-            "cutphoto":"none"
-        },
-        {
-            "name": "腕上必应",
-            "url":"none",
-            "icon":"none",
-            "version": "1.0.2",
-            "author":"none",
-            "description":"none",
-            "cutphoto":"none"
-        },
-        {
-            "name": "腕上必应",
-            "url":"none",
-            "icon":"none",
             "version": "2.0.0",
             "author":"none",
             "description":"none",
             "cutphoto":"none"
-        }
+        }        
     ]
 }
