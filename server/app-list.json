@@ -9,6 +9,24 @@
             "description":"<span>7.29</span>测试内容。",
             "cutphoto":"none"
         },
+         {
+            "name":"wearbbs腕上论坛",
+            "url":"http://x1.ydyspc.com/wearbbs.apk",
+            "icon":"none",
+            "version": "1.3",
+            "author":"未知",
+            "description":"wearbbs腕上论坛手机版是一款潮流智能穿戴设备交流论坛，机友们可在wearbbs手机版获取最新智能手表、小米手环、手表玩机技巧交流分享等功能，移动穿戴设备爱好者交流学习必备平台！",
+            "cutphoto":"none"
+        },
+        {
+            "name":"腕上视频付费版",
+            "url":"http://x1.ydyspc.com/wanshangshipingv1.6.5.apk",
+            "icon":"none",
+            "version": "1.6.5",
+            "author":"未知",
+            "description":"腕上视频付费版app是为小米手环打造的一款腕上视频付费版apk应用，免费版能实现部分手环修改功能，付费完整版拥有弹幕类型自定义、滚动弹幕、视频时长设置等功能",
+            "cutphoto":"none"
+        },
         {
             "name": "易档社区",
             "url":"http://x1.ydyspc.com/yidangshequ_4.1_xlhs.com.apk",
