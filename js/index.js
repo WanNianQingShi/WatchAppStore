@@ -16,7 +16,7 @@ window.onload = function () {
     //loadMessage()
     
     //
-    getExpandList();
+    //getExpandList();
     //App Debug Region
 
     //clonePage("option")
