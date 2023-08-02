@@ -13,7 +13,7 @@ window.onload = function () {
     setInterval(getTime(), 2000);
     //setInterval(addMDUI(), 2000);
     //shearch-app>
-    setInterval(loadMessage(), 2000);
+    //setInterval(loadMessage(), 2000);
     loadMessage()
     
     //
