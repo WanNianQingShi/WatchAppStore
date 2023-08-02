@@ -7,14 +7,66 @@ window.onload = function () {
     initialize();
     menuPervent();
     loadAppList();
-    //循化执行getTime()
-    setInterval(getTime(), 1000);
-    //App Debug Region
+    //setRightSlideClosePage();
+    loadSearchHistory();
+
+    setInterval(getTime(), 2000);
+    //setInterval(addMDUI(), 2000);
+    //shearch-app>
+    setInterval(loadMessage(), 2000);
+    loadMessage()
     
-    //clonePage("download-progress")
+    //
+    getExpandList();
+    //App Debug Region
+
+    //clonePage("option")
 
     //
 
+}
+
+function addMDUI(){
+    document.querySelectorAll("button").forEach(item => item.classList.add("mdui-ripple","mdui-ripple-blue"));
+    document.querySelectorAll(".app-info-text").forEach(item => item.classList.add("mdui-ripple","mdui-ripple-blue"))
+
+}
+
+
+function setRightSlideClosePage() {
+    var startX = 0; // 记录鼠标开始位置的X坐标
+
+    document.onmousedown = function (downEvent) {
+        var pages = document.querySelectorAll(".page");
+        var currentPage = pages[pages.length - 1];
+
+        if (downEvent.clientX < document.documentElement.clientWidth * 0.1 && currentPage.style.display === "block") {
+            startX = downEvent.clientX;
+
+            document.onmousemove = function (moveEvent) {
+                var deltaX = moveEvent.clientX - startX;
+                currentPage.style.marginLeft = deltaX + "px";
+                
+            };
+
+            document.onmouseup = function (upEvent) {
+                var deltaXRounded = upEvent.clientX - startX;
+                var threshold = document.documentElement.clientWidth * 0.5;
+
+                if (deltaXRounded >= threshold) {
+                    currentPage.style.marginLeft = "100%";
+                    setTimeout(function () {
+                        currentPage.remove();
+                    }, 500); 
+                } else {
+                    currentPage.style.marginLeft = "2.5%";
+                }
+
+                document.onmousemove = null; // 清除mousemove事件
+                document.onmouseup = null; // 清除mouseup事件
+            };
+        }
+    };
 }
 
 function initialize() {
@@ -26,7 +78,7 @@ function initialize() {
             //初次加载时执行
             setAppInfo();
             setDispalyLayout()
-            //document.getElementById("version").children[1].innerHTML = package.version;
+        
         }
     }
     ajax.open("GET", "./data/package.json", true);
@@ -37,6 +89,7 @@ function setAppInfo() {
     //当应用首次打开是执行
     console.log(package)
     echoid("app-name", package.appname)
+    document.getElementById("about-version").innerHTML=package.version
 }
 
 function setDispalyLayout() {
@@ -54,37 +107,38 @@ function setDispalyLayout() {
         item.style.height = headh * 100 + "%";
     })
     document.querySelectorAll(".page-body").forEach(function (item) {
-        item.style.height = (1 - headh) * 100 + "%"});
+        item.style.height = (1 - headh) * 100 + "%"
+    });
 
     //当class为page-name的元素被点击时删除父级元素
 
 }
 
 function menuPervent() {
-    document.addEventListener('touchmove', function(e) {
+    document.addEventListener('touchmove', function (e) {
         e.preventDefault();
     });
-    document.addEventListener('gesturestart', function(e) {
+    document.addEventListener('gesturestart', function (e) {
         e.preventDefault();
     });
     document.addEventListener('selectstart', function (e) {
         e.preventDefault();
     })
-    document.addEventListener('touchstart', function (event) {
-        if (event.touches.length >= 2) {
-            event.preventDefault();
-        }
-    })
-    document.addEventListener('touchmove', function (event) {
-        if (event.touches.length >= 2) {
-            event.preventDefault();
-        }
-    })
-    document.addEventListener('touchend', function (event) {
-        if (event.touches.length >= 2) {
-            event.preventDefault();
-        }
-    })
+    // document.addEventListener('touchstart', function (event) {
+    //     if (event.touches.length >= 2) {
+    //         event.preventDefault();
+    //     }
+    // })
+    // document.addEventListener('touchmove', function (event) {
+    //     if (event.touches.length >= 2) {
+    //         event.preventDefault();
+    //     }
+    // })
+    // document.addEventListener('touchend', function (event) {
+    //     if (event.touches.length >= 2) {
+    //         event.preventDefault();
+    //     }
+    // })
 }
 
 function clonePage(id) {
@@ -96,22 +150,22 @@ function clonePage(id) {
     document.querySelectorAll(".page-name").forEach(function (item) {
         item.addEventListener("click", function () {
             //点击page-name是关闭该页面
-            item.parentElement.parentElement.style.left="120%"
-            setTimeout(function () {item.parentElement.parentElement.remove();}, 350);
-            
+            item.parentElement.parentElement.style.left = "120%"
+            setTimeout(function () { item.parentElement.parentElement.remove(); }, 350);
+
 
         })
     })
 
 }
 
-function getTime(){
-    var time=new Date;
+function getTime() {
+    var time = new Date;
     var h = time.getHours();
-    var min=time.getMinutes();
-    if(h<10){h=`0${h}`}
-    if(min<10){min=`0${min}`}
-    var out=h+":"+min;
+    var min = time.getMinutes();
+    if (h < 10) { h = `0${h}` }
+    if (min < 10) { min = `0${min}` }
+    var out = h + ":" + min;
     echoid("time", out);
 }
 

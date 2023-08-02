@@ -17,7 +17,7 @@ function loadAppList(){
             
         }
     }
-    ajax.open("GET","server/app-list.json",true);
+    ajax.open("GET","https://wannianqingshi.github.io/WatchAppStore/server/app-list.json",true);
     ajax.send();
 }
 
@@ -33,23 +33,28 @@ function openAppInfoPage(e){
     document.getElementById("app-info-version").innerHTML=info.version;
     document.getElementById("app-info-description").innerHTML=info.description;
     document.getElementById("app-info-author").innerHTML=info.author;
-    document.getElementById("app-info-download-btn").setAttribute("onclick","startDownload('"+info.url+"')");
+    //document.getElementById("app-info-download-btn").setAttribute("onclick","startDownload('"+info.url+"')");
+    document.getElementById("app-info-download-btn").setAttribute("onclick",`rmdownloadBtn(event,'${info.url}')`);
     clonePage("app-info");
 
 }
 
 function startDownload(value){
     //Debug   正常使用须传入uniapp下载进度参数
-    clonePage("download-progress");
-    var gress=0
-    var lis=setInterval(function(){
-        gress=gress+14;
-        setDownloadProgressData(gress);
+    downloadFrom(value)
+    //clonePage("download-progress");
+	
+    
+    /* var lis=setInterval(function(){
         if(gress>=100){
             clearInterval(lis)
         }
-    },600)
+    },500) */
     //
     // window.open(value);
     // window.history.back();
+}
+function rmdownloadBtn(e, durl) {
+    e.target.style.display="none";
+    startDownload(durl)
 }

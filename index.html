@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Yidang</title>
@@ -10,15 +12,27 @@
     <link rel="stylesheet" href="page/app-search/app-search.css">
     <link rel="stylesheet" href="page/app-info/app-info.css">
     <link rel="stylesheet" href="page/download-progress/download-progress.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    
+    <link rel="stylesheet" href="page/expand/expand.css">
+    <link rel="stylesheet" href="page/option/option.css">
+    <link rel="stylesheet" href="page/message/message.css">
+    <link rel="stylesheet" href="img/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
     <script src="js/index.js"></script>
-    <script src="js/version.js"></script>
+    <script src="js/uni_api.js"></script>
     <script src="page/all-app/all-app.js"></script>
     <script src="page/app-search/app-search.js"></script>
     <script src="page/app-info/app-info.js"></script>
+    <script src="page/expand/expand.js"></script>
+    <script src="page/message/message.js"></script>
     <script src="page/download-progress/download-progress.js"></script>
 
+
+<!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+        integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
+ -->
+    <!-- MDUI JavaScript -->
+   <!--  <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+        crossorigin="anonymous"></script> -->
 
 
 </head>
@@ -26,27 +40,29 @@
 <body>
     <div id="home">
         <div id="head">
-            <div id="app-name">{appname}</div>
-            <div id="time">{时间}</div>
+            <div id="app-name" onclick="quitApp()">{app}</div>
+            <div id="time">时间</div>
         </div>
 
         <div id="home-body">
-            <div id="navigation">
+            
                 <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
-                <button id="search-btn" class="navigation-btn" onclick="clonePage('app-search')">
+                <button id="search-btn" class="btn" onclick="clonePage('app-search')" style="background-color: rgba(255, 255, 255, 0.8);margin: 15px auto;">
                     <i class="bi bi-search"></i>搜索</button>
                 <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
-            </div>
+            
 
             <button class="btn" onclick="clonePage('all-app')"><i class="bi bi-box"></i>全部应用</button>
+            <!-- <button class="btn mdui-ripple mdui-ripple-blue" onclick="clonePage('expand')"><i
+                    class="bi bi-box"></i>拓展</button> -->
+            <button class="btn" id="home-message-btn" onclick="clonePage('message')"><i class="bi bi-envelope"></i> 消息</button>
+            <button class="btn" onclick="clonePage('option')"><i class="bi bi-gear"></i>首选项</button>
+            <button class="btn" onclick="clonePage('about')"><i class="bi bi-info-circle"></i>关于该应用</button>
             <!-- <button class="btn">应用分类</button> -->
             <!-- <button class="btn">推荐应用</button>
             <button class="btn">市场设置</button> -->
 
             <div id="end">
-                <!-- <button class="end-btn">.svg</button>
-                <button class="end-btn">.svg</button>
-                <button class="end-btn">.svg</button> -->
             </div>
         </div>
     </div>
@@ -58,6 +74,12 @@
         </div>
         <div class="page-body"></div>
     </div> -->
+    <div class="page" id="empty-page">
+        <div class="page-head">
+            <div class="page-name">Empty</div>
+        </div>
+        <div class="page-body"></div>
+    </div>
 
     <div class="page" id="app-search">
         <div class="page-head">
@@ -66,7 +88,12 @@
         <div class="page-body">
             <textarea id="app-search-input" class="app-search-input" onkeydown="preventEnter(event)"
                 placeholder="在此输入..." style="resize: none;"></textarea>
-            <button id="app-search-submit" class="btn" onclick="outSearchResult(event)">查找应用<i class="bi bi-chevron-right"></i></button>
+            <button id="app-search-submit" class="btn" onclick="outSearchResult(event)">查找应用<i
+                    class="bi bi-chevron-right"></i></button>
+
+            <fieldset class="app-search-history">
+                <legend>搜索历史</legend>
+            </fieldset>
         </div>
     </div>
 
@@ -94,10 +121,14 @@
         </div>
         <div class="page-body">
             <div class="app-info-title"><i class="bi bi-app-indicator"></i>应用名称</div>
-            <div id="app-info-name" class="app-info-text" style="font-size: 25px"></div>
+            <div id="app-info-name" class="app-info-text" style="font-size: 23px"></div>
 
-            <button class="btn" id="app-info-download-btn"><i class="bi bi-cloud-download"></i>下载</button>
-            <button class="btn" id="app-info-other-version-btn" onclick="outAppOtherVersionResult()"><i class="bi bi-collection"></i>其他版本</button>
+            <div class="app-info-text app-info-dl-progress" style="font-size: 15px ;padding: 0;margin: 0 auto;"></div>
+
+            <button class="btn" id="app-info-download-btn" class="app-info-download-btn"><i
+                    class="bi bi-cloud-download"></i>下载</button>
+            <button class="btn" id="app-info-other-version-btn" onclick="outAppOtherVersionResult()"><i
+                    class="bi bi-collection"></i>其他版本</button>
 
             <div class="app-info-title"><i class="bi bi-list-nested"></i>简介</div>
             <div id="app-info-description" class="app-info-text" style="font-size: 20px"></div>
@@ -113,7 +144,7 @@
 
     <div class="page download-progress" id="download-progress">
         <div class="page-head">
-            <div style="color: red;"> · 正在下载</div>
+            <div style="color: red;">正在下载</div>
         </div>
         <div class="page-body">
             <div class="download-progress-round">
@@ -124,8 +155,81 @@
         </div>
     </div>
 
+    <div class="page" id="option">
+        <div class="page-head">
+            <div class="page-name"><i class="bi bi-caret-left-fill"></i>首选项</div>
+        </div>
+        <div class="page-body">
+            <fieldset>
+                <legend>管理</legend>
+                <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
+            </fieldset>
 
 
+            <!-- <fieldset>
+                <legend>外观</legend>
+                <div class="option-item">
+                    <label class="checkbox-label">减弱动画</label>
+                    <input type="checkbox" class="checkbox" value="false">
+                </div>
+                <div class="option-item">
+                    <label class="checkbox-label">主题色</label>
+                    <input type="color" class="checkbox" value="false">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>运行</legend>
+                <div class="option-item">
+                    <label class="checkbox-label">允许运行拓展</label>
+                    <input type="checkbox" class="checkbox" value="false">
+                </div>
+            </fieldset> -->
+        </div>
+    </div>
+
+    <div class="page" id="message">
+        <div class="page-head">
+            <div class="page-name"><i class="bi bi-caret-left-fill"></i>消息</div>
+        </div>
+        <div class="page-body">
+
+        </div>
+    </div>
+
+    <div class="page" id="expand">
+        <div class="page-head">
+            <div class="page-name">拓展</div>
+        </div>
+        <div class="page-body"></div>
+    </div>
+
+    <div class="page" id="about">
+        <div class="page-head">
+            <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
+        </div>
+        <div class="page-body">
+            <fieldset>
+                <legend>版本号</legend>
+                <div id="about-version"></div>
+            </fieldset>
+            <fieldset>
+                <legend>声明</legend>
+                <div id="about-version" style="font-size: 18px;">该应用为免费开源项目，应用中部分元素参考HankMi，唯趣等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
+            </fieldset>
+            <fieldset>
+                <legend>说明</legend>
+                <div style="font-size: 18px;">由于该应用开发时间较短，有较多缺陷，不喜勿喷。</div>
+                <div style="font-size: 18px;">该应用基于web跨平台框架uni app,性能可能劣于原生安卓应用。</div>
+            </fieldset>
+            <fieldset>
+                <legend>制作基于</legend>
+                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni app</button>
+                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>                
+                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
+            
+            </fieldset>
+        </div>
+    </div>
 </body>
 
 </html>

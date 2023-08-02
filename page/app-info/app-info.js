@@ -34,6 +34,6 @@ function outAppOtherVersionResult() {
 
         }
     }
-    ajax.open("GET", "server/app-list.json", true);
+    ajax.open("GET", "https://wannianqingshi.github.io/WatchAppStore/server/app-list.json", true);
     ajax.send();
 }

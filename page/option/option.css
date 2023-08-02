@@ -1,0 +1,8 @@
+
+.option-item{
+    height: fit-content;
+    margin: 5px auto;
+    background-color:rgb(50, 50, 50);
+    border-radius: 10px;
+    padding:10px 
+}
