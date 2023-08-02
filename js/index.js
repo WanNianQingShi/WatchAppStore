@@ -6,17 +6,14 @@ window.oncontextmenu = function (e) {
 window.onload = function () {
     initialize();
     menuPervent();
-    //loadAppList();
+
     //setRightSlideClosePage();
-    setTimeout("loadMessage()",1000);
-    //loadSearchHistory();
+    loadSearchHistory();
 
     setInterval(getTime(), 2000);
     //setInterval(addMDUI(), 2000);
     //shearch-app>
-    //setInterval(loadMessage(), 2000);
-    
-    loadMessage()
+    //loadMessage()
     
     //
     getExpandList();
@@ -79,7 +76,9 @@ function initialize() {
             package = JSON.parse(ajax.responseText);
             //初次加载时执行
             setAppInfo();
-            setDispalyLayout()
+            setDispalyLayout();
+            loadMessage();
+            loadAppList();
         
         }
     }
