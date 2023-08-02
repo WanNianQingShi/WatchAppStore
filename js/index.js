@@ -6,7 +6,7 @@ window.oncontextmenu = function (e) {
 window.onload = function () {
     initialize();
     menuPervent();
-    loadAppList();
+    //loadAppList();
     //setRightSlideClosePage();
     loadSearchHistory();
 
