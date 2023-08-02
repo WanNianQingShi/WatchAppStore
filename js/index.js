@@ -8,7 +8,8 @@ window.onload = function () {
     menuPervent();
     //loadAppList();
     //setRightSlideClosePage();
-    loadSearchHistory();
+    setTimeout("loadMessage()",1000);
+    //loadSearchHistory();
 
     setInterval(getTime(), 2000);
     //setInterval(addMDUI(), 2000);
