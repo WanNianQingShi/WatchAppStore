@@ -53,7 +53,16 @@
             "author":"HankMi",
             "description":"抬腕听歌是一款备受年轻人喜欢的听歌类app，抬腕听歌软件能够结合智能设备进行手势控制听歌，并且抬腕听歌app在功能上面也十分的丰富，最全的听歌操作快速帮助您查看",
             "cutphoto":"none"
-        }     
+        } ,
+        {
+            "name": "腕上视频普通版",
+            "url":"https://all-file3.lanzoug.com/0803180064540147bb/2022/03/13/5bd13e5b7cbeae8a00fc1787b441469a.apk?st=6Aw36Moufq3mTTRlcDtX4Q&e=1691059745&b=Ve9Z3FDFAuNVuFSIB79S8VOAXehW9QKVAyZdYQIrV2MEeFs6A3MHaQ_c_c&fi=64540147&pid=218-203-226-48&up=2&mp=0&co=0",
+            "icon":"none",
+            "version": "1.6",
+            "author":"luern0313",
+            "description":"腕上视频是一款可以让你的智能手表播放视频的软件",
+            "cutphoto":"none"
+        },     
          {
             "name": "腕上哔哩",
             "url":"https://s11.lanzoug.com/08031800120366361bb/2023/06/08/00b4c9a22190f9aa318f75c82f1f1066.apk?st=oeQIAm5IQznEWFfsv7YSbA&e=1691059521&b=VO5b3lfCULFVuAPfArcClQbHCLEHlQqlCC0IMQYvUWNRLVs6UiIFaw_c_c&fi=120366361&pid=218-203-226-48&up=2&mp=0&co=0",
@@ -62,6 +71,6 @@
             "author":"luern0313",
             "description":"腕上哔哩安装包下载手表版，这是一款非常好用的哔哩哔哩的手表版本应用软件工具",
             "cutphoto":"none"
-        },
+        }
     ]
 }
