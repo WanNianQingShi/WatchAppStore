@@ -73,12 +73,21 @@
             "cutphoto":"none"
         },
         {
-            "name": "手表qq不是普通版本是谷歌版本",
+            "name": "qq不是普通版是谷歌版",
             "url":"https://36-134-210-67.d.cjjd15.com:30443/download-cdn.123pan.cn/123-70/193714d3/1811687632-0/193714d361df47881ae1f7ae0780b046?v=5&t=1691144673&s=1691144673aecb28369c93961bcc86960757997033&r=T1VNPZ&bzc=1&bzs=1814005229&filename=QQ.apk&x-mf-biz-cid=587b81fb-5793-41df-8d02-617adf2027fc-63d50b&auto_redirect=0&xmfcid=14cd950a-4ed4-4743-bd68-fcbf6250deed-0-abf611255",
             "icon":"none",
             "version": "4.4.4",
             "author":"腾讯官方",
             "description":"一个手表版的qq最小兼容安卓4.4.4",
+            "cutphoto":"none"
+        },
+          {
+            "name": "瓯默笔记",
+            "url":"https://36-134-210-182.d.cjjd15.com:30443/download-cdn.123pan.cn/123-687/2a74893f/1814005229-0/2a74893f0714bee8c43e2d4f70fc9eaf/c-m2?v=5&t=1691144890&s=1691144890af08c8eea77bf0316824668698f733c5&r=UD2OLZ&bzc=1&bzs=1814005229&filename=%E7%93%AF%E9%BB%98%E7%AC%94%E8%AE%B0_22.11.3_sign.apk&x-mf-biz-cid=d2c846ab-9902-40be-8d41-902a1f4d430f-63d50b&auto_redirect=0&xmfcid=dec08383-6216-458e-96c4-546f828351d8-0-abf611255",
+            "icon":"none",
+            "version": "22.11.13",
+            "author":"来自饕餮提供1038113541",
+            "description":"一个手表版的笔记应用",
             "cutphoto":"none"
         }     
   ]
