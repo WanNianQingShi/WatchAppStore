@@ -35,6 +35,15 @@
             "author":"none",
             "description":"魅族、vivo、Redmi、小米手表S系列无法使用Hankmi应用商店",
             "cutphoto":"none"
-        }      
+        },
+        {
+            "name": "抬腕听歌",
+            "url":"https://516panapp3.0098118.com/mlj/taiwantingke.apk",
+            "icon":"none",
+            "version": "21.3.29",
+            "author":"HankMi",
+            "description":"抬腕听歌是一款备受年轻人喜欢的听歌类app，抬腕听歌软件能够结合智能设备进行手势控制听歌，并且抬腕听歌app在功能上面也十分的丰富，最全的听歌操作快速帮助您查看",
+            "cutphoto":"none"
+        }        
     ]
 }
