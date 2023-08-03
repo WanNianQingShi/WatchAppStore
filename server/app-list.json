@@ -76,7 +76,7 @@
             "name": "手表qq不是普通版本是谷歌版本",
             "url":"https://36-134-210-67.d.cjjd15.com:30443/download-cdn.123pan.cn/123-70/193714d3/1811687632-0/193714d361df47881ae1f7ae0780b046?v=5&t=1691144673&s=1691144673aecb28369c93961bcc86960757997033&r=T1VNPZ&bzc=1&bzs=1814005229&filename=QQ.apk&x-mf-biz-cid=587b81fb-5793-41df-8d02-617adf2027fc-63d50b&auto_redirect=0&xmfcid=14cd950a-4ed4-4743-bd68-fcbf6250deed-0-abf611255",
             "icon":"none",
-            "version": "最小兼容安卓4.4.4",
+            "version": "4.4.4",
             "author":"腾讯官方",
             "description":"一个手表版的qq最小兼容安卓4.4.4",
             "cutphoto":"none"
