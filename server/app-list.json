@@ -1,15 +1,6 @@
 {
     "applist": [
         {
-            "name":"简易公告",
-            "url":"none",
-            "icon":"none",
-            "version": "7/31",
-            "author":"authority",
-            "description":"<span>7.31</span>7.31 7317131。",
-            "cutphoto":"none"
-        },
-        {
             "name":"腕上视频付费版",
             "url":"http://x1.ydyspc.com/wanshangshipingv1.6.5.apk",
             "icon":"none",
@@ -44,15 +35,6 @@
             "author":"none",
             "description":"魅族、vivo、Redmi、小米手表S系列无法使用Hankmi应用商店",
             "cutphoto":"none"
-        },
-        {
-            "name": "腕上必应",
-            "url":"none",
-            "icon":"none",
-            "version": "2.0.0",
-            "author":"none",
-            "description":"none",
-            "cutphoto":"none"
-        }        
+        }      
     ]
 }
