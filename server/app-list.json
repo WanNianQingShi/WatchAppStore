@@ -1,5 +1,14 @@
 {
     "applist": [
+         {
+            "name": "手表微信",
+            "url":"https://36-134-210-53.d.cjjd15.com:30443/download-cdn.123pan.cn/123-365/84b43250/1812264727-0/84b43250808fa3c883518a761abf216d?v=5&t=1691140430&s=169114043051796361f4f215e1fb2f000836705c2e&r=K8P5A2&bzc=1&bzs=1814005229&filename=%E5%BE%AE%E4%BF%A1(1685298786568).apk&x-mf-biz-cid=b3bea281-1af7-49a0-821e-4b9125ca7c18-a0d664&auto_redirect=0&xmfcid=56748c54-f103-4328-b8f7-b9cd3d5d4bc6-0-abf611255",
+            "icon":"none",
+            "version": "1.7.1",
+            "author":"微信官方",
+            "description":"支持的机型 华为： 华为儿童手表 4 Pro、华为儿童手表 4 X 新耀款、华为儿童手表 4 X、华为儿童手表 3 Pro 超能版、华为儿童手表 3 S 小米： 米兔 5 X、米兔 4Pro 小寻： 小寻 MAX Pro、小寻 Y 2 读书郎： 读书郎 A 8、读书郎 A 9 OPPO： OPPO Watch2",
+            "cutphoto":"none"
+        },
         {
             "name":"腕上视频付费版",
             "url":"http://x1.ydyspc.com/wanshangshipingv1.6.5.apk",
