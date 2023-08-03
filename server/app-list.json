@@ -9,6 +9,15 @@
             "description":"腕上视频付费版app是为小米手环打造的一款腕上视频付费版apk应用，免费版能实现部分手环修改功能，付费完整版拥有弹幕类型自定义、滚动弹幕、视频时长设置等功能",
             "cutphoto":"none"
         },
+         {
+            "name": "手表计算器",
+            "url":"https://36-133-106-74.d.cjjd15.com:30443/download-cdn.123pan.cn/123-809/976a4054/1814037785-0/976a4054527d69041ed4f675a2473729?v=5&t=1691136750&s=16911367501871241d38965c917f8bee5a6f547765&r=PSTE5B&bzc=1&bzs=1814005229&filename=%E8%AE%A1%E7%AE%97%E5%99%A8.apk&x-mf-biz-cid=301a0d1a-8715-4b82-8df7-e3d304037109-a0d664&auto_redirect=0&xmfcid=bd5fc125-fb6e-472b-b8b1-d38fada22fa6-0-abf611255",
+            "icon":"none",
+            "version": "1.1.0",
+            "author":"未知",
+            "description":"一个可以在手表使用的计算器",
+            "cutphoto":"none"
+        },
         {
             "name": "易档社区",
             "url":"http://x1.ydyspc.com/yidangshequ_4.1_xlhs.com.apk",
