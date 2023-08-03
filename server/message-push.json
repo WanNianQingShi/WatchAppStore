@@ -1,6 +1,19 @@
 {
     "main": [
         {
+            "date":"8/3",
+            "content":"通知测试。"
+        }
+    ],
+    "about": [
+        {
+            "alert":"This App there!!"
+        }
+    ]
+}
+{
+    "main": [
+        {
             "date":"8/2",
             "content":"测试版现已上线，目前暂时不支持用户自主上传应用。%s欢迎各位体验。"
         }
