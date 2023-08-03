@@ -19,15 +19,6 @@
             "cutphoto":"none"
         },
         {
-            "name": "易档手表GPT问答",
-            "url":"http://xl2.ydyspc.com/yidangsgpt_1.1.0_xlhs.com.apk",
-            "icon":"none",
-            "version": "2.0.0",
-            "author":"奕奕",
-            "description":"易档手表GPT问答app是B站up主开发的一款手表专用应用程序，体积相当的小巧简洁哦！",
-            "cutphoto":"none"
-        },
-        {
             "name": "Hankmi应用商店",
             "url":"https://api.hankmi.com/appstore/Apps/Hankmi%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97.apk",
             "icon":"none",
