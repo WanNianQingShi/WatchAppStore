@@ -1,14 +1,5 @@
 {
     "applist": [
-        {
-            "name":"鸡音盒",
-            "url":"https://39-165-216-114.d.cjjd15.com:30443/download-cdn.123pan.cn/123-853/59acd098/1814005229-0/59acd0982e635054a6f80e9748d20355/c-m2?v=5&t=1691149380&s=169114938000a676bde273769c045a9cceb987f457&r=DFK6TK&bzc=1&bzs=1814005229&filename=%E9%B8%A1%E9%9F%B3%E7%9B%92.apk&x-mf-biz-cid=cd3cd68b-150e-4b9a-9c95-6ca9337fc422-47df1e&auto_redirect=0&xmfcid=b88852a9-b03c-4402-907f-64e39df2a6a3-0-abf611255",
-            "icon":"none",
-            "version": "1.0",
-            "author":"东山再起",
-            "description":"一个东山再起开发的手表鸡音盒",
-            "cutphoto":"none"      
-         },
          {
             "name": "手表微信",
             "url":"https://36-134-210-53.d.cjjd15.com:30443/download-cdn.123pan.cn/123-365/84b43250/1812264727-0/84b43250808fa3c883518a761abf216d?v=5&t=1691140430&s=169114043051796361f4f215e1fb2f000836705c2e&r=K8P5A2&bzc=1&bzs=1814005229&filename=%E5%BE%AE%E4%BF%A1(1685298786568).apk&x-mf-biz-cid=b3bea281-1af7-49a0-821e-4b9125ca7c18-a0d664&auto_redirect=0&xmfcid=56748c54-f103-4328-b8f7-b9cd3d5d4bc6-0-abf611255",
