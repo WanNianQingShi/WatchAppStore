@@ -1,6 +1,15 @@
 {
     "applist": [  
          {
+            "name": "apk提取工具",
+            "url":"https://39-165-244-208.d.cjjd15.com:30443/download-cdn.123pan.cn/123-544/f96e88aa/1814005229-0/f96e88aae80e2bc7165185528a925e20/c-m2?v=5&t=1691248852&s=169124885247ad5399b5299efa99557a284b813784&r=5A3GGT&bzc=1&bzs=1814005229&filename=%E9%85%B7%E8%85%95apk%E6%8F%90%E5%8F%96%E5%B7%A5%E5%85%B7%E4%BF%AE%E5%A4%8D%E7%89%88.apk&x-mf-biz-cid=0394eb73-2952-4bf9-bed1-ad87fcbec4d4-73d8e5&auto_redirect=0&xmfcid=688244f7-f047-44e3-82d7-d4fe868968ff-0-abf611255",
+            "icon":"none",
+            "version": "1.0",
+            "author":"酷腕官方",
+            "description":"一个在手表使用的酷腕apk提取工具修复版",
+            "cutphoto":"none"
+        },
+         {
             "name": "哔哩哔哩可用",
             "url":"https://39-165-237-124.d.cjjd15.com:30443/download-cdn.123pan.cn/123-157/b5ad6d81/1813678823-0/b5ad6d813385031e9a866fa9c367749d?v=5&t=1691243728&s=1691243728b2d74c0ca7f00638328ac299cb6e81fe&r=YDMALR&bzc=1&bzs=1814005229&filename=tv.danmaku.bili.HiltApplication.apk&x-mf-biz-cid=b4059dcc-658f-4198-9d6f-c0437d5c1fce-73d8e5&auto_redirect=0&xmfcid=13810774-2462-40e9-95e9-172610ca1b40-0-abf611255",
             "icon":"none",
