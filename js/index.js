@@ -6,17 +6,15 @@ window.oncontextmenu = function (e) {
 window.onload = function () {
     initialize();
     menuPervent();
-
+    getTime()
     //setRightSlideClosePage();
-    loadSearchHistory();
 
-    setInterval(getTime(), 2000);
-    //setInterval(addMDUI(), 2000);
-    //shearch-app>
-    //loadMessage()
-    
-    //
+    var GT=setInterval(getTime, 2000);
+    var LSH=setInterval(loadSearchHistory, 1000);
+    //setInterval(addMDUI(), 2000);   
+    addEmptyBox()
     //getExpandList();
+
     //App Debug Region
 
     //clonePage("option")
@@ -79,7 +77,8 @@ function initialize() {
             setDispalyLayout();
             loadMessage();
             loadAppList();
-        
+            
+            
         }
     }
     ajax.open("GET", "./data/package.json", true);
@@ -97,12 +96,12 @@ function setDispalyLayout() {
     var w = document.documentElement.clientWidth;
     var h = document.documentElement.clientHeight;
     var headh = package.headHeight;
-    document.getElementById("home").style.height = h * 0.95 + "px";
+    document.getElementById("home").style.height = h * 1 + "px";
     document.getElementById("head").style.height = headh * 100 + "%";
     document.getElementById("home-body").style.height = (1 - headh) * 100 + "%";
 
     document.querySelectorAll(".page").forEach(function (item) {
-        item.style.height = h * 0.95 + "px";
+        item.style.height = h * 1 + "px";
     })
     document.querySelectorAll(".page-head").forEach(function (item) {
         item.style.height = headh * 100 + "%";
@@ -158,6 +157,11 @@ function clonePage(id) {
         })
     })
 
+}
+function addEmptyBox(){
+    document.querySelectorAll(".page").forEach(item=>{
+        item.children[1].insertAdjacentHTML("beforeend",`<div class="empty-box"></div>`)
+    })
 }
 
 function getTime() {

@@ -204,3 +204,9 @@ span{
     border-radius: 5px;
     padding: 3px;
 }
+.empty-box{
+    height: 30%;
+    width: 80%;
+    background: transparent;
+
+}

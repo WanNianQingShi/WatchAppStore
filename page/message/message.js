@@ -2,8 +2,9 @@ function loadMessage() {
     var ajax = new XMLHttpRequest();
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
+            document.getElementById("message").children[1].innerHTML=''
             var list = JSON.parse(ajax.responseText);
-            console.log(list.main.slice(-1));
+            //console.log(list.main.slice(-1));
 
             //检查本地阅读记录
             var localRecord = localStorage.getItem("message-read")
@@ -22,8 +23,8 @@ function loadMessage() {
 
             //添加列表
             list.main.reverse().forEach(item => {
-                document.getElementById("message").children[1].insertAdjacentHTML("beforeend", `<fieldset style="font-size=12px">
-                <legend >${item.date}</legend>
+                document.getElementById("message").children[1].insertAdjacentHTML("beforeend", `<fieldset style="margin:5px auto">
+                <legend style="font-size:18px">${item.date}</legend>
                 <div style="font-size: 18px;">
                 ${item.content}
                 </div>

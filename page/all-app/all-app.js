@@ -11,7 +11,7 @@ function loadAppList(){
                 btn.setAttribute('value',str);
                 btn.innerHTML=`${item.name}<span>${item.version}</span>`;
                 btn.setAttribute("onclick","openAppInfoPage(event)")
-                document.getElementById("all-app").children[1].appendChild(btn);
+                document.getElementById("all-app").children[1].insertAdjacentElement("afterbegin",btn);
                 
             });
             
