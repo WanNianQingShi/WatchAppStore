@@ -1,5 +1,14 @@
 {
     "applist": [  
+         {
+            "name": "哔哩哔哩手表亲测可用",
+            "url":"https://39-165-237-124.d.cjjd15.com:30443/download-cdn.123pan.cn/123-157/b5ad6d81/1813678823-0/b5ad6d813385031e9a866fa9c367749d?v=5&t=1691243728&s=1691243728b2d74c0ca7f00638328ac299cb6e81fe&r=YDMALR&bzc=1&bzs=1814005229&filename=tv.danmaku.bili.HiltApplication.apk&x-mf-biz-cid=b4059dcc-658f-4198-9d6f-c0437d5c1fce-73d8e5&auto_redirect=0&xmfcid=13810774-2462-40e9-95e9-172610ca1b40-0-abf611255",
+            "icon":"none",
+            "version": "7.14.1 32位板",
+            "author":"哔哩哔哩官方",
+            "description":"手表亲测可用哔哩哔哩7.14.1 32位板最小兼容安卓5.0",
+            "cutphoto":"none"
+        },
         {
             "name": "手表鸡音盒",
             "url":"https://39-165-244-211.d.cjjd15.com:30443/download-cdn.123pan.cn/123-853/59acd098/1814005229-0/59acd0982e635054a6f80e9748d20355/c-m2?v=5&t=1691150438&s=16911504388f6763d5f3e0a3badfbe457432b056dd&r=XMEVF6&bzc=1&bzs=1814005229&filename=%E9%B8%A1%E9%9F%B3%E7%9B%92.apk&x-mf-biz-cid=6e833001-25ba-48a9-bd97-d3969c9d77cd-63d50b&auto_redirect=0&xmfcid=14c3e350-99a1-44bb-b796-fcced97d2628-1-abf611255",
