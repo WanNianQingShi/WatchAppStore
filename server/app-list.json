@@ -1,5 +1,14 @@
 {
     "applist": [ 
+        {
+            "name": "WearBili",
+            "url":"http://upload.185817.com/app/202302/03/wearbili_254570.apk?tk=q018ocZLLsI8xFsZ9GwrwbOm7TM=&id=9294&type=2&time=1691247642&sid=youxiguancha",
+            "icon":"none",
+            "version": "1.0",
+            "author":"HankMi",
+            "description":"WearBili手表版app是专门为BiliBili设计的手表版，WearBili手表版app是专门为手表用户设计的",
+            "cutphoto":"none"
+        },
          {
             "name": "腕上一言",
             "url":"http://q5.697539.com/com.onetext.watch.apk",
