@@ -1,6 +1,15 @@
 {
     "applist": [ 
         {
+            "name": "bilimiao",
+            "url":"http://fel.forxhr.top:2022/down.php/e213cdd2849436810596f6604cadd5e8.apk",
+            "icon":"none",
+            "version": "2.2.6",
+            "author":"哔哩喵官方",
+            "description":"一款第三方哔哩哔哩客户端视频手表哔哩喵(bilimiao)",
+            "cutphoto":"none"
+        },
+        {
             "name": "WearBili",
             "url":"http://upload.185817.com/app/202302/03/wearbili_254570.apk?tk=q018ocZLLsI8xFsZ9GwrwbOm7TM=&id=9294&type=2&time=1691247642&sid=youxiguancha",
             "icon":"none",
