@@ -2,7 +2,7 @@
     "applist": [ 
          {
             "name": "凉腕播放器",
-            "url":"http://www.hescompany.xyz:5212/api/v3/file/download/tK7ucx1dXK8hft9u?sign=KtgrEZt18Ao-jWQquMrq9qSSJXY-Wxlp_KRZpRlMqBE%3D%3A1691221606",
+            "url":"http://www.hescompany.xyz:5212/api/v3/admin/file/preview/10",
             "icon":"none",
             "version": "Beta23.8.3",
             "author":"凉腕官方",
