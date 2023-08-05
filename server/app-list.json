@@ -1,6 +1,15 @@
 {
     "applist": [ 
          {
+            "name": "腕上一言",
+            "url":"http://q5.697539.com/com.onetext.watch.apk",
+            "icon":"none",
+            "version": "1.0",
+            "author":"未知",
+            "description":"腕上一言app官方版是一款趣味满满的文案类型的鸡汤软件有的时候我们的人生就是需要一些话语的鼓舞才会更加振作起来，或者我们在写作的时候需要一些好的语句，可以使用这款腕上一言app官方版试试看！智能手表应用APP，等你来体验一番，尽情去享受鸡汤文案的洗礼吧！",
+            "cutphoto":"none"
+        },
+         {
             "name": "Next快传",
             "url":"http://xl2.ydyspc.com/wear.next.transfer_1.2.1_xlhs.com.apk",
             "icon":"none",
