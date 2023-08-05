@@ -1,6 +1,15 @@
 {
     "applist": [ 
          {
+            "name": "Next快传",
+            "url":"http://xl2.ydyspc.com/wear.next.transfer_1.2.1_xlhs.com.apk",
+            "icon":"none",
+            "version": "1.2.1",
+            "author":"未知",
+            "description":"Next快传软件表盘版是一款Next快传软件的手表版，可以实现手机和手表互相传输软件，安装手机端并和手表连接相同的WiFi即可进行文件安装包传输",
+            "cutphoto":"none"
+        },
+         {
             "name": "Lithium阅读器",
             "url":"http://xl2.ydyspc.com/com.faultexception.reader_0.24.1_xlhs.com.apk",
             "icon":"none",
