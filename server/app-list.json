@@ -1,6 +1,15 @@
 {
     "applist": [ 
          {
+            "name": "Lithium阅读器",
+            "url":"http://xl2.ydyspc.com/com.faultexception.reader_0.24.1_xlhs.com.apk",
+            "icon":"none",
+            "version": "0.24.1",
+            "author":"未知",
+            "description":"Lithium阅读器手表版是一款可以在电子手表上阅读文章、小说的应用，手表端和手机端均可通用",
+            "cutphoto":"none"
+        },
+         {
             "name": "凉腕播放器",
             "url":"https://i11.lanzoug.com:446/08051600130272591bb/2023/08/05/20e5a6b71456d423f64aa356b5cc73bb.apk?st=lKVzMA37xh9WShdCWLJGjQ&e=1691224417&b=VOMKjQaPA_b4H11KRV_bEDlQP7ALpRxAS8BbMOmlX6V3gEFA5rCX1ZPVI1UzZVKw8zVC9ZNlB_aVDMFJg5o&fi=130272591&pid=183-222-236-221&up=2&mp=0&co=0",
             "icon":"none",
