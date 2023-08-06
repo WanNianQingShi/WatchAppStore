@@ -1,5 +1,14 @@
 {
     "applist": [ 
+         {
+            "name": "搜狗输入法",
+            "url":"http://fel.forxhr.top:2022/down.php/aaebc2cbd931e7d9dd5d2da495952b33.apk",
+            "icon":"none",
+            "version": "未知",
+            "author":"搜狗官方",
+            "description":"一个在手表上使用的搜狗输入法（v2,手表版）",
+            "cutphoto":"none"
+        },
         {
             "name": "质感文件(Wear)",
             "url":"http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk",
