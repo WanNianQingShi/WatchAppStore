@@ -1,6 +1,51 @@
 {
     "applist": [ 
         {
+            "name": "质感文件(Wear)",
+            "url":"http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk",
+            "icon":"none",
+            "version": "1.0",
+            "author":"Genouka",
+            "description":"不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器",
+            "cutphoto":"none"
+        },
+         {
+            "name": "RareClean",
+            "url":"http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rareclean_5_wear_all_83ea8575e5d863b7ed9b4be61884652c.apk",
+            "icon":"none",
+            "version": "1.3",
+            "author":"Genouka",
+            "description":"超级好用的释放手表后台和空间的软件！让低性能的手表使用起来瞬间轻松。",
+            "cutphoto":"none"
+        },
+         {
+            "name": "Rare翻译",
+            "url":"http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/yuanwow.rare.fanyi_1_wear_all_8be34a168e78b02c04b437bc69558736.apk",
+            "icon":"none",
+            "version": "1.0",
+            "author":"Genouka",
+            "description":"手表上简单快速的翻译软件",
+            "cutphoto":"none"
+        },
+        {
+            "name": "Rare浏览器",
+            "url":"http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_9_wear_armeabi-v7a_29d41d30c56cff0ca0f36ff328542424.apk",
+            "icon":"none",
+            "version": "2.4",
+            "author":"Genouka",
+            "description":"手表上好用的浏览器",
+            "cutphoto":"none"
+        },
+         {
+            "name": "RareBox",
+            "url":"http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_18_wear_all_715fb03eacddb11e9e25e120eca96b7a.apk",
+            "icon":"none",
+            "version": "2.6.0",
+            "author":"Genouka",
+            "description":"一个专为手表打造的工具箱",
+            "cutphoto":"none"
+        },
+        {
             "name": "bilimiao",
             "url":"http://fel.forxhr.top:2022/down.php/e213cdd2849436810596f6604cadd5e8.apk",
             "icon":"none",
