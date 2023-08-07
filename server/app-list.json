@@ -1,5 +1,14 @@
 {
     "applist": [ 
+        {
+            "name": "Rare商店",
+            "url":"https://rare.genouka.rr.nu/store.apk",
+            "icon":"none",
+            "version": "beta1.0",
+            "author":"Genouka",
+            "description":"一个在手表上使用的商店目前和易档商店合作",
+            "cutphoto":"none"
+        },
          {
             "name": "搜狗输入法",
             "url":"http://fel.forxhr.top:2022/down.php/aaebc2cbd931e7d9dd5d2da495952b33.apk",
