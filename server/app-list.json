@@ -1,5 +1,14 @@
 {
     "applist": [ 
+         {
+            "name": "小趣商店",
+            "url":"http://fel.forxhr.top:2022/down.php/3cf237a16787510cdb265c7ddb32e6eb.apk",
+            "icon":"none",
+            "version": "1.34",
+            "author":"小趣官方",
+            "description":"专注精简，玩机搞表，小趣商店为您提供上百款应用！",
+            "cutphoto":"none"
+        },
         {
             "name": "Rare商店",
             "url":"https://rare.genouka.rr.nu/store.apk",
