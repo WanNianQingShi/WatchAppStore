@@ -292,20 +292,20 @@
             "name": "知乎极速版",
             "url": "https://wannianqingshi.github.io/ApkResource/apks/%E7%9F%A5%E4%B9%8E%E6%9E%81%E9%80%9F%E7%89%881%C2%B77%C2%B70.apk",
             "icon": "none",
-            "package": "com.zhihu.android.lite",
+            "package": "com.linesoft.fenbianlv",
             "version": "1.7.0",
-            "author": "result.application.providers[0].authorities",
-            "description": "none",
+            "author": "知乎官方",
+            "description": "dpi修改应用",
             "cutphoto": "none"
         },
         {
-            "name": "分",
+            "name": "分屏率修改",
             "url": "https://wannianqingshi.github.io/ApkResource/apks/%E5%88%86%E8%BE%A8%E7%8E%87%E4%BF%AE%E6%94%B9%E5%B7%A5%E5%85%B7.apk",
             "icon": "none",
             "package": "com.linesoft.fenbianlv",
             "version": "1.1.1",
-            "author": "result.application.providers[0].authorities",
-            "description": "none",
+            "author": "dpi修改应用",
+            "description": "未知",
             "cutphoto": "none"
         },
         {
