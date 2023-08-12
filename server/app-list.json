@@ -2,11 +2,11 @@
     "applist": [ 
          {
             "name": "酷腕会员watch",
-            "url":"http://fel.forxhr.top:2022/down.php/ddcbd183e1420b52b398f899faaa018c.apk",
+            "url":"http://fel.forxhr.top:2022/down.php/903630c27dc8b30ab5a7d8e84868cdef.apk",
             "icon":"none",
-            "version": "1.2.8",
+            "version": "1.2.9",
             "author":"酷腕官方",
-            "description":"由酷腕官方开发的工具箱，目前是1.2.8版本，目前，功能会陆续增加",
+            "description":"由酷腕官方开发的工具箱，目前是1.2.9版本，目前，功能会陆续增加1.2.9修复了占用内存变小",
             "cutphoto":"none"
         },
          {
