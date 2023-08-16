@@ -2,11 +2,11 @@
     "applist": [ 
          {
             "name": "酷腕会员watch",
-            "url":"http://file.unhis.cn/file/49748498/酷腕会员watch正式版_1.3.0.apk",
+            "url":"http://file.unhis.cn/file/38922141/酷腕会员watch正式版_1.3.6.apk",
             "icon":"none",
-            "version": "1.3.0",
+            "version": "1.3.6",
             "author":"酷腕官方",
-            "description":"由酷腕官方开发的工具箱，目前是1.3.0版本，目前修复了一些漏洞，更新了远程软件安装",
+            "description":"由酷腕官方开发的工具箱，目前是1.3.6版本，目前增加1.支付宝扫一扫2.调用系统相册3.分享文本到QQ4.打开手机短信5.微信扫一扫6.打开系统设置7.获取设备是否root8.获取剩余电量",
             "cutphoto":"none"
         },
          {
@@ -290,7 +290,7 @@
        },
         {
             "name": "知乎极速版",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E7%9F%A5%E4%B9%8E%E6%9E%81%E9%80%9F%E7%89%881%C2%B77%C2%B70.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/56f9e1e8517039379699875f243bf319.apk",
             "icon": "none",
             "package": "com.zhihu.android.lite",
             "version": "1.7.0",
@@ -300,7 +300,7 @@
         },
         {
             "name": "分屏率修改",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E5%88%86%E8%BE%A8%E7%8E%87%E4%BF%AE%E6%94%B9%E5%B7%A5%E5%85%B7.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/0b4342877aeb64d870f7f48c9ae55b67.apk",
             "icon": "none",
             "package": "com.linesoft.fenbianlv",
             "version": "1.1.1",
@@ -310,17 +310,17 @@
         },
         {
             "name": "清浊",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%B8%85%E6%B5%8A1,8,7.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/400e3b94b76f6e55b0ecd5bd9867666b.apk",
             "icon": "none",
             "package": "com.farplace.qingzhuo",
-            "version": "1.8.7_stable",
+            "version": "1.8.7",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "拼多多",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%8B%BC%E5%A4%9A%E5%A4%9A.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/1b0d36d26c5d8f7dd0807ec742fc405c.apk",
             "icon": "none",
             "package": "com.xunmeng.pinduoduo",
             "version": "5.88.1",
@@ -330,17 +330,17 @@
         },
         {
             "name": "支付宝",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%94%AF%E4%BB%98%E5%AE%9D_10.3.1.2003231.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/c5199a8a02cc4ac8e30a34211adfec80.apk",
             "icon": "none",
             "package": "com.eg.android.AlipayGphone",
-            "version": "10.3.1.2003231",
+            "version": "10.3.1",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
-            "name": "酷我音乐",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90VIP%E7%89%88.apk",
+            "name": "酷我音乐vip版本",
+            "url": "http://fel.forxhr.top:2022/down.php/ff2305e7ca7f39bbb0f21fefdaecc498.apk",
             "icon": "none",
             "package": "cn.kuwo.wearplayer",
             "version": "1.1.9",
@@ -350,17 +350,17 @@
         },
         {
             "name": "歌词适配",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%AD%8C%E8%AF%8D%E9%80%82%E9%85%8D%204.1.0.V4.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/f389249d91bd845c9b817db984054cfb.apk",
             "icon": "none",
             "package": "com.mylrc.mymusic",
-            "version": "4.1.0.V4",
+            "version": "4.1.0",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "微博",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E5%BE%AE%E5%8D%9A_1.0.0.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/5b766557bad679f25b5ab07265f0a797.apk",
             "icon": "none",
             "package": "com.sina.weibo.watch",
             "version": "1.0.0",
@@ -370,47 +370,47 @@
         },
         {
             "name": "云和平精英",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/com.tencent.gamematrix.pubgmhd.apk",
+            "url": "http://dl.56ads.com/apk1/com.tencent.gamematrix.pubgmhd_v4.9.2.3970405_jxdown.com.apk",
             "icon": "none",
             "package": "com.tencent.gamematrix.pubgmhd",
-            "version": "4.9.2.3970405",
+            "version": "4.9.2",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "云王者荣耀",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/com.tencent.gamematrix.tmgp.sgame.apk",
+            "url": "https://down12.wsyhn.com/app/wangzherongyaoyunyouxi.apk",
             "icon": "none",
             "package": "com.tencent.gamematrix.tmgp.sgame",
-            "version": "4.9.2.3970405",
+            "version": "4.9.2",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "Gamers GLTool Pro",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8.apk",
+            "url": "http://t168.downqa.com/app/202307/05/gamersgltoolpro_258925.apk",
             "icon": "none",
             "package": "inc.trilokia.gfxtool",
-            "version": "1.3p",
+            "version": "1.3",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "夸克浏览器",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E5%A4%B8%E5%85%8B%E6%B5%8F%E8%A7%88%E5%99%A8%202.0.3.954.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/d1ba8f467034cf248f40b78885131483.apk",
             "icon": "none",
             "package": "com.quark.browser",
-            "version": "2.0.3.954",
+            "version": "2.0.3",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "智学网 Lite",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%99%BA%E5%AD%A6%E7%BD%91%20Lite%201.2.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/2eb166b4034ced405be3078c79107b96.apk",
             "icon": "none",
             "package": "we.jay.zhixue",
             "version": "1.2",
@@ -420,7 +420,7 @@
         },
         {
             "name": "西瓜视频",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E8%A5%BF%E7%93%9C%E8%A7%86%E9%A2%91._2.0.6.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/71290433450e06e2f91856efcef9e5cf.apk",
             "icon": "none",
             "package": "com.ss.android.article.videp",
             "version": "2.0.6",
@@ -430,7 +430,7 @@
         },
         {
             "name": "美团极速版",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E7%BE%8E%E5%9B%A2%E6%9E%81%E9%80%9F%E7%89%88%202.0.202.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/217ed947c449c6ae58d0821febd4ee41.apk",
             "icon": "none",
             "package": "com.meituan.turbo",
             "version": "2.0.202",
@@ -439,8 +439,8 @@
             "cutphoto": "none"
         },
         {
-            "name": "哔哩哔哩",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%BD%A6%E6%9C%BA_2.7.0.apk",
+            "name": "哔哩哔哩车机",
+            "url": "http://fel.forxhr.top:2022/down.php/7b04fb16e1986b3ed3a1e42280ea3ecc.apk",
             "icon": "none",
             "package": "com.bilibili.bilithings",
             "version": "2.7.0",
@@ -450,17 +450,17 @@
         },
         {
             "name": "云光遇",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/com.netease.wdsky.gmc111010000.apk",
+            "url": "http://36.154.43.162:2080/q5.697539.com/com.micro.sky.wyds132.apk?wsiphost=ipdbme&wsrid_tag=64dc3fc4_PS-CTU-01nIz76_27341-11601-s1t1692155844374",
             "icon": "none",
             "package": "com.netease.wdsky.gmc",
-            "version": "1.11.0.10000",
+            "version": "1.11.0",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "网易云音乐",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%2092.9.0.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/c281561c35bd4b1117c03c0ab65ee0ea.apk",
             "icon": "none",
             "package": "com.netease.cloudmusic",
             "version": "92.9.0",
@@ -470,17 +470,17 @@
         },
         {
             "name": "Kwai",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E5%BF%AB%E6%89%8B_4.53.1.100099.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/9b4efa456615bc7d4763bbed5c47d2b9.apk",
             "icon": "none",
             "package": "com.kwai.mercury",
-            "version": "4.53.1.100099",
+            "version": "4.53.1",
             "author": "result.application.providers[0].authorities",
             "description": "none",
             "cutphoto": "none"
         },
         {
             "name": "云原神",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E4%BA%91%C2%B7%E5%8E%9F%E7%A5%9E%201.7.0.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/ba18a6117582b61741ed174fd226bdb6.apk",
             "icon": "none",
             "package": "com.miHoYo.cloudgames.ys",
             "version": "1.7.0",
@@ -490,17 +490,17 @@
         },
         {
             "name": "抖音短视频",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%8A%96%E9%9F%B3%E7%9F%AD%E8%A7%86%E9%A2%91_9.9.90.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/6edcb2d745f9449d80f9e8cfbd4676bc.apk",
             "icon": "none",
             "package": "com.ss.android.ugc.awemf",
             "version": "9.9.90",
             "author": "result.application.providers[0].authorities",
-            "description": "none",
+            "description": "抖音新版-完美分辨率(GPU增强超流畅)",
             "cutphoto": "none"
         },
         {
             "name": "雪豹速清",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E9%9B%AA%E8%B1%B9%E9%80%9F%E6%B8%85%202.3.10.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/9e9a7ff0d478975ee6bed37b81bdf928.apk",
             "icon": "none",
             "package": "com.idaodan.clean.master",
             "version": "2.3.10",
@@ -510,7 +510,7 @@
         },
         {
             "name": "腾讯视频极速版",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91%E9%80%9F%E7%89%88%203.9.0.25480.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/854b86e6141a381802308679b250f6be.apk",
             "icon": "none",
             "package": "com.tencent.videolite.android",
             "version": "3.9.0.25480",
@@ -519,18 +519,8 @@
             "cutphoto": "none"
         },
         {
-            "name": "抖音短视频",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E6%8A%96%E9%9F%B3%E6%96%B0%E7%89%88-%E5%AE%8C%E7%BE%8E%E5%88%86%E8%BE%A8%E7%8E%87(GPU%E5%A2%9E%E5%BC%BA%E8%B6%85%E6%B5%81%E7%95%85).apk",
-            "icon": "none",
-            "package": "com.ss.android.ugc.aweme",
-            "version": "7.4.0",
-            "author": "result.application.providers[0].authorities",
-            "description": "none",
-            "cutphoto": "none"
-        },
-        {
             "name": "WPS Office",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/WPS%20Office%206.2.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/650626992d1a581740b2d5b8840b7ca2.apk",
             "icon": "none",
             "package": "cn.wps.moffice_eng",
             "version": "6.2",
@@ -540,7 +530,7 @@
         },
         {
             "name": "网易邮箱大师",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1%E5%A4%A7%E5%B8%88%207.9.5.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/524394667426a756788072a47bdb8e66.apk",
             "icon": "none",
             "package": "com.netease.mail",
             "version": "7.9.5",
@@ -550,12 +540,12 @@
         },
         {
             "name": "好课帮",
-            "url": "https://mp-6d97ca18-2db8-41a0-b0b7-379c0213200d.cdn.bspapp.com/apk-source/%E5%A5%BD%E8%AF%BE%E5%B8%AE%EF%BC%88%E4%BD%9C%E4%B8%9A%E5%B8%AE%E6%95%99%E5%B8%88%E7%89%88%E5%8F%AF%E6%96%87%E5%AD%97%E6%90%9C%E7%B4%A2%EF%BC%89%E3%80%90%E5%B7%B2DPI%E4%BF%AE%E6%94%B9%E3%80%91.apk",
+            "url": "http://fel.forxhr.top:2022/down.php/183215bf1bb7326ff8262966f4ab12a6.apk",
             "icon": "none",
             "package": "com.haokebang.learning",
             "version": "13.15.8",
             "author": "result.application.providers[0].authorities",
-            "description": "none",
+            "description": "好课帮（作业帮教师版可文字搜索）【已DPI修改】",
             "cutphoto": "none"
         },
         {
