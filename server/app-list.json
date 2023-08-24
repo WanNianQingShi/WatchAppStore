@@ -1,6 +1,24 @@
 {
     "applist": [ 
         {
+            "name": "WIFIADB",
+            "url":"http://fel.forxhr.top:2022/down.php/d01df13c3139736cb74ca64d76d1e915.apk",
+            "icon":"none",
+            "version": " 5.1.6",
+            "author":"未知dpi应用可能不适配",
+            "description":"WIFIADB，但是是小白修改的DPI适配版，在DPI为320下正常显示",
+            "cutphoto":"none"
+        },
+        {
+            "name": "adb shell",
+            "url":"http://fel.forxhr.top:2022/down.php/f35a17ca75d9d467a7cde5fb0193272f.apk",
+            "icon":"none",
+            "version": "2.1",
+            "author":"未知dpi应用可能不适配",
+            "description":"adb shell(手表上最爽的adb工具)",
+            "cutphoto":"none"
+        },
+        {
             "name": "uu加速器",
             "url":"http://fel.forxhr.top:2022/down.php/1c233a1060dfacf6af8244a57d6b0ee5.apk",
             "icon":"none",
