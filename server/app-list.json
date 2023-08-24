@@ -1,5 +1,32 @@
 {
     "applist": [ 
+        {
+            "name": "uu加速器",
+            "url":"http://fel.forxhr.top:2022/down.php/1c233a1060dfacf6af8244a57d6b0ee5.apk",
+            "icon":"none",
+            "version": "8.8",
+            "author":"未知dpi应用可能不适配",
+            "description":"UU加速器是一款致力于帮助降低延迟、稳定不掉线、解决卡顿的工具。 UU加速器拥有极稳双路、动态多线、高速专网、基站特权等加速技术，是降低延迟效果、稳定性最强、地铁/巴士随时随地畅玩的加速器。",
+            "cutphoto":"none"
+        },
+        {
+            "name": "tello edu",
+            "url":"http://fel.forxhr.top:2022/down.php/c40d90f800703bf405d973e03b8855b9.apk",
+            "icon":"none",
+            "version": "1.5.5",
+            "author":"未知dpi应用可能不适配",
+            "description":"适用于有dji tello edu/ dji tello/dji robomaster TT无人机的编程软件",
+            "cutphoto":"none"
+        },
+        {
+            "name": "steam",
+            "url":"http://fel.forxhr.top:2022/down.php/39634d97b0beb8f8440ad657939ad74a.apk",
+            "icon":"none",
+            "version": "3.6.5",
+            "author":"未知dpi应用可能不适配",
+            "description":"Steam官方应用程序，你现在可以用手机随时随地加入到Steam社区中去。 本程序完全免费，用户可以借助客户端与好友聊天、浏览用户和团队信息、阅读最新的游戏新闻，并且能够查看最新的Steam销售游戏。",
+            "cutphoto":"none"
+        },
          {
             "name": "酷腕会员watch",
             "url":"http://file.unhis.cn/file/38922141/酷腕会员watch正式版_1.3.6.apk",
@@ -549,7 +576,7 @@
             "cutphoto": "none"
         },
         {
-            "name": "酷腕OS软件提取手表版",
+            "name": "软件提取",
             "url": "https://i72.lanzoug.com:446/08061500130425577bb/2023/08/06/0393ba0313bc5081e4c9f51879779dc6.apk?st=XT816-aIfMVRiLe8wguA2w&e=1691309285&b=Abpe2wm_bWbQC0lGSUE8DVFTpD_b5R_awvpBOxY4wHgVtsIylq_aVdpWxVTnVItSiVe7A_adcqA3rAI8B2glbXG4EKAFhXnAJaFksAjw_c&fi=130425577&pid=223-104-77-25&up=2&mp=1&co=0",
             "icon": "none",
             "package": "none",
