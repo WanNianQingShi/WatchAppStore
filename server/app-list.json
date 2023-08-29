@@ -1,6 +1,15 @@
 {
     "applist": [ 
         {
+	      "name": "WIFIADB22",
+	      "url": "http://fel.forxhr.top:2022/down.php/d01df13c3139736cb74ca64d76d1e915.apk",
+	      "icon": "http://pic.java800.com/up/2023-8/202381117459431530.jpg",
+	      "version": "5.1.6",
+	      "author": "未知dpi应用可能不适配",
+	      "description": "WIFIADB，但是是小白修改的DPI适配版，在DPI为320下正常显示",
+	      "cutphoto": "http://pic.java800.com/up/2023-8/202381117459431530.jpg"
+	    },
+        {
             "name": "WIFIADB",
             "url":"http://fel.forxhr.top:2022/down.php/d01df13c3139736cb74ca64d76d1e915.apk",
             "icon":"none",
