@@ -51,14 +51,75 @@
                     <i class="bi bi-search"></i>搜索</button>
                 <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
             
+<style>
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
 
-            <button class="btn" onclick="clonePage('all-app')"><i class="bi bi-box"></i>全部应用</button>
-            <button class="btn mdui-ripple mdui-ripple-blue" onclick="clonePage('expand')"><i
-                    class="bi bi-box"></i>拓展</button>
-            <button class="btn" id="home-message-btn" onclick="clonePage('message')"><i class="bi bi-envelope"></i> 消息</button>
-            <button class="btn" onclick="clonePage('option')"><i class="bi bi-gear"></i>首选项</button>
-            <button class="btn" onclick="clonePage('about')"><i class="bi bi-info-circle"></i>关于该应用</button>
-            <!-- <button class="btn">应用分类</button> -->
+  .card {
+    width: 200px;
+    height: 200px;
+    background-color: #000; /* Change the background color to black */
+    color: #fff; /* Set the text color to white */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .card-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+
+  .card-label {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #end {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
+<div class="card-container">
+  <div class="card" onclick="clonePage('all-app')">
+    <i class="bi bi-box card-icon"></i>
+    <p class="card-label">全部应用</p>
+  </div>
+<div class="card" onclick="clonePage('app-search')">
+    <i class="bi bi-search card-icon"></i>
+    <p class="card-label">搜索</p>
+  </div>
+  <div class="card" onclick="clonePage('expand')">
+    <i class="bi bi-box card-icon"></i>
+    <p class="card-label">拓展</p>
+  </div>
+
+  <div class="card" onclick="clonePage('message')">
+    <i class="bi bi-envelope card-icon"></i>
+    <p class="card-label">消息</p>
+  </div>
+
+  <div class="card" onclick="clonePage('option')">
+    <i class="bi bi-gear card-icon"></i>
+    <p class="card-label">首选项</p>
+  </div>
+
+  <div class="card" onclick="clonePage('about')">
+    <i class="bi bi-info-circle card-icon"></i>
+    <p class="card-label">关于该应用</p>
+  </div>
+</div>
+
             <!-- <button class="btn">推荐应用</button>
             <button class="btn">市场设置</button> -->
 
