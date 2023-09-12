@@ -49,8 +49,8 @@
                 <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
                
                 <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
-            
-<style>
+  
+ <style>         
   .card-container {
     display: flex;
     justify-content: center;
@@ -87,8 +87,35 @@
     display: flex;
     justify-content: center;
   }
-</style>
+    <style>
+  .card {
+    /* 省略其他样式 */
 
+    /* 设置图标居中 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* 添加动画属性 */
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+
+  /* 定义动画效果 */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
 <div class="card-container">
   <div class="card" onclick="clonePage('all-app')">
     <i class="bi bi-box card-icon"></i>
