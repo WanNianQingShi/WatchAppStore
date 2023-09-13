@@ -93,7 +93,7 @@
 .home-btn{
     color: blue;
 }
-.page{
+/* .page{
     left: 0;
     right: 0;
     width: 95%;
@@ -104,8 +104,21 @@
     position:absolute;
     animation-name: page-appear;
     
+} */
+.btn {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  display: block;
+  border: none;
+  width: 95%;
+  height: fit-content;
+  margin: 5px auto;
+  padding: 10px 0px;
+  background-image: url('http://fel.forxhr.top:2022/view.php/bc9254486d5cdd5c5f9a6df6feae4d53.jpg');
+  background-size: cover;
+  transform-origin: center;
 }
-
 
 
 #navigation{
