@@ -90,7 +90,7 @@ fieldset{
     float:right;
     /* width: 30%; */
 }
-.btn {
+/* .btn {
     text-align: center;
     border-radius: 10px;
     font-size: 20px;
@@ -102,8 +102,21 @@ fieldset{
     padding: 10px 0px;
     background-color:rgb(50, 50, 50);
     transform-origin: center;
+} */
+.btn {
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  display: block;
+  border: none;
+  width: 95%;
+  height: fit-content;
+  margin: 5px auto;
+  padding: 10px 0px;
+  background-image: url('img/bootstrap-icons-1.10.5/LY3(65G`XTM8}V0AV`[1UCS.jpg');
+  background-size: cover;
+  transform-origin: center;
 }
-
 .btn:active{
     background-color: rgb(165, 165, 165);
     width: 100%;
