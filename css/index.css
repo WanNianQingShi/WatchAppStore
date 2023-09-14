@@ -110,11 +110,16 @@ fieldset{
   display: block;
   border: none;
   width: 95%;
-  height: fit-content;
+  height: auto;
   margin: 5px auto;
   padding: 10px 0px;
-  background-image: url('http://fel.forxhr.top:2022/view.php/bc9254486d5cdd5c5f9a6df6feae4d53.jpg');
-  background-size: cover;
+  border-radius: 50px;
+  border: 1px solid #000;
+  width: 250px;
+  background-color: rgba(225, 140, 0, 0.3); /* 使用rgba()函数设置背景颜色为橙色并设置透明度 */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  transition: width 2s, height 2s;
+  background: linear-gradient(115deg, #f2f2f2, #add8e6);
   transform-origin: center;
 }
 .btn:active{
