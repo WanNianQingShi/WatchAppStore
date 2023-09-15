@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Yidang</title>
@@ -22,6 +24,17 @@
     <script src="page/expand/expand.js"></script>
     <script src="page/message/message.js"></script>
     <script src="page/download-progress/download-progress.js"></script>
+
+
+<!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+        integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
+ -->
+    <!-- MDUI JavaScript -->
+   <!--  <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+        crossorigin="anonymous"></script> -->
+
+
 </head>
 
 <body>
@@ -32,86 +45,102 @@
         </div>
 
         <div id="home-body">
-            <style>
-                .card-container {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    gap: 8px;
-                    margin-bottom: 16px;
-                }
+            
+                <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
+               
+                <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
+<style>
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
 
-                .card {
-                    width: 200px;
-                    height: 200px;
-                    background-color: #000; /* 修改背景
-                    background-image: url('表盘图片地址或颜色值');
-                    background-size: cover;
-                    background-position: center;
-}
+  .card {
+    width: 200px;
+    height: 200px;
+    background-color: #000; /* Change the background color to black */
+    color: #fff; /* Set the text color to white */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
-		
+  .card-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
 
-		
-            #time {
-                color: #fff; /* 修改文字颜色为白色 */
-            }
-        </style>
+  .card-label {
+    font-size: 16px;
+    text-align: center;
+  }
 
-        <div class="card-container">
-            <div class="card">
-                <div id="time">{当前时间}</div>
-                <div id="day-period">{上午/中午/晚上}</div>
-            </div>
-        </div>
+  #end {
+    display: flex;
+    justify-content: center;
+  }<
+  .card {
+    /* 省略其他样式 */
 
-        <div id="swipe-to-main">
-            <i class="bi bi-arrow-down"></i>
-        </div>
-    </div>
-</div>
+    /* 设置图标居中 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-<script>
-    // 获取当前时间并更新到页面
-    function updateTime() {
-        var now = new Date();
-        var hours = now.getHours();
-        var minutes = now.getMinutes();
-        var seconds = now.getSeconds();
+    /* 添加动画属性 */
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
 
-        hours = addZeroPadding(hours);
-        minutes = addZeroPadding(minutes);
-        seconds = addZeroPadding(seconds);
-
-        document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds;
-
-        // 更新上午/中午/晚上
-        var period = "";
-        if (hours >= 0 && hours < 6) {
-            period = "凌晨";
-        } else if (hours >= 6 && hours < 12) {
-            period = "上午";
-        } else if (hours >= 12 && hours < 18) {
-            period = "下午";
-        } else {
-            period = "晚上";
-        }
-        document.getElementById("day-period").innerHTML = period;
+  /* 定义动画效果 */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
     }
-
-    // 在个位数前补零
-    function addZeroPadding(num) {
-        if (num < 10) {
-            return "0" + num;
-        } else {
-            return num;
-        }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
     }
+  }
+  .card {
+    /* 省略其他样式 */
 
-    // 每隔1秒更新一次时间
-    setInterval(updateTime, 1000);
-</script>
+    /* 设置图标居中 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* 添加动画属性 */
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+
+  /* 定义动画效果 */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>    
 <div class="card-container">
   <div class="card" onclick="clonePage('all-app')">
     <i class="bi bi-box card-icon"></i>
@@ -125,11 +154,7 @@
     <i class="bi bi-box card-icon"></i>
     <p class="card-label">拓展</p>
   </div>
-<div class="card" onclick="clonePage('wifi-adb-page')">
-  <i class="图标样式 card-icon"></i>
-  <p class="card-label">卡片标签</p>
-</div>
-</div>
+
   <div class="card" onclick="clonePage('message')">
     <i class="bi bi-envelope card-icon"></i>
     <p class="card-label">消息</p>
@@ -146,9 +171,6 @@
   </div>
 </div>
 
-
-           
-            <!-- <button class="btn">应用分类</button> -->
             <!-- <button class="btn">推荐应用</button>
             <button class="btn">市场设置</button> -->
 
@@ -208,14 +230,7 @@
 
         </div>
     </div>
-<div class="page" id="new-page">
-  <div class="page-head">
-    <div class="page-name"><i class="bi bi-caret-left-fill"></i>新页面</div>
-  </div>
-  <div class="page-body">
-    <!-- 在这里添加新页面的内容 -->
-  </div>
-</div>
+
     <div class="page" id="app-info">
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>应用信息</div>
@@ -258,22 +273,16 @@
 
         </div>
     </div>
-
-    <div class="page" id="option">
+<div class="page" id="option">
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>首选项</div>
         </div>
         <div class="page-body">
-            <!-- <fieldset>
+            <fieldset>
                 <legend>管理</legend>
                 <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
             </fieldset>
- -->
- <fieldset>
-     <legend>管理</legend>
-     <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
-     <button class="btn" onclick="customFunction()">自定义功能</button>
- </fieldset>
+
            
             <fieldset>
                 <legend>外观</legend>
@@ -295,7 +304,9 @@
             </fieldset>
         </div>
     </div>
-
+</div>
+</body>
+    
     <div class="page" id="message">
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>消息</div>
@@ -312,33 +323,53 @@
         <div class="page-body"></div>
     </div>
 
-    <div class="page" id="about">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
-        </div>
-        <div class="page-body">
-            <fieldset>
-                <legend>版本号</legend>
-                <div id="about-version"></div>
-            </fieldset>
-            <fieldset>
-                <legend>声明</legend>
-                <div id="about-version" style="font-size: 18px;">该应用为免费开源项目，应用中部分元素参考HankMi，唯趣等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
-            </fieldset>
-            <fieldset>
-                <legend>说明</legend>
-                <div style="font-size: 18px;">由于该应用开发时间较短，有较多缺陷，不喜勿喷。</div>
-                <div style="font-size: 18px;">该应用基于web跨平台框架uni app,性能可能劣于原生安卓应用。</div>
-            </fieldset>
-            <fieldset>
-                <legend>制作基于</legend>
-                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni app</button>
-                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>                
-                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
-            
-            </fieldset>
-        </div>
+<div class="page" id="about">
+    <div class="page-head">
+        <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
     </div>
+    <div class="page-body">
+        <fieldset>
+            <legend>版本号</legend>
+            <div id="about-version">
+                <div class="card">
+                    <img src="img/bootstrap-icons-1.10.5/当前版本2.0.png" alt="当前版本" style="max-width: 200px;">
+                    <div class="card-content">
+                        <h2>版本说明</h2>
+                        <p>uv重新更换增加了一些功能</p>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>声明</legend>
+            <div id="about-version" style="font-size: 18px;">该应用为免费开源项目，应用中部分元素参考HankMi，唯趣，CagerCenter等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
+        </fieldset>
+        <fieldset>
+            <legend>开发者</legend>
+            <div class="developer">
+                <img src="img/bootstrap-icons-1.10.5/奕奕.jpg" alt="奕奕" class="developer-avatar">
+                <div class="developer-info">
+                    <h3>奕奕</h3>
+                    <p>微信公众号：易档社区edsq</p>
+                    <p>开发者微信：ezjyys</p>
+                </div>
+            </div>
+            <div class="developer">
+                <img src="img/bootstrap-icons-1.10.5/c.jpg" alt="c" class="developer-avatar">
+                <div class="developer-info">
+                    <h3>c</h3>
+                    <p>开发者QQ：2013335731</p>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>制作基于</legend>
+            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni app</button>
+            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>                
+            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
+        </fieldset>
+    </div>
+</div>
 </body>
 
 </html>
