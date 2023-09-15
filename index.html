@@ -34,21 +34,58 @@
         integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
         crossorigin="anonymous"></script> -->
 
+<style>
+#home {
+background-color: black;
+}
 
+#current-time {
+color: white;
+font-size: 32px;
+}
+
+#am-pm {
+color: white;
+font-size: 18px;
+}
+</style>
 </head>
+<script>
+	function updateTime() {
+    const now = new Date();
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
 
+    if (hours >= 12) {
+        document.getElementById('am-pm').innerText = '下午';
+    } else {
+        document.getElementById('am-pm').innerText = '上午';
+    }
+
+    if (hours > 12) {
+        hours = hours - 12;
+    }
+
+    document.getElementById('current-time').innerText = `${hours}:${minutes < 10 ? '0' + minutes : minutes}`;
+}
+
+setInterval(updateTime, 1000);
+</script>
 <body>
     <div id="home">
         <div id="head">
             <div id="app-name" onclick="quitApp()">{app}</div>
-            <div id="time">时间</div>
+            <!-- <div id="time">时间</div> -->
+			<div id="time"><span id="current-time"></span><span id="am-pm"></span></div>
         </div>
 
         <div id="home-body">
             
                 <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
-               
+                <button id="search-btn" class="btn" onclick="clonePage('app-search')" style="background-color: rgba(255, 255, 255, 0.8);margin: 15px auto;">
+                    <i class="bi bi-search"></i>搜索</button>
                 <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
+            
 <style>
   .card-container {
     display: flex;
@@ -140,7 +177,8 @@
       transform: translateY(0);
     }
   }
-</style>    
+</style>
+
 <div class="card-container">
   <div class="card" onclick="clonePage('all-app')">
     <i class="bi bi-box card-icon"></i>
@@ -154,7 +192,11 @@
     <i class="bi bi-box card-icon"></i>
     <p class="card-label">拓展</p>
   </div>
-
+<div class="card" onclick="clonePage('wifi-adb-page')">
+  <i class="图标样式 card-icon"></i>
+  <p class="card-label">卡片标签</p>
+</div>
+</div>
   <div class="card" onclick="clonePage('message')">
     <i class="bi bi-envelope card-icon"></i>
     <p class="card-label">消息</p>
@@ -171,6 +213,9 @@
   </div>
 </div>
 
+
+           
+            <!-- <button class="btn">应用分类</button> -->
             <!-- <button class="btn">推荐应用</button>
             <button class="btn">市场设置</button> -->
 
@@ -230,7 +275,14 @@
 
         </div>
     </div>
-
+<div class="page" id="new-page">
+  <div class="page-head">
+    <div class="page-name"><i class="bi bi-caret-left-fill"></i>新页面</div>
+  </div>
+  <div class="page-body">
+    <!-- 在这里添加新页面的内容 -->
+  </div>
+</div>
     <div class="page" id="app-info">
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>应用信息</div>
@@ -273,16 +325,22 @@
 
         </div>
     </div>
-<div class="page" id="option">
+
+    <div class="page" id="option">
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>首选项</div>
         </div>
         <div class="page-body">
-            <fieldset>
+            <!-- <fieldset>
                 <legend>管理</legend>
                 <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
             </fieldset>
-
+ -->
+ <fieldset>
+     <legend>管理</legend>
+     <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
+     <button class="btn" onclick="customFunction()">自定义功能</button>
+ </fieldset>
            
             <fieldset>
                 <legend>外观</legend>
@@ -304,9 +362,7 @@
             </fieldset>
         </div>
     </div>
-</div>
-</body>
-    
+
     <div class="page" id="message">
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>消息</div>
@@ -323,53 +379,35 @@
         <div class="page-body"></div>
     </div>
 
-<div class="page" id="about">
-    <div class="page-head">
-        <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
+    <div class="page" id="about">
+        <div class="page-head">
+            <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
+        </div>
+        <div class="page-body">
+            <fieldset>
+                <legend>版本号</legend>
+                <div id="about-version"></div>
+            </fieldset>
+            <fieldset>
+                <legend>声明</legend>
+                <div id="about-version" style="font-size: 18px;">该应用为免费开源项目，应用中部分元素参考HankMi，唯趣等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
+            </fieldset>
+            <fieldset>
+                <legend>说明</legend>
+                <div style="font-size: 18px;">由于该应用开发时间较短，有较多缺陷，不喜勿喷。</div>
+                <div style="font-size: 18px;">该应用基于web跨平台框架uni app,性能可能劣于原生安卓应用。</div>
+            </fieldset>
+            <fieldset>
+                <legend>制作基于</legend>
+                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni app</button>
+                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>                
+                <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
+            
+            </fieldset>
+        </div>
     </div>
-    <div class="page-body">
-        <fieldset>
-            <legend>版本号</legend>
-            <div id="about-version">
-                <div class="card">
-                    <img src="img/bootstrap-icons-1.10.5/当前版本2.0.png" alt="当前版本" style="max-width: 200px;">
-                    <div class="card-content">
-                        <h2>版本说明</h2>
-                        <p>uv重新更换增加了一些功能</p>
-                    </div>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>声明</legend>
-            <div id="about-version" style="font-size: 18px;">该应用为免费开源项目，应用中部分元素参考HankMi，唯趣，CagerCenter等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
-        </fieldset>
-        <fieldset>
-            <legend>开发者</legend>
-            <div class="developer">
-                <img src="img/bootstrap-icons-1.10.5/奕奕.jpg" alt="奕奕" class="developer-avatar">
-                <div class="developer-info">
-                    <h3>奕奕</h3>
-                    <p>微信公众号：易档社区edsq</p>
-                    <p>开发者微信：ezjyys</p>
-                </div>
-            </div>
-            <div class="developer">
-                <img src="img/bootstrap-icons-1.10.5/c.jpg" alt="c" class="developer-avatar">
-                <div class="developer-info">
-                    <h3>c</h3>
-                    <p>开发者QQ：2013335731</p>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>制作基于</legend>
-            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni app</button>
-            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>                
-            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
-        </fieldset>
-    </div>
-</div>
 </body>
 
 </html>
+
+
