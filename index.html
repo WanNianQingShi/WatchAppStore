@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Yidang</title>
@@ -24,161 +22,96 @@
     <script src="page/expand/expand.js"></script>
     <script src="page/message/message.js"></script>
     <script src="page/download-progress/download-progress.js"></script>
-
-
-<!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
-        integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
- -->
-    <!-- MDUI JavaScript -->
-   <!--  <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
-        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
-        crossorigin="anonymous"></script> -->
-
-<style>
-#home {
-background-color: black;
-}
-
-#current-time {
-color: white;
-font-size: 32px;
-}
-
-#am-pm {
-color: white;
-font-size: 18px;
-}
-</style>
 </head>
-<script>
-	function updateTime() {
-    const now = new Date();
-    let hours = now.getHours();
-    let minutes = now.getMinutes();
 
-    if (hours >= 12) {
-        document.getElementById('am-pm').innerText = '下午';
-    } else {
-        document.getElementById('am-pm').innerText = '上午';
-    }
-
-    if (hours > 12) {
-        hours = hours - 12;
-    }
-
-    document.getElementById('current-time').innerText = `${hours}:${minutes < 10 ? '0' + minutes : minutes}`;
-}
-
-setInterval(updateTime, 1000);
-</script>
 <body>
     <div id="home">
         <div id="head">
             <div id="app-name" onclick="quitApp()">{app}</div>
-            <!-- <div id="time">时间</div> -->
-			<div id="time"><span id="current-time"></span><span id="am-pm"></span></div>
+            <div id="time">时间</div>
         </div>
 
         <div id="home-body">
-            
-                <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
-                <button id="search-btn" class="btn" onclick="clonePage('app-search')" style="background-color: rgba(255, 255, 255, 0.8);margin: 15px auto;">
-                    <i class="bi bi-search"></i>搜索</button>
-                <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
-            
-<style>
-  .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 16px;
-  }
+            <style>
+                .card-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 8px;
+                    margin-bottom: 16px;
+                }
 
-  .card {
-    width: 200px;
-    height: 200px;
-    background-color: #000; /* Change the background color to black */
-    color: #fff; /* Set the text color to white */
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
+                .card {
+                    width: 200px;
+                    height: 200px;
+                    background-color: #000; /* 修改背景
+                    background-image: url('表盘图片地址或颜色值');
+                    background-size: cover;
+                    background-position: center;
+}
 
-  .card-icon {
-    font-size: 48px;
-    margin-bottom: 16px;
-  }
+		
 
-  .card-label {
-    font-size: 16px;
-    text-align: center;
-  }
+		
+            #time {
+                color: #fff; /* 修改文字颜色为白色 */
+            }
+        </style>
 
-  #end {
-    display: flex;
-    justify-content: center;
-  }<
-  .card {
-    /* 省略其他样式 */
+        <div class="card-container">
+            <div class="card">
+                <div id="time">{当前时间}</div>
+                <div id="day-period">{上午/中午/晚上}</div>
+            </div>
+        </div>
 
-    /* 设置图标居中 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        <div id="swipe-to-main">
+            <i class="bi bi-arrow-down"></i>
+        </div>
+    </div>
+</div>
 
-    /* 添加动画属性 */
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
-  }
+<script>
+    // 获取当前时间并更新到页面
+    function updateTime() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
 
-  /* 定义动画效果 */
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(50%);
+        hours = addZeroPadding(hours);
+        minutes = addZeroPadding(minutes);
+        seconds = addZeroPadding(seconds);
+
+        document.getElementById("time").innerHTML = hours + ":" + minutes + ":" + seconds;
+
+        // 更新上午/中午/晚上
+        var period = "";
+        if (hours >= 0 && hours < 6) {
+            period = "凌晨";
+        } else if (hours >= 6 && hours < 12) {
+            period = "上午";
+        } else if (hours >= 12 && hours < 18) {
+            period = "下午";
+        } else {
+            period = "晚上";
+        }
+        document.getElementById("day-period").innerHTML = period;
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
+
+    // 在个位数前补零
+    function addZeroPadding(num) {
+        if (num < 10) {
+            return "0" + num;
+        } else {
+            return num;
+        }
     }
-  }
-  .card {
-    /* 省略其他样式 */
 
-    /* 设置图标居中 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    /* 添加动画属性 */
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
-  }
-
-  /* 定义动画效果 */
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(50%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-</style>
-
+    // 每隔1秒更新一次时间
+    setInterval(updateTime, 1000);
+</script>
 <div class="card-container">
   <div class="card" onclick="clonePage('all-app')">
     <i class="bi bi-box card-icon"></i>
