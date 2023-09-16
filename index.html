@@ -315,65 +315,53 @@
             
         </div>
     </div>
-
- <div class="page" id="expand">
+<div class="page" id="expand">
     <div class="page-head">
         <div class="page-name">拓展</div>
     </div>
     <div class="page-body">
-        <div class="option" data-option="1">
-            <div class="option-title">自定义样式</div>
-            <div class="option-content">
-                <style>
-                    /* 这里添加你的自定义样式 */
-                </style>
-            </div>
-        </div>
-        <div class="option" data-option="2">
-            <div class="option-title">用户邮箱反馈</div>
-            <div class="option-content">
-                <form action="submit-feedback.php" method="post">
-                    <label for="feedback">反馈:</label>
-                    <textarea id="feedback" name="feedback"></textarea>
-                    <br>
-                    <input type="submit" value="提交">
-                </form>
-            </div>
-        </div>
-        <div class="option" data-option="3">
-            <div class="option-title">响应式布局</div>
-            <div class="option-content">
-                <!-- 这里添加响应式内容 -->
+        <!-- 自定义样式 -->
+        <style>
+            body {
+                background-color: #f2f2f2;
+                font-family: Arial, sans-serif;
+            }
+            .page {
+                margin: 20px;
+            }
+            .page-head {
+                background-color: #333;
+                color: #fff;
+            }
+            .page-body {
+                padding: 20px;
+            }
+        </style>
+        <!-- 用户反馈 -->
+        <form action="submit-feedback.php" method="post" id="feedbackForm">
+            <label for="feedback">反馈:</label>
+            <textarea id="feedback" name="feedback"></textarea>
+            <br>
+            <input type="button" value="提交" onclick="submitFeedback()">
+        </form>
+        <!-- 响应式布局 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <!-- 这里添加响应式内容 -->
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-<!-- 这里添加其他的选项 -->
-
-<!-- JavaScript 代码 -->
 <script>
-    // 获取所有的选项元素
-    const options = document.querySelectorAll('.option');
+    function submitFeedback() {
+        // 获取表单数据
+        const feedback = document.getElementById('feedback').value;
 
-    // 给每个选项添加点击事件监听器
-    options.forEach(option => {
-        option.addEventListener('click', () => {
-            // 获取点击选项的 data-option 属性值
-            const optionIndex = option.getAttribute('data-option');
-
-            // 根据 optionIndex 值跳转到相应的页面
-            if (optionIndex === '1') {
-                window.location.href = 'custom-style.html'; // 自定义样式页面
-            } else if (optionIndex === '2') {
-                window.location.href = 'feedback.html'; // 用户邮箱反馈页面
-            } else if (optionIndex === '3') {
-                window.location.href = 'responsive-layout.html'; // 响应式布局页面
-            } else {
-                // 处理其他选项的情况
-            }
-        });
-    });
+        // 跳转到用户邮箱反馈页面
+        window.location.href = 'feedback.html?feedback=' + encodeURIComponent(feedback);
+    }
 </script>
 
 <div class="page" id="about">
