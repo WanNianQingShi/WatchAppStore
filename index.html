@@ -311,99 +311,18 @@
         <div class="page-head">
             <div class="page-name"><i class="bi bi-caret-left-fill"></i>消息</div>
         </div>
-<!-- 在页面中存放了一个默认的容器用于显示拓展内容 -->
-<div class="page" id="expand">
-    <div class="page-head">
-        <div class="page-name">拓展</div>
+        <div class="page-body">
+            
+        </div>
     </div>
-    <div class="page-body">
-        <button class="calculator-button" onclick="goToCalculator()">计算器</button>
+
+    <div class="page" id="expand">
+        <div class="page-head">
+            <div class="page-name">拓展</div>
+        </div>
+        <div class="page-body"></div>
     </div>
-</div>
 
-<script>
-    function goToCalculator() {
-        // 通过修改页面的内容，实现页面的切换
-        const expandPageBody = document.querySelector('#expand .page-body');
-        expandPageBody.innerHTML =
-            <div class="calculator-page">
-                <div class="display">
-                    <input type="text" id="result" readonly>
-                </div>
-                <div class="buttons">
-                    <!-- 这里是手机计算器的按钮 -->
-                    <button onclick="clearResult()">AC</button>
-                    <button onclick="appendNumber(7)">7</button>
-                    <button onclick="appendNumber(8)">8</button>
-                    <button onclick="appendNumber(9)">9</button>
-                    <button onclick="appendOperator('/')">÷</button>
-                    <button onclick="appendNumber(4)">4</button>
-                    <button onclick="appendNumber(5)">5</button>
-                    <button onclick="appendNumber(6)">6</button>
-                    <button onclick="appendOperator('*')">x</button>
-                    <button onclick="appendNumber(1)">1</button>
-                    <button onclick="appendNumber(2)">2</button>
-                    <button onclick="appendNumber(3)">3</button>
-                    <button onclick="appendOperator('-')">-</button>
-                    <button onclick="appendNumber(0)">0</button>
-                    <button onclick="appendOperator('.')">.</button>
-                    <button onclick="evaluate()">=</button>
-                    <button onclick="appendOperator('+')">+</button>
-                </div>
-            </div>;
-
-        // 更新display
-        expression = "";
-        updateDisplay();
-    }
-
-    let expression = "";
-
-    function appendNumber(number) {
-        expression += number;
-        updateDisplay();
-    }
-
-    function appendOperator(operator) {
-        expression += operator;
-        updateDisplay();
-    }
-
-    function evaluate() {
-        const result = eval(expression);
-        expression = result.toString();
-        updateDisplay();
-    }
-
-    function clearResult() {
-        expression = "";
-        updateDisplay();
-    }
-
-    function updateDisplay() {
-        document.getElementById("result").value = expression;
-    }
-</script>
-
-<style>
-    .calculator-page {
-        width: 300px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .display {
-        margin-bottom: 20px;
-    }
-
-    .buttons button {
-        width: 50px;
-        height: 50px;
-        margin: 5px;
-        font-size: 18px;
-    }
-</style>
-</script>
 <div class="page" id="about">
     <div class="page-head">
         <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
@@ -454,6 +373,4 @@
 </body>
 
 </html>
-
-
 
