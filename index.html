@@ -349,6 +349,33 @@
     </div>
 </div>
 
+<!-- 这里添加其他的选项 -->
+
+<!-- JavaScript 代码 -->
+<script>
+    // 获取所有的选项元素
+    const options = document.querySelectorAll('.option');
+
+    // 给每个选项添加点击事件监听器
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            // 获取点击选项的 data-option 属性值
+            const optionIndex = option.getAttribute('data-option');
+
+            // 根据 optionIndex 值跳转到相应的页面
+            if (optionIndex === '1') {
+                window.location.href = 'custom-style.html'; // 自定义样式页面
+            } else if (optionIndex === '2') {
+                window.location.href = 'feedback.html'; // 用户邮箱反馈页面
+            } else if (optionIndex === '3') {
+                window.location.href = 'responsive-layout.html'; // 响应式布局页面
+            } else {
+                // 处理其他选项的情况
+            }
+        });
+    });
+</script>
+
 <div class="page" id="about">
     <div class="page-head">
         <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
