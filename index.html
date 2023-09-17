@@ -316,15 +316,59 @@
         </div>
     </div>
 
-<div class="page" id="expand">
-    <div class="page-head">
-        <div class="page-name">拓展</div>
+<html>
+<head>
+    <title>音乐播放页面</title>
+    <script>
+        // 选择文件的函数
+        function selectFile() {
+            var input = document.getElementById('submit');
+            input.click();
+        }
+
+        // 播放音乐的函数
+        function playMusic() {
+            var audio = document.getElementById('play-kit');
+            audio.play();
+        }
+
+        // 停止音乐的函数
+        function stopMusic() {
+            var audio = document.getElementById('play-kit');
+            audio.pause();
+        }
+
+        // 根据滑动条调整音量的函数
+        function setVolume(value) {
+            var audio = document.getElementById('play-kit');
+            audio.volume = value / 100;
+        }
+
+        // 监听文件选择的事件处理函数
+        document.getElementById('submit').addEventListener('change', function(e) {
+            var file = e.target.files[0];
+            if(file) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var audio = document.getElementById('play-kit');
+                    audio.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="page" id="expand">
+        <div class="page-head">
+            <div class="page-name">拓展</div>
+        </div>
+        <div class="page-body">
+            <button onclick="selectFile()">音乐播放选项</button>
+        </div>
     </div>
-    <div class="page-body">
-        <button onclick="showMusic()">音乐播放小程序</button>
-        <button onclick="showH5()">H5浏览器小程序</button>
-        <button onclick="showBilibili()">播放B站链接视频</button>
-    </div>
+    <!-- 其他代码保持不变 -->
+</body>
 
 <div class="page" id="about">
     <div class="page-head">
