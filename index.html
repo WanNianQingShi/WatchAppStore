@@ -315,54 +315,20 @@
             
         </div>
     </div>
+
 <div class="page" id="expand">
     <div class="page-head">
         <div class="page-name">拓展</div>
     </div>
     <div class="page-body">
-        <!-- 自定义样式 -->
-        <style>
-            body {
-                background-color: #f2f2f2;
-                font-family: Arial, sans-serif;
-            }
-            .page {
-                margin: 20px;
-            }
-            .page-head {
-                background-color: #333;
-                color: #fff;
-            }
-            .page-body {
-                padding: 20px;
-            }
-        </style>
-        <!-- 用户反馈 -->
-        <form action="submit-feedback.php" method="post" id="feedbackForm">
-            <label for="feedback">反馈:</label>
-            <textarea id="feedback" name="feedback"></textarea>
-            <br>
-            <input type="button" value="提交" onclick="submitFeedback()">
-        </form>
-        <!-- 响应式布局 -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <!-- 这里添加响应式内容 -->
-                </div>
-            </div>
-        </div>
+        <block wx:for="{{appList}}" wx:key="index">
+            <a href="{{item.url}}" style="display: inline-block; width: 100px; height: 100px; margin: 10px; background-color: lightgrey; border-radius: 5px;">
+                <img src="{{item.qrcode}}" style="width: 100px; height: 100px; object-fit: cover;">
+            </a>
+            <p>{{item.name}}</p>
+        </block>
     </div>
 </div>
-<script>
-    function submitFeedback() {
-        // 获取表单数据
-        const feedback = document.getElementById('feedback').value;
-
-        // 跳转到用户邮箱反馈页面
-        window.location.href = 'feedback.html?feedback=' + encodeURIComponent(feedback);
-    }
-</script>
 
 <div class="page" id="about">
     <div class="page-head">
