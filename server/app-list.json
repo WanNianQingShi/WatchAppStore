@@ -9,6 +9,15 @@
             "description":"WIFIADB，但是是小白修改的DPI适配版，在DPI为320下正常显示",
             "cutphoto":"http://pic.java800.com/up/2023-8/202381117459431530.jpg"
         },
+          {
+            "name": "HU原生设置启动器",
+            "url":"http://fel.forxhr.top:2022/down.php/2c5f08adc0d42011cee81b1d5d535062.apk",
+            "icon":"none",
+            "version": "1.0",
+            "author":"胡俊隆",
+            "description":"帮助手表启动原生设置",
+            "cutphoto":"none"
+        },
         {
             "name": "adb shell",
             "url":"http://fel.forxhr.top:2022/down.php/f35a17ca75d9d467a7cde5fb0193272f.apk",
