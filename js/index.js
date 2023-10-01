@@ -29,7 +29,17 @@ function addMDUI(){
 
 }
 
+function openRandomApp() {
+  var appList = [
+    // 应用列表...
+  ];
 
+  var randomIndex = Math.floor(Math.random() * appList.length);
+  var randomApp = appList[randomIndex];
+
+  // 打开随机选择的应用
+  window.open(randomApp.url);
+}
 function setRightSlideClosePage() {
     var startX = 0; // 记录鼠标开始位置的X坐标
 
