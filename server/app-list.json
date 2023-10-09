@@ -9,6 +9,15 @@
             "description":"WIFIADB，但是是小白修改的DPI适配版，在DPI为320下正常显示",
             "cutphoto":"http://pic.java800.com/up/2023-8/202381117459431530.jpg"
         },
+          {
+            "name": "HU应用商店",
+            "url":"http://fel.forxhr.top:2022/down.php/bb5cc360524de3521a6f260cf3505cb9.apk",
+            "icon":"none",
+            "version": "0.14",
+            "author":"胡俊隆",
+            "description":"一个iapp开发的手表应用商店目前和易档合作",
+            "cutphoto":"none"
+        },
          {
             "name": "易档手表播放器",
             "url":"http://fel.forxhr.top:2022/down.php/864265d6c3dd40283892920533b86547.apk",
