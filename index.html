@@ -154,6 +154,25 @@
     <p class="card-label">随机推荐</p>
   </div>
 </div>
+    <head>
+    <title>应用推荐</title>
+    <script type="text/javascript">
+        function openRandomApp() {
+            // 这里假设你有一个应用列表，可以修改为你实际的app列表
+            var apps = ["app1", "app2", "app3", "app4"];
+            var randomIndex = Math.floor(Math.random() * apps.length);
+            var randomApp = apps[randomIndex];
+            
+            window.open(randomApp, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="card" onclick="openRandomApp()">
+        <i class="bi bi-shuffle card-icon"></i>
+        <p class="card-label">应用推荐</p>
+    </div>
+</body>
 <div class="card" onclick="clonePage('app-search')">
     <i class="bi bi-search card-icon"></i>
     <p class="card-label">搜索</p>
