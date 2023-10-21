@@ -20,11 +20,11 @@
         },
          {
             "name": "易档手表播放器",
-            "url":"http://fel.forxhr.top:2022/down.php/864265d6c3dd40283892920533b86547.apk",
+            "url":"https://fel.forxhr.top:2022/down.php/da3bad0a5c7451b64220c50b9e3597bb.apk",
             "icon":"none",
-            "version": "1.5",
+            "version": "1.6",
             "author":"奕奕和c",
-            "description":"一个易档开发的手表播放器1.5版本暂停功能无法暂停目前1.6已经修复请期待",
+            "description":"一个易档开发的手表播放器1.6版本增加 1.声音大小调节 2.修复暂停按键无法暂停 3.增加倍速功能 4.增加循环播放功能 5.增加静音功能",
             "cutphoto":"none"
         },
         {
