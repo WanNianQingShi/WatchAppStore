@@ -4,22 +4,6 @@
   align-items: center;
   gap: 16px;
 }
-function openRandomApp() {
-  var appList = [
-    // 应用列表...
-  ];
-
-  var randomIndex = Math.floor(Math.random() * appList.length);
-  var randomApp = appList[randomIndex];
-
-  // 打开随机选择的应用
-  window.open(randomApp.url);
-}
-.carousel-image {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ccc;
-}
 *{
     background: black;
     color:rgb(0, 130, 255);
