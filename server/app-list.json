@@ -38,11 +38,11 @@
         },
           {
             "name": "HU应用商店",
-            "url":"https://fel.forxhr.top:2022/down.php/e5c4a6cddc311fe1864113a2a32564c5.apk",
+            "url":"https://fel.forxhr.top:2022/down.php/e7de5de1af80fe1cfb58932e665f9f6b.apk",
             "icon":"none",
-            "version": "0.16",
+            "version": "0.17",
             "author":"胡俊隆",
-            "description":"0.16版本更新：这次更新将应用图标和应用内部界面做了圆角处理，整体UI大改，关于页面进行了修改；只提供一条稳定的线路，线路二不再使用iapp开发的手表应用商店目前和易档合作",
+            "description":"0.17版本一个有兴趣打造的简陋手表应用商店使用iapp开发的手表应用商店目前和易档合作",
             "cutphoto":"none"
         },
          {
