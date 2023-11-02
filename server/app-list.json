@@ -1,5 +1,14 @@
 {
     "applist": [ 
+         {
+            "name": "哔哩终端",
+            "url":"https://fel.forxhr.top:2022/down.php/946f8ce7cf5d3901a18fc5d1b6ab8ce0.apk",
+            "icon":"none",
+            "version": "2.2",
+            "author":"RobinNotBad",
+            "description":"哔哩终端是一款以B站为主题制作的软件，由B站作者RobinNotBad开发的手表版哔哩哔哩移动客户端，让你在自己的智能手表上也能观看B站的各种视频，还有很多的功能都能得到还原，让自己展开自由的评论和了解。",
+            "cutphoto":"none"
+        },
           {
             "name": "凤凰新闻",
             "url":"https://download.tooc.xlj0.com/uploads/190/%E5%85%A8%E9%83%A8%E5%BA%94%E7%94%A8/%E5%87%A4%E5%87%B0%E6%96%B0%E9%97%BB_1.0.apk",
