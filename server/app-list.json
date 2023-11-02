@@ -1,5 +1,14 @@
 {
     "applist": [ 
+          {
+            "name": "凤凰新闻",
+            "url":"https://download.tooc.xlj0.com/uploads/190/%E5%85%A8%E9%83%A8%E5%BA%94%E7%94%A8/%E5%87%A4%E5%87%B0%E6%96%B0%E9%97%BB_1.0.apk",
+            "icon":"none",
+            "version": "1.0",
+            "author":"凤凰官方",
+            "description":"一个在手表上使用的新闻应用",
+            "cutphoto":"none"
+        },
         {
             "name": "WIFIADB",
             "url":"http://fel.forxhr.top:2022/down.php/d01df13c3139736cb74ca64d76d1e915.apk",
