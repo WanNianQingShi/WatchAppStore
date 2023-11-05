@@ -1,5 +1,14 @@
 {
     "applist": [ 
+          {
+            "name": "极趣聚合宝",
+            "url":"https://fel.forxhr.top:2022/down.php/b1df97a083e37d44f0154c9226cd7aaf.apk",
+            "icon":"none",
+            "version": "0.1",
+            "author":"极趣官方",
+            "description":"这是极趣系列应用的第二款应用，适配良好，功能强大",
+            "cutphoto":"none"
+        },
          {
             "name": "哔哩终端",
             "url":"https://fel.forxhr.top:2022/down.php/946f8ce7cf5d3901a18fc5d1b6ab8ce0.apk",
