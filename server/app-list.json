@@ -1,5 +1,14 @@
 {
     "applist": [ 
+         {
+            "name": "zw应用商店小屏版",
+            "url":"https://download.tooc.xlj0.com/uploads/190/%E5%B0%8F%E5%B1%8F%E7%89%88/ZW%E5%95%86%E5%BA%97%E5%B0%8F%E5%B1%8F%E7%89%88_0.1bate.apk",
+            "icon":"none",
+            "version": "0.1",
+            "author":"方若网络工作室",
+            "description":"zw应用商店小屏版震撼来袭 原版不兼容的可以试一下小屏版本",
+            "cutphoto":"none"
+        },
           {
             "name": "极趣聚合宝",
             "url":"https://fel.forxhr.top:2022/down.php/b1df97a083e37d44f0154c9226cd7aaf.apk",
