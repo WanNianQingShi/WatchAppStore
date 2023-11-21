@@ -1,12 +1,13 @@
 {
     "applist": [ 
          {
-            名字《ZT百宝箱》
-图片〈https://download.tooc.xlj0.com/uploads/190/i.png〉
-版本｛1.3bate｝
-介绍「一款非常棒的手表工具盒」
-开发者 ［方若网络工作室］
-链接（https://download.tooc.xlj0.com/uploads/190/%E5%85%A8%E9%83%A8%E5%BA%94%E7%94%A8/zt%E7%99%BE%E5%AE%9D%E7%AE%B1_1.3Bate.apk）
+           "name": "zw应用商店小屏版",
+            "url":"https://fel.forxhr.top:2022/down.php/c0da1ed7e795cae14e06a67a0336e7e5.apk",
+            "icon":"https://download.tooc.xlj0.com/uploads/190/i.png",
+            "version": "0.1",
+            "author":"方若网络工作室",
+            "description":"zw应用商店小屏版震撼来袭 原版不兼容的可以试一下小屏版本",
+            "cutphoto":"none"
         },
           {
             "name": "极趣聚合宝",
