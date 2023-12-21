@@ -1,6 +1,4 @@
-const fs = require('fs');
-
-const data = [
+[
   {
     "image": "https://download.tooc.xlj0.com/uploads/190/7c4f16730be969d552ffba92a249eafc.png",
     "alt": "广告1"
@@ -9,12 +7,4 @@ const data = [
     "image": "https://download.tooc.xlj0.com/uploads/190/7c4f16730be969d552ffba92a249eafc.png",
     "alt": "广告2"
   }
-];
-
-fs.writeFile('server/lbt.json', JSON.stringify(data), (err) => {
-  if (err) {
-    console.error(err);
-    return;
-  }
-  console.log('JSON data has been written to server/lbt.json');
-});
+]
