@@ -4,20 +4,34 @@
       "date": "8/5",
       "content": "1.5正式版现已上线，目前暂时不支持用户自主上传应用欢迎各位使用需要上传请联系我"
     },
-   
+    {
+      "date": "8/6",
+      "content": "现已开启商店应用提交渠道，扫描二维码填写表单来提交。"
+    },
     {
       "date": "8/7",
       "content": "应用商店现在开通QQ交流群欢迎进入611966551"
     },
-  
     {
-            "date":"9/30",
-            "content":"<div>一个易档开发的手表播放器1.5版本暂停功能无法暂停目前1.6已经修复请期待应用获取方法1.易档商店下载2.小趣商店下载</div><div style='width: 70%;height:fit-content;margin:1% auto 1% auto;'> <img sizes='100%' src='http://fel.forxhr.top:2022/view.php/d897e3e32ce593189a8279925ccf9056.png' height='100%' width='100%' /> </div>"
+      "date": "8/16",
+      "content": "应用商店修复多个应用链接无法下载问题已经更换地址"
     },
     {
-  "date": "11/2",
-  "content": "易档商店用户数现已突破<strong>2W</strong>!"
-    }
+      "date": "8/17",
+      "content": "目前商店目有几个应用因为链接问题暂时无法下载在1-2天我们会更换修复"
+    },
+    {
+      "date": "8/20",
+      "content": "好消息目前应用商店应用下载已经恢复使用了因为上传网站突然恢复了"
+    },
+     {
+            "date":"9/30",
+            "content":"<div>一个易档开发的手表播放器1.5版本暂停功能无法暂停目前1.6已经修复请期待应用获取方法1.易档商店下载2.小趣商店下载</div><div style='width: 70%;height:fit-content;margin:1% auto 1% auto;'> <img sizes='100%' src='http://fel.forxhr.top:2022/view.php/d897e3e32ce593189a8279925ccf9056.png' height='100%' width='100%' /> </div>"
+        },
+    {
+  "date": "10/22",
+  "content": "<div>视频测试</div><video controls width=300 height=200><source src='https://fel.forxhr.top:2022/view.php/a6f6307da64f53ac70ada90343f5f0b9.mp4'></video>"
+}
   ],
   "about": [
     {

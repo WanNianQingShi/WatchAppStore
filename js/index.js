@@ -29,17 +29,7 @@ function addMDUI(){
 
 }
 
-function openRandomApp() {
-  var appList = [
-    // 应用列表...
-  ];
 
-  var randomIndex = Math.floor(Math.random() * appList.length);
-  var randomApp = appList[randomIndex];
-
-  // 打开随机选择的应用
-  window.open(randomApp.url);
-}
 function setRightSlideClosePage() {
     var startX = 0; // 记录鼠标开始位置的X坐标
 
@@ -106,12 +96,12 @@ function setDispalyLayout() {
     var w = document.documentElement.clientWidth;
     var h = document.documentElement.clientHeight;
     var headh = package.headHeight;
-    document.getElementById("home").style.height = h * 1 + "px";
+    document.getElementById("home").style.height = h * 0.99 + "px";
     document.getElementById("head").style.height = headh * 100 + "%";
     document.getElementById("home-body").style.height = (1 - headh) * 100 + "%";
 
     document.querySelectorAll(".page").forEach(function (item) {
-        item.style.height = h * 1 + "px";
+        item.style.height = h * 0.99 + "px";
     })
     document.querySelectorAll(".page-head").forEach(function (item) {
         item.style.height = headh * 100 + "%";
@@ -160,7 +150,7 @@ function clonePage(id) {
     document.querySelectorAll(".page-name").forEach(function (item) {
         item.addEventListener("click", function () {
             //点击page-name是关闭该页面
-            item.parentElement.parentElement.style.left = "120%"
+            item.parentElement.parentElement.style.left = "120%";
             setTimeout(function () { item.parentElement.parentElement.remove(); }, 350);
 
 
@@ -180,7 +170,7 @@ function getTime() {
     var min = time.getMinutes();
     if (h < 10) { h = `0${h}` }
     if (min < 10) { min = `0${min}` }
-    var out = h + ":" + min;
+    var out = h + ":" + min+"&nbsp";
     echoid("time", out);
 }
 
@@ -188,3 +178,60 @@ function echoid(id, string) {
     document.getElementById(id).innerHTML = string;
 }
 
+function preventEnter(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+    }
+}
+		
+
+	document.onmouseup = function (upEvent) {
+	    var deltaXRounded = upEvent.clientX - startX;
+	    var threshold = document.documentElement.clientWidth * 0.5;
+	
+	    if (deltaXRounded >= threshold) {
+	        currentPage.style.marginLeft = "100%";
+	        setTimeout(function () {
+	            currentPage.remove();
+	        }, 500); 
+	    } else {
+	        currentPage.style.marginLeft = "2.5%";
+	    }
+	
+	    document.onmousemove = null; // 清除mousemove事件
+	    document.onmouseup = null; // 清除mouseup事件
+	};
+	clone.style.animation = "page-appear"; // 添加切换动画效果
+	
+	var startX = 0; // 记录触摸开始位置的X坐标
+	
+	document.onmousedown = function(downEvent) {
+	    var pages = document.querySelectorAll(".page");
+	    var currentPage = pages[pages.length - 1];
+	
+	    if (downEvent.clientX < document.documentElement.clientWidth * 0.1 && currentPage.style.display === "block") {
+	        startX = downEvent.clientX;
+	
+	        document.onmousemove = function(moveEvent) {
+	            var deltaX = moveEvent.clientX - startX;
+	            currentPage.style.marginLeft = deltaX + "px";
+	        };
+	
+	        document.onmouseup = function(upEvent) {
+	            var deltaXRounded = upEvent.clientX - startX;
+	            var threshold = document.documentElement.clientWidth * 0.5;
+	
+	            if (deltaXRounded >= threshold) {
+	                currentPage.style.marginLeft = "100%";
+	                setTimeout(function() {
+	                    currentPage.remove();
+	                }, 500);
+	            } else {
+	                currentPage.style.marginLeft = "2.5%";
+	            }
+	
+	            document.onmousemove = null; // 清除mousemove事件
+	            document.onmouseup = null; // 清除mouseup事件
+	        };
+	    }
+	};

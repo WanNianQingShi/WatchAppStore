@@ -1,0 +1,8 @@
+{
+    "expand_list": [
+        {
+            "name":"changeTheme",
+            "url":"server/expand-file/changeTheme.esmod"
+        }
+    ]
+}

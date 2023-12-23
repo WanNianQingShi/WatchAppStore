@@ -8,8 +8,8 @@ function downloadFrom(url) {
 
 		} else {
 			d.abort();
-			plus.nativeUI.alert("下载失败，检查网络连接或稍后重试。", {}, "下载", "确定");
-			setDownloadProgressData(100);
+			plus.nativeUI.alert("下载失败，检查网络连接或稍后重试。如果不行请添加我微信联系我ezjyys", {}, "下载", "确定");
+			
 		}
 
 	})
@@ -19,7 +19,8 @@ function downloadFrom(url) {
 		console.log(persent);
 		document.querySelectorAll('.app-info-dl-progress')[document.getElementsByClassName('app-info-dl-progress').length-1].innerHTML=`已下载:${persent}%`;
 		if(persent==100){
-			document.querySelectorAll('.app-info-dl-progress')[document.getElementsByClassName('app-info-dl-progress').length-1].innerHTML=`已完成下载`;
+			document.querySelectorAll('.app-info-dl-progress')[document.getElementsByClassName('app-info-dl-progress').length-1].innerHTML=`已完成下载如没有找到下载安装包请重新下载`;
+			
 		}
 		//plus.nativeUI.toast(" 下载进度:"+persent+"% ");
 		//setDownloadProgressData(persent);

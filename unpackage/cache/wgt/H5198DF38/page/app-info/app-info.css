@@ -1,0 +1,17 @@
+.app-info-title{
+    font-size: 20px;
+    margin: 1%;
+    height: fit-content;
+    width: 100%;
+}
+.app-info-text{
+    width: 92%;
+    height: fit-content;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 4%;
+    margin:0 auto 4% auto;
+    background-color:rgb(47, 47, 47) ;
+    border-radius: 10px;
+}

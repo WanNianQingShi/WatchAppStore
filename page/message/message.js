@@ -10,7 +10,7 @@ function loadMessage() {
             var localRecord = localStorage.getItem("message-read")
             if (localRecord != list.main.length) {
                 document.getElementById("home").children[1].insertAdjacentHTML("afterbegin", `
-                <div class="app-info-text" style="font-size:18px" onclick="document.getElementById('home').children[1].children[0].style.display='none'">
+                <div class="app-info-text" style="font-size:18px" onclick="document.getElementById('home').children[1].children[0].remove()">
                 <div style=" background: transparent;font-size:17px" ><i class="bi bi-chat-square-fill" style=" font-size:18px"></i>新发布于:${list.main[list.main.length - 1].date}</div>        
                 ${list.main[list.main.length - 1].content}
                 <span>单击隐藏</span>

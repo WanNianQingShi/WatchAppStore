@@ -1,0 +1,4 @@
+<h4>>></h4>
+<button class="btn" onclick="document.querySelectorAll('button').forEach(item=>{item.style.color='yellow';
+item.style.backgroundColor='green';
+item.style.borderRadius='100px'})">更改按钮</button>

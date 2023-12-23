@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="page/option/option.css">
     <link rel="stylesheet" href="page/message/message.css">
     <link rel="stylesheet" href="img/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="page/option/option.css">
     <script src="js/index.js"></script>
     <script src="js/uni_api.js"></script>
     <script src="page/all-app/all-app.js"></script>
@@ -24,164 +25,78 @@
     <script src="page/expand/expand.js"></script>
     <script src="page/message/message.js"></script>
     <script src="page/download-progress/download-progress.js"></script>
+    <script src="jbxg/backdrop3.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="page/home/home.js"></script>
+    <script src="js/uni_api.js"></script>
+    <link rel="stylesheet" href="img/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
 
+    <head />
 
-<!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+<body>
+
+    <!--     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
         integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
  -->
     <!-- MDUI JavaScript -->
-   <!--  <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+    <!--  <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
         integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
         crossorigin="anonymous"></script> -->
 
 
-</head>
+    </head>
 
-<body>
-    <div id="home">
-        <div id="head">
-            <div id="app-name" onclick="quitApp()">{app}</div>
-            <div id="time">时间</div>
-        </div>
+    <body>
 
-        <div id="home-body">
-            
+        <div id="home">
+            <div id="head">
+                <div id="app-name" onclick="quitApp()">App</div>
+                <div id="time"></div>
+            </div>
+
+            <div id="home-body">
+
+
                 <!-- <button id="user-btn" class="navigation-btn">.img</button> -->
-               
+                <title>轮播图广告</title>
+                </head>
+
+                <body>
+                    <div class="slideshow">
+                      
+                    </div>
+                </body>
+                <script src="page/option/option.js"></script>
+                <button id="search-btn" class="btn" onclick="clonePage('app-search')"
+                    style="background-color: rgba(255, 255, 255, 0.8);margin: 15px auto;">
+                    <i class="bi bi-search"></i>搜索</button>
                 <!-- <button id="download-btn" class="navigation-btn">.img</button> -->
-<style>
-  .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 16px;
-  }
 
-  .card {
-    width: 200px;
-    height: 200px;
-    background-color: #000; /* Change the background color to black */
-    color: #fff; /* Set the text color to white */
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
 
-  .card-icon {
-    font-size: 48px;
-    margin-bottom: 16px;
-  }
+                <button class="btn" onclick="clonePage('all-app')"><i class="bi bi-box"></i>应用</button>
 
-  .card-label {
-    font-size: 16px;
-    text-align: center;
-  }
+                <!-- <button class="btn mdui-ripple mdui-ripple-blue" onclick="clonePage('expand')"><i
+                    class="bi bi-box"></i>拓展</button> -->
+                <button class="btn" id="home-message-btn" onclick="clonePage('message')"><i class="bi bi-envelope"></i>
+                    消息</button>
+                <button class="btn" onclick="clonePage('option')"><i class="bi bi-gear"></i>首选项</button>
+                <button class="btn" onclick="clonePage('about')"><i class="bi bi-info-circle"></i>关于该应用</button>
 
-  #end {
-    display: flex;
-    justify-content: center;
-  }<
-  .card {
-    /* 省略其他样式 */
-
-    /* 设置图标居中 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    /* 添加动画属性 */
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
-  }
-
-  /* 定义动画效果 */
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(50%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  .card {
-    /* 省略其他样式 */
-
-    /* 设置图标居中 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    /* 添加动画属性 */
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
-  }
-
-  /* 定义动画效果 */
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(50%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-</style>    
-<div class="card-container">
-  <div class="card" onclick="clonePage('all-app')">
-    <i class="bi bi-box card-icon"></i>
-    <p class="card-label">全部应用</p>
-  </div>
-<div class="card" onclick="clonePage('app-search')">
-    <i class="bi bi-search card-icon"></i>
-    <p class="card-label">搜索</p>
-  </div>
-  <div class="card" onclick="clonePage('expand')">
-    <i class="bi bi-box card-icon"></i>
-    <p class="card-label">拓展</p>
-  </div>
-
-  <div class="card" onclick="clonePage('message')">
-    <i class="bi bi-envelope card-icon"></i>
-    <p class="card-label">消息</p>
-  </div>
-
-  <div class="card" onclick="clonePage('option')">
-    <i class="bi bi-gear card-icon"></i>
-    <p class="card-label">首选项</p>
-  </div>
-
-  <div class="card" onclick="clonePage('about')">
-    <i class="bi bi-info-circle card-icon"></i>
-    <p class="card-label">关于该应用</p>
-  </div>
-</div>
-
-            <!-- <button class="btn">推荐应用</button>
+                <!-- <button class="btn">应用分类</button> -->
+                <!-- <button class="btn">推荐应用</button>
             <button class="btn">市场设置</button> -->
 
-            <div id="end">
+
             </div>
-            <div class="empty-box"></div>
         </div>
-    </div>
 
 
-    <!-- <div class="page" id="version">
+        <!-- <div class="page" id="version">
         <div class="page-head">
             <div class="page-name">Back|Version</div>
         </div>
@@ -189,316 +104,233 @@
     </div> -->
 
 
-    <div class="page" id="empty-page">
-        <div class="page-head">
-            <div class="page-name">Empty</div>
-        </div>
-        <div class="page-body"></div>
-    </div>
-
-    <div class="page" id="app-search">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>搜索</div>
-        </div>
-        <div class="page-body">
-            <textarea id="app-search-input" class="app-search-input" onkeydown="preventEnter(event)"
-                placeholder="在此输入..." style="resize: none;"></textarea>
-            <button id="app-search-submit" class="btn" onclick="outSearchResult(event)">查找应用<i
-                    class="bi bi-chevron-right"></i></button>
-            <template>
-  <view class="content">
-	<textarea class="result" placeholder="语音识别内容" :value="result"></textarea>
-	<view class="recogniz">
-		<view style="color: #0000CC;">
-			<text>{{title}}</text>
-		</view>
-		<view class="partial">
-			<text>{{partialResult}}</text>
-		</view>
-		<view class="volume" :style="{width:valueWidth}"></view>
-	</view>
-	<button type="default" @touchstart="startRecognize" @touchend="endRecognize">按下开始&amp;松开结束</button>
-  </view>
-</template>
-<script>
-export default {
-    data() {
-      return {
-		title: '未开始',
-        text: '',
-		partialResult: '...',
-        result: '',
-		valueWidth: '0px'
-      }
-    },
-    onLoad() {
-// #ifdef APP-PLUS
-		// 监听语音识别事件
-		plus.speech.addEventListener('start', this.ontStart, false);
-		plus.speech.addEventListener('volumeChange', this.onVolumeChange, false);
-		plus.speech.addEventListener('recognizing', this.onRecognizing, false);
-		plus.speech.addEventListener('recognition', this.onRecognition, false);
-		plus.speech.addEventListener('end', this.onEnd, false);
-// #endif
-    },
-	methods: {
-		ontStart() {
-			this.title = '...倾听中...';
-			this.text = '';
-			console.log('Event: start');
-		},
-		onVolumeChange(e) {
-			this.valueWidth = 100*e.volume+'px';
-			console.log('Event: volumeChange '+this.valueWidth);
-		},
-		onRecognizing(e) {
-			this.partialResult = e.partialResult;			
-			console.log('Event: recognizing');
-		},
-		onRecognition(e) {
-			this.text += e.result;
-			this.text?(this.text+='\n'):this.text='';
-			this.result = this.text;
-			this.partialResult = e.result;
-			console.log('Event: recognition');
-		},
-		onEnd() {
-			if(!this.text||this.text==''){
-				plus.nativeUI.toast('没有识别到内容');
-			}
-			this.result = this.text;
-			this.title = '未开始';
-			this.valueWidth = '0px';
-			this.partialResult = '...';
-		},
-		startRecognize() {
-			console.log('startRecognize');
-// #ifdef APP-PLUS
-			plus.speech.startRecognize({
-				engine: 'baidu',
-				lang: 'zh-cn',
-				'userInterface': false,
-				'continue': true
-			});
-// #endif
-		},
-		endRecognize() {
-			console.log('endRecognize');
-// #ifdef APP-PLUS
-			plus.speech.stopRecognize();
-// #endif
-		}
-	}
-}
-</script>
-<style>
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-.recogniz {
-    width: 200px;
-    height: 100px;
-    padding: 12px;
-    margin: 50px auto;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 16px;
-	text-align: center;
-}
-.partial {
-    width: 100%;
-    height: 40px;
-    margin-top: 16px;
-    font-size: 12px;
-    color: #FFFFFF;
-}
-.volume {
-	width: 10px;
-	height: 6px;
-	border-style:solid;
-	display:inline-block;
-	box-sizing:border-box;
-	border-width:1px;
-	border-color:#CCCCCC;
-	border-radius: 50%;
-    background-color: #00CC00;
-}
-.result {
-	color: #CCCCCC;
-	border: #00CCCC 1px solid;
-	margin: 25px auto;
-	padding: 6px;
-	width: 80%;
-	height: 100px;
-}
-</style>
-
-            <fieldset class="app-search-history">
-                <legend>搜索历史</legend>
-            </fieldset>
-          
-        </div>
-    </div>
-
-    <div class="page" id="app-search-result">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>搜索结果</div>
-        </div>
-        <div class="page-body">
-
-        </div>
-    </div>
-
-    <div class="page" id="all-app">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>全部应用</div>
-        </div>
-        <div class="page-body">
-
-        </div>
-    </div>
-
-    <div class="page" id="app-info">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>应用信息</div>
-        </div>
-        <div class="page-body">
-            <div class="app-info-title"><i class="bi bi-app-indicator"></i>应用名称</div>
-            <div id="app-info-name" class="app-info-text" style="font-size: 23px"></div>
-
-            <div class="app-info-text app-info-dl-progress" style="font-size: 15px ;padding: 0;margin: 0 auto;"></div>
-
-            <button class="btn" id="app-info-download-btn" class="app-info-download-btn"><i
-                    class="bi bi-cloud-download"></i>下载</button>
-            
-            <button class="btn" id="app-info-image-btn"><i class="bi bi-image"></i>查看图片</button>
-            
-            <button class="btn" id="app-info-other-version-btn" onclick="outAppOtherVersionResult()"><i
-                    class="bi bi-collection"></i>其他版本</button>
-
-            <div class="app-info-title"><i class="bi bi-list-nested"></i>简介</div>
-            <div id="app-info-description" class="app-info-text" style="font-size: 20px"></div>
-
-            <div class="app-info-title"><i class="bi bi-person-check"></i>开发者</div>
-            <div id="app-info-author" class="app-info-text" style="font-size: 20px"></div>
-
-            <div class="app-info-title"><i class="bi bi-hammer"></i>版本号</div>
-            <div id="app-info-version" class="app-info-text" style="font-size: 20px"></div>
-            
-        </div>
-    </div>
-
-    <div class="page download-progress" id="download-progress">
-        <div class="page-head">
-            <div style="color: red;">正在下载</div>
-        </div>
-        <div class="page-body">
-            <div class="download-progress-round">
-                <div class="download-progress-perview"></div>
-                <div id="download-progress-percent" class="download-progress-percent">--%</div>
+        <div class="page" id="empty-page">
+            <div class="page-head">
+                <div class="page-name">Empty</div>
             </div>
-
+            <div class="page-body"></div>
         </div>
-    </div>
-<div class="page" id="option">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>首选项</div>
-        </div>
-        <div class="page-body">
-            <fieldset>
-                <legend>管理</legend>
-                <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
-            </fieldset>
 
-           
-            <fieldset>
-                <legend>外观</legend>
-                <div class="option-item">
-                    <label class="checkbox-label">减弱动画</label>
-                    <input type="checkbox" class="checkbox" value="false">
+        <div class="page" id="app-search">
+            <div class="page-head">
+                <div class="page-name"><i class="bi bi-caret-left-fill"></i>搜索</div>
+            </div>
+            <div class="page-body">
+                <textarea id="app-search-input" class="app-search-input" onkeydown="preventEnter(event)"
+                    placeholder="在此输入..." style="resize: none;"></textarea>
+                <button id="app-search-submit" class="btn" onclick="outSearchResult(event)">查找应用<i
+                        class="bi bi-chevron-right"></i></button>
+
+                <fieldset class="app-search-history">
+                    <legend>搜索历史</legend>
+                </fieldset>
+
+            </div>
+        </div>
+
+        <div class="page" id="app-search-result">
+            <div class="page-head">
+                <div class="page-name"><i class="bi bi-caret-left-fill"></i>搜索结果</div>
+            </div>
+            <div class="page-body">
+
+            </div>
+        </div>
+
+        <div class="page" id="all-app">
+            <div class="page-head">
+                <div class="page-name"><i class="bi bi-caret-left-fill"></i>全部应用</div>
+            </div>
+            <div class="page-body">
+
+            </div>
+        </div>
+
+        <div class="page" id="app-info">
+            <div class="page-head">
+                <div class="page-name"><i class="bi bi-caret-left-fill"></i>应用信息</div>
+            </div>
+            <div class="page-body">
+                <div class="app-info-title"><i class="bi bi-app-indicator"></i>应用名称</div>
+                <div id="app-info-name" class="app-info-text" style="font-size: 23px"></div>
+
+                <div class="app-info-text app-info-dl-progress" style="font-size: 15px ;padding: 0;margin: 0 auto;">
                 </div>
-                <div class="option-item">
-                    <label class="checkbox-label">主题色</label>
-                    <input type="color" class="checkbox" value="false">
+
+                <button class="btn" id="app-info-download-btn" class="app-info-download-btn"><i
+                        class="bi bi-cloud-download"></i>下载</button>
+                <button class="btn" id="app-info-other-version-btn" onclick="outAppOtherVersionResult()"><i
+                        class="bi bi-collection"></i>其他版本</button>
+
+                <div class="app-info-title"><i class="bi bi-list-nested"></i>简介</div>
+                <div id="app-info-description" class="app-info-text" style="font-size: 20px"></div>
+
+                <div class="app-info-title"><i class="bi bi-person-check"></i>开发者</div>
+                <div id="app-info-author" class="app-info-text" style="font-size: 20px"></div>
+
+                <div class="app-info-title"><i class="bi bi-hammer"></i>版本号</div>
+                <div id="app-info-version" class="app-info-text" style="font-size: 20px"></div>
+
+            </div>
+        </div>
+
+        <div class="page download-progress" id="download-progress">
+            <div class="page-head">
+                <div style="color: red;">正在下载</div>
+            </div>
+            <div class="page-body">
+                <div class="download-progress-round">
+                    <div class="download-progress-perview"></div>
+                    <div id="download-progress-percent" class="download-progress-percent">--%</div>
                 </div>
-            </fieldset>
+
+            </div>
+        </div>
+
+        <div class="page" id="option">
+            <div class="page-head">
+                <div class="page-name"><i class="bi bi-caret-left-fill"></i>首选项</div>
+            </div>
             <fieldset>
-                <legend>运行</legend>
+                <legend>设置</legend>
                 <div class="option-item">
-                    <label class="checkbox-label">允许运行拓展</label>
-                    <input type="checkbox" class="checkbox" value="false">
-                </div>
-            </fieldset>
-        </div>
-    </div>
-</div>
-</body>
-    
-    <div class="page" id="message">
-        <div class="page-head">
-            <div class="page-name"><i class="bi bi-caret-left-fill"></i>消息</div>
-        </div>
-        <div class="page-body">
-            
-        </div>
-    </div>
+                    <label class="checkbox-label">部分功能正在测试可能无发使用</label>
+                    <div class="page-body">
+                        <fieldset>
+                            <legend>管理</legend>
+                            <button class="btn" onclick="removeDownloadFile()">清除全部安装包</button>
 
-    <div class="page" id="expand">
-        <div class="page-head">
-            <div class="page-name">拓展</div>
-        </div>
-        <div class="page-body"></div>
-    </div>
+                            <style>
+                                <style>
+                            </style>
 
-<div class="page" id="about">
-    <div class="page-head">
-        <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
-    </div>
-    <div class="page-body">
-        <fieldset>
-            <legend>版本号</legend>
-            <div id="about-version">
-                <div class="card">
-                    <img src="img/bootstrap-icons-1.10.5/当前版本2.0.png" alt="当前版本" style="max-width: 200px;">
-                    <div class="card-content">
-                        <h2>版本说明</h2>
-                        <p>uv重新更换增加了一些功能</p>
+
+
+                            <legend>用户</legend>
+                            <div class="option-item">
+                                <ion-chip>
+                                    <ion-avatar>
+                                        <img alt="Silhouette of a person's head"
+                                            src="https://fel.forxhr.top:2022/view.php/b316daa185f102f73f7bc2d2f4299aff.jpg" />
+                                    </ion-avatar>
+                                    <ion-label>当前用户</ion-label>
+                                    <ion-icon name="close-circle"></ion-icon>
+
+                                </ion-chip>
+
+                            </div>
+                            <fieldset>
+                                <legend>外观</legend>
+                                <div class="option-item">
+                                    <label class="checkbox-label">减弱动画</label>
+                                    <input type="checkbox" class="checkbox" value="false">
+                                </div>
+                                <div class="option-item">
+                                    <label class="checkbox-label">主题色</label>
+                                    <input type="color" class="checkbox" value="false">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>运行</legend>
+                                <div class="option-item">
+                                    <label class="checkbox-label">允许运行拓展</label>
+                                    <input type="checkbox" class="checkbox" value="false">
+                                </div>
+                            </fieldset>
                     </div>
                 </div>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>声明</legend>
-            <div id="about-version" style="font-size: 18px;">该应用为免费开源项目，应用中部分元素参考HankMi，唯趣，CagerCenter等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
-        </fieldset>
-        <fieldset>
-            <legend>开发者</legend>
-            <div class="developer">
-                <img src="img/bootstrap-icons-1.10.5/奕奕.jpg" alt="奕奕" class="developer-avatar">
-                <div class="developer-info">
-                    <h3>奕奕</h3>
-                    <p>微信公众号：易档社区edsq</p>
-                    <p>开发者微信：ezjyys</p>
+
+                <div class="page" id="message">
+                    <div class="page-head">
+                        <div class="page-name"><i class="bi bi-caret-left-fill"></i>消息</div>
+                    </div>
+                    <div class="page-body">
+
+                    </div>
                 </div>
-            </div>
-            <div class="developer">
-                <img src="img/bootstrap-icons-1.10.5/c.jpg" alt="c" class="developer-avatar">
-                <div class="developer-info">
-                    <h3>c</h3>
-                    <p>开发者QQ：2013335731</p>
+
+                <div class="page" id="expand">
+                    <div class="page-head">
+                        <div class="page-name">拓展</div>
+                    </div>
+                    <div class="page-body"></div>
                 </div>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>制作基于</legend>
-            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni app</button>
-            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>                
-            <button style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
-        </fieldset>
-    </div>
-</div>
-</body>
+
+                <div class="page" id="about">
+                    <div class="page-head">
+                        <div class="page-name"><i class="bi bi-caret-left-fill"></i>关于</div>
+                    </div>
+                    <div class="page-body">
+                        <fieldset>
+                            <legend>版本号</legend>
+                            <div id="about-version-1">
+                                <div class="card">
+                                    <img src="https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png"
+                                        alt="当前版本" style="max-width: 200px;">
+                                    <div class="card-content">
+                                        <h5>版本说明：</h5>
+                                        <h5>uv页面优化页面选项颜色优化增加关于信息</h5>
+                                        <legend>当前版本号:</legend>
+                                        <div id="about-version">
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>声明</legend>
+                            <div id="about-version-2" style="font-size: 18px;">
+                                该应用为免费开源项目，应用中部分元素参考HankMi，唯趣，小趣等应用商店，但作者并无竞争用意，并对其表示感谢。</div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>开发者</legend>
+                            <div class="developer">
+                                <img src="https://fel.forxhr.top:2022/view.php/b316daa185f102f73f7bc2d2f4299aff.jpg"
+                                    alt="奕奕" class="developer-avatar">
+                                <div class="developer-info-3">
+                                    <h3>奕奕</h3>
+                                    <p>微信公众号：易档社区edsq</p>
+                                    <p>开发者微信：ezjyys</p>
+                                </div>
+                            </div>
+                            <div class="developer">
+                                <img src="https://fel.forxhr.top:2022/view.php/74eb60603b56cca361a6672583feead0.jpg"
+                                    alt="c" class="developer-avatar">
+                                <div class="developer-info-4">
+                                    <h3>c</h3>
+                                    <p>开发者QQ：2013335731</p>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>制作基于</legend>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">uni
+                                app</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">MDUI</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Web</button>
+                        </fieldset>
+                        <fieldset>
+                            <legend>合作伙伴</legend>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">HankMi</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">小趣</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">是小鑫鸭</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">胡俊隆</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">是小鑫鸭</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">方若</button>
+                            <button
+                                style="border: none; font-size:16px ; width: fit-content;display: inline;margin: 1px;padding:3px 5px; border-radius: 5px;background-color: rgba(29, 142, 255, 0.6);color: white;">Genouka</button>
+                        </fieldset>
+                    </div>
+                </div>
+    </body>
 
 </html>
