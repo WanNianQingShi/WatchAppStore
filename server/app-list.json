@@ -1,6 +1,24 @@
 {
     "applist": [ 
          {
+            "name": "腕若商店",
+            "url":"https://fel.forxhr.top:2022/down.php/32c27ea5c351073e5c57b5b65a2e712a.apk",
+            "icon":"none",
+            "version": "1.12",
+            "author":"方若网络工作室",
+            "description":"1.12版本1.更新轮播图2.更新部分 ui3.修复部分 bug4.进一步完善商店5.新增若干功能",
+            "cutphoto":"none"
+        },
+          {
+            "name": "HU应用商店",
+            "url":"https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1703324102209/HU%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97-hu.watch.st.app-0.23.apk",
+            "icon":"none",
+            "version": "0.19",
+            "author":"胡俊隆",
+            "description":"初二编程爱好者开发的手表应用商店",
+            "cutphoto":"none"
+        },
+         {
             "name": "zw应用商店小屏版",
             "url":"https://fel.forxhr.top:2022/down.php/c0da1ed7e795cae14e06a67a0336e7e5.apk",
             "icon":"none",
@@ -61,24 +79,6 @@
             "version": "1.1",
             "author":"方若网络工作室",
             "description":"一款适应于手表的浏览器",
-            "cutphoto":"none"
-        },
-         {
-            "name": "ZW应用商店",
-            "url":"https://download.tooc.xlj0.com/uploads/190/zw%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97/ZW%E5%95%86%E5%BA%97_0.7.8.apk",
-            "icon":"none",
-            "version": "0.78",
-            "author":"方若网络工作室",
-            "description":"0.78简单优化界面 新增版本活动一款新兴的极简应用商店使用iapp开发的手表应用商店目前和易档合作",
-            "cutphoto":"none"
-        },
-          {
-            "name": "HU应用商店",
-            "url":"https://fel.forxhr.top:2022/down.php/922739b6bd431e3bc090aed70da67d12.apk",
-            "icon":"none",
-            "version": "0.19",
-            "author":"胡俊隆",
-            "description":"0.19版本优化操作逻辑；新增自动检查更新，自助投稿应用；部分界面文字颜色更改一个有兴趣打造的简陋手表应用商店使用iapp开发的手表应用商店目前和易档合作",
             "cutphoto":"none"
         },
          {
