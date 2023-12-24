@@ -1,0 +1,28 @@
+{
+  "categorylist": [
+    {
+      "name": "工具",
+      "category": 1
+    },
+    {
+      "name": "游戏",
+      "category": 2
+    },
+    {
+      "name": "健康",
+      "category": 3
+    },
+    {
+      "name": "社交",
+      "category": 4
+    },
+    {
+      "name": "金融",
+      "category": 5
+    },
+    {
+      "name": "合作商の软件",
+      "category": 6
+    }
+  ]
+}
