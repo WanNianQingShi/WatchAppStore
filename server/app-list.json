@@ -1,6 +1,15 @@
 {
     "applist": [ 
          {
+            "name": "酷玩极速Pro",
+            "url":"https://fel.forxhr.top:2022/down.php/f05947b4192672eeeb3ef5672320c205.apk",
+            "icon":"https://fel.forxhr.top:2022/view.php/1a81322072f71cf5d2e5d1f371682aea.jpg",
+            "version": "1.2",
+            "author":"酷腕官方",
+            "description":"酷玩极速工具箱是专门为手表开发的腕上工具箱应用",
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/34fe4029f4504973f61a420fb059dfe9.jpg"
+        },
+         {
             "name": "腕若商店",
             "url":"https://fel.forxhr.top:2022/down.php/32c27ea5c351073e5c57b5b65a2e712a.apk",
             "icon":"https://fel.forxhr.top:2022/view.php/a55a6287cee9489efe7c947c8ccad577.png",
