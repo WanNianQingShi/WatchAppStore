@@ -21,8 +21,12 @@
       "category": 5
     },
     {
-      "name": "合作商の软件",
+      "name": "生活",
       "category": 6
+    },
+    {
+      "name": "合作商的软件",
+      "category": 7
     }
   ]
 }
