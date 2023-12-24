@@ -10,6 +10,15 @@
             "cutphoto":"https://fel.forxhr.top:2022/view.php/34fe4029f4504973f61a420fb059dfe9.jpg"
         },
          {
+            "name": "小趣商店",
+            "url":"https://fel.forxhr.top:2022/down.php/fef9d7d5ec6ce53a2cf60a547cb97d22.apk",
+            "icon":"https://fel.forxhr.top:2022/view.php/9ae8803482316584f7e25330ff370718.png",
+            "version": "1.35",
+            "author":"小趣官方",
+            "description":"专注精简，玩机搞表，小趣商店为您提供上百款应用！",
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/abc73e86bfadb176bf6d86263a0a136d.jpg"
+        },
+         {
             "name": "腕若商店",
             "url":"https://fel.forxhr.top:2022/down.php/32c27ea5c351073e5c57b5b65a2e712a.apk",
             "icon":"https://fel.forxhr.top:2022/view.php/a55a6287cee9489efe7c947c8ccad577.png",
@@ -160,15 +169,6 @@
             "version": "1.3.6",
             "author":"酷腕官方",
             "description":"由酷腕官方开发的工具箱，目前是1.3.6版本，目前增加1.支付宝扫一扫2.调用系统相册3.分享文本到QQ4.打开手机短信5.微信扫一扫6.打开系统设置7.获取设备是否root8.获取剩余电量",
-            "cutphoto":"none"
-        },
-         {
-            "name": "小趣商店",
-            "url":"http://fel.forxhr.top:2022/down.php/3cf237a16787510cdb265c7ddb32e6eb.apk",
-            "icon":"none",
-            "version": "1.34",
-            "author":"小趣官方",
-            "description":"专注精简，玩机搞表，小趣商店为您提供上百款应用！",
             "cutphoto":"none"
         },
         {
