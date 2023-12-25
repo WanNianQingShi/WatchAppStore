@@ -1,13 +1,23 @@
 {
     "applist": [ 
          {
+            "name": "米坛社区",
+            "url":"http://x1.ydyspc.com/mitanshequv2.7.1.apk",
+            "icon":"https://img.youxiguancha.com/youxiguancha/imgfile/20231015/15174242o9bw.png",
+            "version": "2.7.1",
+            "author":"米坛官方",
+            "description":"米坛社区app是一款强大的智能手表应用软件，提供了多种表盘工具，有需要的用户可以进行查找，另外还提供了各种软件资源，分类I明确，通过app可以控制智能手环，设置闹钟，电量查询等，可以在平台上面进行交流。",
+            "cutphoto":"https://img.youxiguancha.com/youxiguancha/imgfile/20231015/15174301e2zy.jpg",
+            "category":1    
+        },
+         {
             "name": "酷玩极速Pro",
             "url":"https://fel.forxhr.top:2022/down.php/f05947b4192672eeeb3ef5672320c205.apk",
             "icon":"https://fel.forxhr.top:2022/view.php/1a81322072f71cf5d2e5d1f371682aea.jpg",
             "version": "1.2",
             "author":"酷腕官方",
             "description":"酷玩极速工具箱是专门为手表开发的腕上工具箱应用",
-            "cutphoto":"https://fel.forxhr.top:2022/view.php/34fe4029f4504973f61a420fb059dfe9.jpg"
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/34fe4029f4504973f61a420fb059dfe9.jpg",
             "category":8    
         },
          {
@@ -17,7 +27,7 @@
             "version": "1.35",
             "author":"小趣官方",
             "description":"专注精简，玩机搞表，小趣商店为您提供上百款应用！",
-            "cutphoto":"https://fel.forxhr.top:2022/view.php/abc73e86bfadb176bf6d86263a0a136d.jpg"
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/abc73e86bfadb176bf6d86263a0a136d.jpg",
             "category":8
         },
          {
@@ -27,7 +37,7 @@
             "version": "1.12",
             "author":"方若网络工作室",
             "description":"1.12版本1.更新轮播图2.更新部分 ui3.修复部分 bug4.进一步完善商店5.新增若干功能",
-            "cutphoto":"https://fel.forxhr.top:2022/view.php/85043c85d6ebf533f87040c12e6cc79d.png"
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/85043c85d6ebf533f87040c12e6cc79d.png",
              "category":8
         },
           {
@@ -37,7 +47,7 @@
             "version": "0.19",
             "author":"胡俊隆",
             "description":"初二编程爱好者开发的手表应用商店",
-            "cutphoto":"https://fel.forxhr.top:2022/view.php/b1094c310de95a869f19691f04d6c60d.jpg"
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/b1094c310de95a869f19691f04d6c60d.jpg",
             "category":8
         },
          {
@@ -47,7 +57,7 @@
             "version": "0.1",
             "author":"方若网络工作室",
             "description":"zw应用商店小屏版震撼来袭 原版不兼容的可以试一下小屏版本",
-            "cutphoto":"https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png"
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png",
              "category":8
         },
           {
@@ -57,7 +67,7 @@
             "version": "0.1",
             "author":"极趣官方",
             "description":"这是极趣系列应用的第二款应用，适配良好，功能强大",
-            "cutphoto":"https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png"
+            "cutphoto":"https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png",
             "category":1
         },
          {
@@ -67,7 +77,7 @@
             "version": "2.2",
             "author":"RobinNotBad",
             "description":"哔哩终端是一款以B站为主题制作的软件，由B站作者RobinNotBad开发的手表版哔哩哔哩移动客户端，让你在自己的智能手表上也能观看B站的各种视频，还有很多的功能都能得到还原，让自己展开自由的评论和了解。",
-            "cutphoto":"none"
+            "cutphoto":"none",
              "category":7
         },
           {
