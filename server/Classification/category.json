@@ -25,8 +25,12 @@
       "category": 6
     },
     {
-      "name": "合作商的软件",
+      "name": "娱乐",
       "category": 7
+    },
+    {
+      "name": "合作商的软件",
+      "category": 8
     }
   ]
 }
