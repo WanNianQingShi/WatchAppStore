@@ -8,7 +8,7 @@
             "author":"酷腕官方",
             "description":"酷玩极速工具箱是专门为手表开发的腕上工具箱应用",
             "cutphoto":"https://fel.forxhr.top:2022/view.php/34fe4029f4504973f61a420fb059dfe9.jpg"
-            "category":"合作商的软件"    
+            "category":"8"    
         },
          {
             "name": "小趣商店",
@@ -18,7 +18,7 @@
             "author":"小趣官方",
             "description":"专注精简，玩机搞表，小趣商店为您提供上百款应用！",
             "cutphoto":"https://fel.forxhr.top:2022/view.php/abc73e86bfadb176bf6d86263a0a136d.jpg"
-            "category":"合作商的软件"
+            "category":"8"
         },
          {
             "name": "腕若商店",
@@ -38,7 +38,7 @@
             "author":"胡俊隆",
             "description":"初二编程爱好者开发的手表应用商店",
             "cutphoto":"https://fel.forxhr.top:2022/view.php/b1094c310de95a869f19691f04d6c60d.jpg"
-            "category":"合作商的软件"
+            "category":"8"
         },
          {
             "name": "zw应用商店小屏版",
@@ -48,7 +48,7 @@
             "author":"方若网络工作室",
             "description":"zw应用商店小屏版震撼来袭 原版不兼容的可以试一下小屏版本",
             "cutphoto":"https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png"
-             "category":"合作商的软件"
+             "category":"8"
         },
           {
             "name": "极趣聚合宝",
@@ -58,7 +58,7 @@
             "author":"极趣官方",
             "description":"这是极趣系列应用的第二款应用，适配良好，功能强大",
             "cutphoto":"https://fel.forxhr.top:2022/view.php/7c4f16730be969d552ffba92a249eafc.png"
-            "category":"工具"
+            "category":"1"
         },
          {
             "name": "哔哩终端",
@@ -68,6 +68,7 @@
             "author":"RobinNotBad",
             "description":"哔哩终端是一款以B站为主题制作的软件，由B站作者RobinNotBad开发的手表版哔哩哔哩移动客户端，让你在自己的智能手表上也能观看B站的各种视频，还有很多的功能都能得到还原，让自己展开自由的评论和了解。",
             "cutphoto":"none"
+             "category":"7"
         },
           {
             "name": "凤凰新闻",
