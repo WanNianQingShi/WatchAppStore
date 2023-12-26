@@ -1,6 +1,16 @@
 {
   "applist": [
     {
+      "name": "米坛社区",
+      "url": "http://x1.ydyspc.com/mitanshequv2.7.1.apk",
+      "icon": "https://img.youxiguancha.com/youxiguancha/imgfile/20231015/15174242o9bw.png",
+      "version": "2.7.1",
+      "author": "米坛官方",
+      "description": "米坛社区app是一款强大的智能手表应用软件，提供了多种表盘工具，有需要的用户可以进行查找，另外还提供了各种软件资源，分类I明确，通过app可以控制智能手环，设置闹钟，电量查询等，可以在平台上面进行交流。",
+      "cutphoto": "https://img.youxiguancha.com/youxiguancha/imgfile/20231015/15174301e2zy.jpg",
+      "category": 1
+    },
+    {
       "name": "酷玩极速Pro",
       "url": "https://fel.forxhr.top:2022/down.php/f05947b4192672eeeb3ef5672320c205.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/1a81322072f71cf5d2e5d1f371682aea.jpg",
@@ -716,16 +726,6 @@
       "author": "酷腕会员官方",
       "description": "软件提取手表版",
       "cutphoto": "none"
-    },
-    {
-      "name": "米坛社区",
-      "url": "http://x1.ydyspc.com/mitanshequv2.7.1.apk",
-      "icon": "https://img.youxiguancha.com/youxiguancha/imgfile/20231015/15174242o9bw.png",
-      "version": "2.7.1",
-      "author": "米坛官方",
-      "description": "米坛社区app是一款强大的智能手表应用软件，提供了多种表盘工具，有需要的用户可以进行查找，另外还提供了各种软件资源，分类I明确，通过app可以控制智能手环，设置闹钟，电量查询等，可以在平台上面进行交流。",
-      "cutphoto": "https://img.youxiguancha.com/youxiguancha/imgfile/20231015/15174301e2zy.jpg",
-      "category": 1
     }
   ]
 }
