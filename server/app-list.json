@@ -513,11 +513,12 @@
     {
       "name": "我的世界dpi手表版",
       "url": "http://fel.forxhr.top:2022/down.php/9e5d3c2893488a8bb7d93735a2f8df6d.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/e26e7a502e839e10f22705b854062702.png",
       "version": "0.11.0",
       "author": "我的世界官方",
       "description": "一个在手表上玩的我的世界dpi修改版",
-      "cutphoto": "none"
+      "cutphoto": "https://fel.forxhr.top:2022/view.php/c5fdbeba822ee78b8d6160142b7e1e6e.jpg"
+      "category": 2
     },
     {
       "name": "元气骑士手表版 ",
@@ -697,6 +698,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 2
     },
     {
       "name": "网易云音乐",
@@ -707,6 +709,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 7
     },
     {
       "name": "快手Kwai",
@@ -717,6 +720,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 7
     },
     {
       "name": "云原神",
@@ -727,6 +731,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 2
     },
     {
       "name": "抖音短视频",
@@ -737,6 +742,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "抖音新版-完美分辨率(GPU增强超流畅)",
       "cutphoto": "none"
+      "category": 7
     },
     {
       "name": "雪豹速清",
@@ -747,6 +753,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 1
     },
     {
       "name": "腾讯视频极速版",
@@ -757,6 +764,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 7
     },
     {
       "name": "WPS Office",
@@ -767,6 +775,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 1
     },
     {
       "name": "网易邮箱大师",
@@ -777,6 +786,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "none",
       "cutphoto": "none"
+      "category": 1
     },
     {
       "name": "好课帮",
@@ -787,6 +797,7 @@
       "author": "result.application.providers[0].authorities",
       "description": "好课帮（作业帮教师版可文字搜索）【已DPI修改】",
       "cutphoto": "none"
+      "category": 6
     }
   ]
 }
