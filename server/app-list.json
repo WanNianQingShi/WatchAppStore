@@ -691,7 +691,7 @@
     {
       "name": "云光遇",
       "url": "http://36.154.43.162:2080/q5.697539.com/com.micro.sky.wyds132.apk?wsiphost=ipdbme&wsrid_tag=64dc3fc4_PS-CTU-01nIz76_27341-11601-s1t1692155844374",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/e3cb4e7da71065ad06ad46d416050d17.jpg",
       "package": "com.netease.wdsky.gmc",
       "version": "1.11.0",
       "author": "result.application.providers[0].authorities",
@@ -701,7 +701,7 @@
     {
       "name": "网易云音乐",
       "url": "http://fel.forxhr.top:2022/down.php/c281561c35bd4b1117c03c0ab65ee0ea.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/77fe810ba7f48e7b727218cac1fab048.jpg",
       "package": "com.netease.cloudmusic",
       "version": "92.9",
       "author": "result.application.providers[0].authorities",
@@ -709,9 +709,9 @@
       "cutphoto": "none"
     },
     {
-      "name": "Kwai",
+      "name": "快手Kwai",
       "url": "http://fel.forxhr.top:2022/down.php/9b4efa456615bc7d4763bbed5c47d2b9.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/63442c1d9bed7cc349f107ff64418a54.jpg",
       "package": "com.kwai.mercury",
       "version": "4.53.1",
       "author": "result.application.providers[0].authorities",
@@ -721,7 +721,7 @@
     {
       "name": "云原神",
       "url": "http://fel.forxhr.top:2022/down.php/ba18a6117582b61741ed174fd226bdb6.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/448a1d991adc4d070f818f756e6a1438.jpg",
       "package": "com.miHoYo.cloudgames.ys",
       "version": "1.7",
       "author": "result.application.providers[0].authorities",
@@ -731,7 +731,7 @@
     {
       "name": "抖音短视频",
       "url": "http://fel.forxhr.top:2022/down.php/6edcb2d745f9449d80f9e8cfbd4676bc.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/5dabe87d3927733f34a9c5f170098f5e.jpg",
       "package": "com.ss.android.ugc.awemf",
       "version": "9.9",
       "author": "result.application.providers[0].authorities",
@@ -741,7 +741,7 @@
     {
       "name": "雪豹速清",
       "url": "http://fel.forxhr.top:2022/down.php/9e9a7ff0d478975ee6bed37b81bdf928.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/a4bbbc22cafabae3f54def702e10cbea.jpg",
       "package": "com.idaodan.clean.master",
       "version": "2.3",
       "author": "result.application.providers[0].authorities",
@@ -751,7 +751,7 @@
     {
       "name": "腾讯视频极速版",
       "url": "http://fel.forxhr.top:2022/down.php/854b86e6141a381802308679b250f6be.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/0538d6cb97557b4a12abad309246c4ec.jpg",
       "package": "com.tencent.videolite.android",
       "version": "3.9",
       "author": "result.application.providers[0].authorities",
@@ -761,7 +761,7 @@
     {
       "name": "WPS Office",
       "url": "http://fel.forxhr.top:2022/down.php/650626992d1a581740b2d5b8840b7ca2.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/dc0be9013a23c7514e400748e8a6fa76.jpg",
       "package": "cn.wps.moffice_eng",
       "version": "6.2",
       "author": "result.application.providers[0].authorities",
@@ -771,7 +771,7 @@
     {
       "name": "网易邮箱大师",
       "url": "http://fel.forxhr.top:2022/down.php/524394667426a756788072a47bdb8e66.apk",
-      "icon": "none",
+      "icon": "https://so.360tres.com/dr/76_76_80/d/_open360/logo72nb/104697651_72.png.webp",
       "package": "com.netease.mail",
       "version": "7.9.5",
       "author": "result.application.providers[0].authorities",
@@ -781,21 +781,11 @@
     {
       "name": "好课帮",
       "url": "http://fel.forxhr.top:2022/down.php/183215bf1bb7326ff8262966f4ab12a6.apk",
-      "icon": "none",
+      "icon": "https://fel.forxhr.top:2022/view.php/fe7788926a7df28f0acdbd5911663eb1.jpg",
       "package": "com.haokebang.learning",
       "version": "13.15",
       "author": "result.application.providers[0].authorities",
       "description": "好课帮（作业帮教师版可文字搜索）【已DPI修改】",
-      "cutphoto": "none"
-    },
-    {
-      "name": "软件提取",
-      "url": "https://i72.lanzoug.com:446/08061500130425577bb/2023/08/06/0393ba0313bc5081e4c9f51879779dc6.apk?st=XT816-aIfMVRiLe8wguA2w&e=1691309285&b=Abpe2wm_bWbQC0lGSUE8DVFTpD_b5R_awvpBOxY4wHgVtsIylq_aVdpWxVTnVItSiVe7A_adcqA3rAI8B2glbXG4EKAFhXnAJaFksAjw_c&fi=130425577&pid=223-104-77-25&up=2&mp=1&co=0",
-      "icon": "none",
-      "package": "none",
-      "version": "5.2",
-      "author": "酷腕会员官方",
-      "description": "软件提取手表版",
       "cutphoto": "none"
     }
   ]
