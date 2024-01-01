@@ -1,5 +1,15 @@
 {
   "applist": [
+     {
+      "name": "小黑屋",
+      "url": "https://fel.forxhr.top:2022/down.php/be8fbb1e046d6191e0bb73bd8b7ce379.apk",
+      "icon": "https://fel.forxhr.top:2022/view.php/06d107d8c39b88ca7db45b218d9419a8.png",
+      "version": "1.9",
+      "author": "来自其他",
+      "description": "一个在手表上使用rot权限冻结应用",
+      "cutphoto": "https://fel.forxhr.top:2022/view.php/91084eba7e03cf7b4e4c5f6e65832fd4.png",
+      "category": 1
+    },
     {
       "name": "无障碍管理器",
       "url": "https://fel.forxhr.top:2022/down.php/b4ac4cc1ffaf4a7078fe29960f69af00.apk",
