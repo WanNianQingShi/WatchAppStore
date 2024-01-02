@@ -697,7 +697,7 @@
       "version": "1.11.0",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 2
     },
     {
@@ -708,7 +708,7 @@
       "version": "92.9",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 7
     },
     {
@@ -719,7 +719,7 @@
       "version": "4.53.1",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 7
     },
     {
@@ -730,7 +730,7 @@
       "version": "1.7",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 2
     },
     {
@@ -741,7 +741,7 @@
       "version": "9.9",
       "author": "result.application.providers[0].authorities",
       "description": "抖音新版-完美分辨率(GPU增强超流畅)",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 7
     },
     {
@@ -752,7 +752,7 @@
       "version": "2.3",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 1
     },
     {
@@ -763,7 +763,7 @@
       "version": "3.9",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 7
     },
     {
@@ -774,7 +774,7 @@
       "version": "6.2",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 1
     },
     {
@@ -785,7 +785,7 @@
       "version": "7.9.5",
       "author": "result.application.providers[0].authorities",
       "description": "none",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 1
     },
     {
@@ -796,7 +796,7 @@
       "version": "13.15",
       "author": "result.application.providers[0].authorities",
       "description": "好课帮（作业帮教师版可文字搜索）【已DPI修改】",
-      "cutphoto": "none"
+      "cutphoto": "none",
       "category": 6
       }
   ]
