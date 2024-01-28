@@ -1,6 +1,16 @@
 {
   "applist": [
     {
+      "name": "老豆荚",
+      "url": "https://fel.forxhr.top:2022/down.php/53202be1bcaa710e8fdbbaa8d5b2b744.apk",
+      "icon": "https://fel.forxhr.top:2022/view.php/de991659e75aef109e5e55cda0636f3c.png",
+      "version": "1.1",
+      "author": "老豆荚团队",
+      "description": "老豆荚应用分享希望让更多人可以更便捷的使用简洁，纯净的软件",
+      "cutphoto": "https://fel.forxhr.top:2022/view.php/d8da61c726151bb04563b42d4dcdce0c.jpg",
+      "category": 1
+    },
+    {
       "name": "元气骑士",
       "url": "https://fel.forxhr.top:2022/down.php/d676f566c142866e6d79d19441413a80.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/daf5eb94f9b0086cc08702ff4a531cda.png",
