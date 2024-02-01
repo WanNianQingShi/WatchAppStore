@@ -1,6 +1,16 @@
 {
   "applist": [
      {
+      "name": "坚果天气",
+      "url": "https://fel.forxhr.top:2022/down.php/b676a21d4d041b8b0e40ad1c9b767362.apk",
+      "icon": "https://fel.forxhr.top:2022/view.php/ffc9bc9a46fa3d9a8d9df427463a153d.png",
+      "version": "2.6",
+      "author": "老豆荚团队",
+      "description": "是由老豆荚应用分享团队开发的锤子天气第三方客户端原锤子天气官方外发版本现已停止服务为了让其他安卓用户能够继续体验到锤子天气我们开发了这款客户端",
+      "cutphoto": "https://fel.forxhr.top:2022/view.php/aa05b2a24b189b469e107eb42e33cac3.png",
+      "category": 6
+    },
+     {
       "name": "密匣",
       "url": "https://fel.forxhr.top:2022/down.php/0422180a72227a079b45cd1e1ffae54d.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/ad58e5bcaea84a342bc784464ed8776c.jpg",
