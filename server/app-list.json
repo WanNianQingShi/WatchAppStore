@@ -1,14 +1,15 @@
 {
   "applist": [
     {
-      "name": "莘应用测试版",
+      "name": "莘应用(测试版)",
       "url": "https://fel.forxhr.top:2022/down.php/9498084b2ad21cc6a7e1bde7afe189f4.apk",
       "icon": "none",
       "version": "1.1",
       "author": "GenOuka",
-      "description": "莘应用测试版1.1版本",
+      "description": "莘应用官方测试版！请注意开发版不稳定，介意请用稳定版！",
       "cutphoto": "none",
-      "category": 6
+      "category": 6,
+      "xin_spec_tag": "官方",
     },
      {
       "name": "☁蛙悠小游戏☁",
@@ -28,7 +29,8 @@
       "author": "GenOuka",
       "description": "原易档商店，建议旧用户尽快升级！本通道为官方升级通道",
       "cutphoto": "none",
-      "category": 6
+      "category": 6,
+      "xin_spec_tag": "官方",
     },
      {
       "name": "百度云盘墨水版",
@@ -171,7 +173,7 @@
       "category": 2
     },
     {
-      "name": "Rare浏览器特供版",
+      "name": "Rare浏览器(华为儿童手表特供版)",
       "url": "https://rare.genouka.rr.nu/apks/2.8.3-hwchildfreever-release.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/a2762d67162aa802741b4f1f5639feac.png",
       "version": "2.8.3",
@@ -442,11 +444,11 @@
     },
     {
       "name": "WearBili",
-      "url": "http://upload.185817.com/app/202302/03/wearbili_254570.apk?tk=q018ocZLLsI8xFsZ9GwrwbOm7TM=&id=9294&type=2&time=1691247642&sid=youxiguancha",
+      "url": "https://appcenter-filemanagement-distrib2ede6f06e.azureedge.net/c6399a48-9bf6-406f-a929-61383a116a36/Rel-AL%200.24.2.apk?sv=2019-02-02&sr=c&sig=kQtQ8lZK4CUDzRYMfP4eZGfQM%2FxqGNjLWsE1b6Bd5Eg%3D&se=2024-03-03T02%3A26%3A21Z&sp=r&download_origin=appcenter",
       "icon": "none",
-      "version": "1.0",
+      "version": "Rel-AL 0.24.2",
       "author": "HankMi",
-      "description": "WearBili手表版app是专门为BiliBili设计的手表版，WearBili手表版app是专门为手表用户设计的",
+      "description": "2024.03.02补新链 WearBili手表版app是专门为BiliBili设计的手表版，WearBili手表版app是专门为手表用户设计的",
       "cutphoto": "none"
     },
     {
@@ -486,11 +488,11 @@
       "cutphoto": "none"
     },
     {
-      "name": "apk提取工具",
+      "name": "Apk Kit (Apk提取工具)",
       "url": "http://fel.forxhr.top:2022/down.php/f96e88aae80e2bc7165185528a925e20.apk",
       "icon": "none",
       "version": "1.0",
-      "author": "酷腕官方",
+      "author": "Github开源",
       "description": "一个在手表使用的酷腕apk提取工具修复版",
       "cutphoto": "none"
     },
@@ -519,15 +521,6 @@
       "version": "1.7.1",
       "author": "微信官方",
       "description": "支持的机型 华为： 华为儿童手表 4 Pro、华为儿童手表 4 X 新耀款、华为儿童手表 4 X、华为儿童手表 3 Pro 超能版、华为儿童手表 3 S 小米： 米兔 5 X、米兔 4Pro 小寻： 小寻 MAX Pro、小寻 Y 2 读书郎： 读书郎 A 8、读书郎 A 9 OPPO： OPPO Watch2",
-      "cutphoto": "none"
-    },
-    {
-      "name": "腕上视频付费版",
-      "url": "http://x1.ydyspc.com/wanshangshipingv1.6.5.apk",
-      "icon": "none",
-      "version": "1.6.5",
-      "author": "未知",
-      "description": "腕上视频付费版app是为小米手环打造的一款腕上视频付费版apk应用，免费版能实现部分手环修改功能，付费完整版拥有弹幕类型自定义、滚动弹幕、视频时长设置等功能",
       "cutphoto": "none"
     },
     {
@@ -585,7 +578,7 @@
       "cutphoto": "none"
     },
     {
-      "name": "qq不是普通版是谷歌版",
+      "name": "qq(谷歌版)",
       "url": "http://fel.forxhr.top:2022/down.php/193714d361df47881ae1f7ae0780b046.apk",
       "icon": "none",
       "version": "4.4.4",
