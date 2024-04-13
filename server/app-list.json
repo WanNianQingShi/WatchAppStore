@@ -1,12 +1,12 @@
 {
   "applist": [
     {
-      "name": "莘应用1.4",
+      "name": "莘应用(全新1.4版本)",
       "url": "https://mirror.ghproxy.com/https://github.com/Genouka/xin_data/releases/download/1.4/xin_1.4_v2.apk",
       "icon": "none",
       "version": "1.4",
       "author": "GenOuka",
-      "description": "莘应用官方测试版！请注意开发版不稳定，介意请用稳定版！",
+      "description": "功能强大、小全简美的手表应用商店",
       "cutphoto": "none",
       "category": 6,
       "xin_spec_tag": "官方"
