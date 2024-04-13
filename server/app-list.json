@@ -39,6 +39,15 @@
       "description": "这是一个极其轻量级的B站客户端，使用Java写成，支持至安卓4.2，借鉴了WearBili和腕上哔哩的部分开源代码和它们项目中收集的API，程序逻辑和数据处理还是自己写的，界面暂时使用WearBili的布局。播放视频需要使用小电视播放器或凉腕播放器。",
       "cutphoto": "none"
     },
+    {
+      "name": "凉腕播放器",
+      "url": "http://aliangmaker.top/com.media/aliang-media.apk",
+      "icon": "none",
+      "version": "自动最新",
+      "author": "凉生初霜",
+      "description": "方寸之间，大千世界专注于oppo watch的凉腕播放器全新发布：双指视频缩放功能，更懂你的需求；单指平移视频功能，观看无压力；记录视频进度功能，更贴心的细节；其他更多特色功能等你探索！2.5.4更新注意：本次更新换过包名！原因有错别字……",
+      "cutphoto": "none"
+    },
      {
       "name": "☁蛙悠小游戏☁",
       "url": "https://fel.forxhr.top:2022/down.php/6bd7a4dab3e30df52f6537c99efae9f9.apk",
@@ -195,7 +204,7 @@
       "icon": "https://fel.forxhr.top:2022/view.php/a2762d67162aa802741b4f1f5639feac.png",
       "version": "2.8.3",
       "author": "GenOuka",
-      "description": "特供版特供版重新提供，专用于华为儿童手表，无需重新签名,每次进入有三个小心盗版的弹窗",
+      "description": "特供版重新提供，专用于华为儿童手表，无需重新签名,每次进入有三个小心盗版的弹窗",
       "cutphoto": "https://fel.forxhr.top:2022/view.php/9f4e304c612e7b35179f11548288e7ef.jpg",
       "category": 8
     },
@@ -350,7 +359,7 @@
       "cutphoto": "none"
     },
     {
-      "name": "steam",
+      "name": "Steam",
       "url": "http://fel.forxhr.top:2022/down.php/39634d97b0beb8f8440ad657939ad74a.apk",
       "icon": "none",
       "version": "3.6.5",
@@ -365,15 +374,6 @@
       "version": "1.3.6",
       "author": "酷腕官方",
       "description": "由酷腕官方开发的工具箱，目前是1.3.6版本，目前增加1.支付宝扫一扫2.调用系统相册3.分享文本到QQ4.打开手机短信5.微信扫一扫6.打开系统设置7.获取设备是否root8.获取剩余电量",
-      "cutphoto": "none"
-    },
-    {
-      "name": "Rare商店",
-      "url": "https://rare.genouka.rr.nu/store.apk",
-      "icon": "none",
-      "version": "beta1.0",
-      "author": "Genouka",
-      "description": "一个在手表上使用的商店目前和易档商店合作",
       "cutphoto": "none"
     },
     {
@@ -395,13 +395,12 @@
       "cutphoto": "none"
     },
     {
-    {
       "name": "RareBox",
-      "url": "http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_18_wear_all_715fb03eacddb11e9e25e120eca96b7a.apk",
-      "icon": "none",
-      "version": "2.6.0",
+      "url": "https://github.com/Genouka/RareBox/releases/download/v3.3/RareBox3.3.apk",
+      "icon": "https://private-user-images.githubusercontent.com/142009020/309424809-90a9719c-9f8e-4d96-a1a2-4c9b7902841b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI5OTUxNTcsIm5iZiI6MTcxMjk5NDg1NywicGF0aCI6Ii8xNDIwMDkwMjAvMzA5NDI0ODA5LTkwYTk3MTljLTlmOGUtNGQ5Ni1hMWEyLTRjOWI3OTAyODQxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxM1QwNzU0MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OWEzM2UzZDFhYTc1NzU3OGIzYzE1NDc3ZGE4OGQ1NmIwYzBiNWFiODc2YjM0NmUyY2U1M2I2OTNjOWMwNDkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7fjXDNyi7Jib_sCensAXS8vVr8c7i7o20Su2Z33MvOI",
+      "version": "3.3",
       "author": "Genouka",
-      "description": "一个专为手表打造的工具箱",
+      "description": "一个完全开源免费的WearOS手表和Android调试工具箱。麻雀虽小五脏俱全！",
       "cutphoto": "none"
     },
     {
@@ -441,30 +440,21 @@
       "cutphoto": "none"
     },
     {
-      "name": "凉腕播放器",
-      "url": "http://fel.forxhr.top:2022/down.php/74b18e0ea4459f3b2155724a34080867.apk",
-      "icon": "none",
-      "version": "2.5.4",
-      "author": "凉生初霜",
-      "description": "方寸之间，大千世界专注于oppo watch的凉腕播放器全新发布：双指视频缩放功能，更懂你的需求；单指平移视频功能，观看无压力；记录视频进度功能，更贴心的细节；其他更多特色功能等你探索！2.5.4更新注意：本次更新换过包名！原因有错别字……",
-      "cutphoto": "none"
-    },
-    {
       "name": "ApkKit (Apk提取工具)",
       "url": "http://fel.forxhr.top:2022/down.php/f96e88aae80e2bc7165185528a925e20.apk",
       "icon": "none",
       "version": "1.0",
       "author": "Github开源",
-      "description": "一个在手表使用的酷腕apk提取工具修复版",
+      "description": "一个在手表使用的apk提取工具修复版",
       "cutphoto": "none"
     },
     {
       "name": "哔哩哔哩可用",
       "url": "http://fel.forxhr.top:2022/down.php/b5ad6d813385031e9a866fa9c367749d.apk",
       "icon": "none",
-      "version": "7.14.1 32位板",
+      "version": "7.14.1(32位)",
       "author": "哔哩哔哩官方",
-      "description": "手表亲测可用哔哩哔哩7.14.1 32位板最小兼容安卓5.0",
+      "description": "手表亲测可用哔哩哔哩7.14.1 32位 最小兼容安卓5.0",
       "cutphoto": "none"
     },
     {
