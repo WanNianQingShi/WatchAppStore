@@ -33,7 +33,7 @@
     {
       "name": "RareBox",
       "url": "https://mirror.ghproxy.com/https://github.com/Genouka/RareBox/releases/download/v3.3/RareBox3.3.apk",
-      "icon": "https://private-user-images.githubusercontent.com/142009020/309424809-90a9719c-9f8e-4d96-a1a2-4c9b7902841b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI5OTUxNTcsIm5iZiI6MTcxMjk5NDg1NywicGF0aCI6Ii8xNDIwMDkwMjAvMzA5NDI0ODA5LTkwYTk3MTljLTlmOGUtNGQ5Ni1hMWEyLTRjOWI3OTAyODQxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxM1QwNzU0MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OWEzM2UzZDFhYTc1NzU3OGIzYzE1NDc3ZGE4OGQ1NmIwYzBiNWFiODc2YjM0NmUyY2U1M2I2OTNjOWMwNDkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7fjXDNyi7Jib_sCensAXS8vVr8c7i7o20Su2Z33MvOI",
+      "icon": "https://github.com/Genouka/RareBox/assets/142009020/90a9719c-9f8e-4d96-a1a2-4c9b7902841b",
       "version": "3.3",
       "author": "Genouka",
       "description": "一个完全开源免费的WearOS手表和Android调试工具箱。麻雀虽小五脏俱全！",
@@ -493,16 +493,7 @@
       "author": "luern0313",
       "description": "腕上视频是一款可以让你的智能手表播放视频的软件",
       "cutphoto": "none"
-    },
-    {
-      "name": "腕上哔哩",
-      "url": "https://s11.lanzoug.com/08031800120366361bb/2023/06/08/00b4c9a22190f9aa318f75c82f1f1066.apk?st=oeQIAm5IQznEWFfsv7YSbA&e=1691059521&b=VO5b3lfCULFVuAPfArcClQbHCLEHlQqlCC0IMQYvUWNRLVs6UiIFaw_c_c&fi=120366361&pid=218-203-226-48&up=2&mp=0&co=0",
-      "icon": "none",
-      "version": "4.0",
-      "author": "luern0313",
-      "description": "腕上哔哩安装包下载手表版，这是一款非常好用的哔哩哔哩的手表版本应用软件工具",
-      "cutphoto": "none"
-    },
+    },=
     {
       "name": "qq(谷歌版)",
       "url": "https://fel.forxhr.top:2022/down.php/193714d361df47881ae1f7ae0780b046.apk",
@@ -540,7 +531,7 @@
       "cutphoto": "none"
     },
     {
-      "name": "我的世界(dpi手表版)",
+      "name": "我的世界(手表适配)",
       "url": "https://fel.forxhr.top:2022/down.php/9e5d3c2893488a8bb7d93735a2f8df6d.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/e26e7a502e839e10f22705b854062702.png",
       "version": "0.11.0",
