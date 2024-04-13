@@ -2,7 +2,7 @@
   "applist": [
     {
       "name": "莘应用1.4",
-      "url": "https://github.com/Genouka/xin_data/releases/download/1.4/xin_1.4_v2.apk",
+      "url": "https://mirror.ghproxy.com/https://github.com/Genouka/xin_data/releases/download/1.4/xin_1.4_v2.apk",
       "icon": "none",
       "version": "1.4",
       "author": "GenOuka",
@@ -21,14 +21,34 @@
       "cutphoto": "https://fel.forxhr.top:2022/view.php/9f4e304c612e7b35179f11548288e7ef.jpg",
       "category": 8
     },
+        {
+      "name": "质感文件",
+      "url": "http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk",
+      "icon": "none",
+      "version": "1.0",
+      "author": "Genouka",
+      "description": "一个完全开源免费的开源文件管理器",
+      "cutphoto": "none"
+    },
+    {
+      "name": "RareBox",
+      "url": "https://mirror.ghproxy.com/https://github.com/Genouka/RareBox/releases/download/v3.3/RareBox3.3.apk",
+      "icon": "https://private-user-images.githubusercontent.com/142009020/309424809-90a9719c-9f8e-4d96-a1a2-4c9b7902841b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI5OTUxNTcsIm5iZiI6MTcxMjk5NDg1NywicGF0aCI6Ii8xNDIwMDkwMjAvMzA5NDI0ODA5LTkwYTk3MTljLTlmOGUtNGQ5Ni1hMWEyLTRjOWI3OTAyODQxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxM1QwNzU0MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OWEzM2UzZDFhYTc1NzU3OGIzYzE1NDc3ZGE4OGQ1NmIwYzBiNWFiODc2YjM0NmUyY2U1M2I2OTNjOWMwNDkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7fjXDNyi7Jib_sCensAXS8vVr8c7i7o20Su2Z33MvOI",
+      "version": "3.3",
+      "author": "Genouka",
+      "description": "一个完全开源免费的WearOS手表和Android调试工具箱。麻雀虽小五脏俱全！",
+      "cutphoto": "none",
+      "category": 8
+    },
     {
       "name": "bilimiao",
-      "url": "https://github.com/10miaomiao/bilimiao2/releases/download/2.3.5/bilimiao-github-2.3.5.apk",
+      "url": "https://mirror.ghproxy.com/https://github.com/10miaomiao/bilimiao2/releases/download/2.3.5/bilimiao-github-2.3.5.apk",
       "icon": "https://camo.githubusercontent.com/58a02f4d7aac4d7e65c8cdeaba14ba2592b0cc013584d15898cd8072e4230e5d/68747470733a2f2f6f73732e31306d69616f6d69616f2e636e2f696d616765732f62696c696d69616f2e706e67",
       "version": "2.3.5",
       "author": "10miaomiao",
       "description": "一款第三方哔哩哔哩客户端\n更新时间：2024-04-04 15:00:00\n官网：https://10miaomiao.cn/project/1",
-      "cutphoto": "none"
+      "cutphoto": "none",
+      "category": 8
     },
     {
       "name": "哔哩终端",
@@ -81,7 +101,7 @@
      {
       "name": "像素火影༒自制",
       "url": "https://fel.forxhr.top:2022/down.php/4fcabdbb89f3883b4f7b003f3f0c49af.apk",
-      "icon": "http://images-bsy2.7723img.cn/attachments/app_upload_icons/2022/05/13955313/a1eb69c1b606e27c377b82653bc3cc01.png",
+      "icon": "https://images-bsy2.7723img.cn/attachments/app_upload_icons/2022/05/13955313/a1eb69c1b606e27c377b82653bc3cc01.png",
       "version": "1.0.5",
       "author": "一只蛙",
       "description": "更新内容请到小趣商店看Up帖子，原作者不是up，Up只是做适配的",
@@ -148,16 +168,6 @@
       "cutphoto": "https://fel.forxhr.top:2022/view.php/b339569cd6480176fd3f23480e322c40.png",
       "category": 2
     },
-    {
-      "name": "Square Home",
-      "url": "https://fel.forxhr.top:2022/down.php/be8fbb1e046d6191e0bb73bd8b7ce379.apk",
-      "icon": "https://fel.forxhr.top:2022/view.php/6eee88055d14ed38a4b2a528689b8a58.png",
-      "version": "2.0.2",
-      "author": "来自其他",
-      "description": "一个在手表上使用的第三方桌面",
-      "cutphoto": "https://fel.forxhr.top:2022/view.php/804079d37636596734a44c1752a001aa.png",
-      "category": 1
-    },
      {
       "name": "小黑屋",
       "url": "https://fel.forxhr.top:2022/down.php/be8fbb1e046d6191e0bb73bd8b7ce379.apk",
@@ -202,9 +212,9 @@
       "name": "Rare浏览器(华为儿童手表特供版)",
       "url": "https://rare.genouka.rr.nu/apks/2.8.3-hwchildfreever-release.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/a2762d67162aa802741b4f1f5639feac.png",
-      "version": "2.8.3",
+      "version": "2.9.0",
       "author": "GenOuka",
-      "description": "特供版重新提供，专用于华为儿童手表，无需重新签名,每次进入有三个小心盗版的弹窗",
+      "description": "现在只允许在官网下载\nhttps://rare.genouka.rr.nu/",
       "cutphoto": "https://fel.forxhr.top:2022/view.php/9f4e304c612e7b35179f11548288e7ef.jpg",
       "category": 8
     },
@@ -279,7 +289,7 @@
     },
     {
       "name": "WIFIADB",
-      "url": "http://fel.forxhr.top:2022/down.php/d01df13c3139736cb74ca64d76d1e915.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/d01df13c3139736cb74ca64d76d1e915.apk",
       "icon": "none",
       "version": " 5.1.6",
       "author": "未知dpi应用可能不适配",
@@ -296,15 +306,6 @@
       "cutphoto": "none"
     },
     {
-      "name": "NEVER手表浏览器",
-      "url": "https://download.tooc.xlj0.com/uploads/190/NEVER%E6%B5%8F%E8%A7%88%E5%99%A8%E6%9B%B4%E6%96%B0/NEVER%E6%B5%8F%E8%A7%88%E5%99%A8_1.1Bate.apk",
-      "icon": "none",
-      "version": "1.1",
-      "author": "方若网络工作室",
-      "description": "一款适应于手表的浏览器",
-      "cutphoto": "none"
-    },
-    {
       "name": "易档手表播放器",
       "url": "https://fel.forxhr.top:2022/down.php/8484eada5a53ffcd9ae985ecd92f075b.apk",
       "icon": "none",
@@ -315,7 +316,7 @@
     },
     {
       "name": "极趣应用",
-      "url": "http://fel.forxhr.top:2022/down.php/9634734a18810cc0d8a20cbfb5687645.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/9634734a18810cc0d8a20cbfb5687645.apk",
       "icon": "none",
       "version": "0.1",
       "author": "极趣",
@@ -324,7 +325,7 @@
     },
     {
       "name": "HU原生设置启动器",
-      "url": "http://fel.forxhr.top:2022/down.php/2c5f08adc0d42011cee81b1d5d535062.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/2c5f08adc0d42011cee81b1d5d535062.apk",
       "icon": "none",
       "version": "1.0",
       "author": "胡俊隆",
@@ -333,16 +334,16 @@
     },
     {
       "name": "ADB SHELL",
-      "url": "http://fel.forxhr.top:2022/down.php/f35a17ca75d9d467a7cde5fb0193272f.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/f35a17ca75d9d467a7cde5fb0193272f.apk",
       "icon": "none",
       "version": "2.1",
       "author": "未知dpi应用可能不适配",
-      "description": "adb shell(手表上最爽的adb工具)",
+      "description": "adb shel",
       "cutphoto": "none"
     },
     {
       "name": "UU加速器",
-      "url": "http://fel.forxhr.top:2022/down.php/1c233a1060dfacf6af8244a57d6b0ee5.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/1c233a1060dfacf6af8244a57d6b0ee5.apk",
       "icon": "none",
       "version": "8.8",
       "author": "未知dpi应用可能不适配",
@@ -351,7 +352,7 @@
     },
     {
       "name": "tello edu",
-      "url": "http://fel.forxhr.top:2022/down.php/c40d90f800703bf405d973e03b8855b9.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/c40d90f800703bf405d973e03b8855b9.apk",
       "icon": "none",
       "version": "1.5.5",
       "author": "未知dpi应用可能不适配",
@@ -360,7 +361,7 @@
     },
     {
       "name": "Steam",
-      "url": "http://fel.forxhr.top:2022/down.php/39634d97b0beb8f8440ad657939ad74a.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/39634d97b0beb8f8440ad657939ad74a.apk",
       "icon": "none",
       "version": "3.6.5",
       "author": "未知dpi应用可能不适配",
@@ -369,7 +370,7 @@
     },
     {
       "name": "酷腕会员watch",
-      "url": "http://file.unhis.cn/file/38922141/酷腕会员watch正式版_1.3.6.apk",
+      "url": "https://file.unhis.cn/file/38922141/酷腕会员watch正式版_1.3.6.apk",
       "icon": "none",
       "version": "1.3.6",
       "author": "酷腕官方",
@@ -378,7 +379,7 @@
     },
     {
       "name": "搜狗输入法",
-      "url": "http://fel.forxhr.top:2022/down.php/aaebc2cbd931e7d9dd5d2da495952b33.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/aaebc2cbd931e7d9dd5d2da495952b33.apk",
       "icon": "none",
       "version": "未知",
       "author": "搜狗官方",
@@ -386,35 +387,8 @@
       "cutphoto": "none"
     },
     {
-      "name": "质感文件",
-      "url": "http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk",
-      "icon": "none",
-      "version": "1.0",
-      "author": "Genouka",
-      "description": "开源文件管理器",
-      "cutphoto": "none"
-    },
-    {
-      "name": "RareBox",
-      "url": "https://github.com/Genouka/RareBox/releases/download/v3.3/RareBox3.3.apk",
-      "icon": "https://private-user-images.githubusercontent.com/142009020/309424809-90a9719c-9f8e-4d96-a1a2-4c9b7902841b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI5OTUxNTcsIm5iZiI6MTcxMjk5NDg1NywicGF0aCI6Ii8xNDIwMDkwMjAvMzA5NDI0ODA5LTkwYTk3MTljLTlmOGUtNGQ5Ni1hMWEyLTRjOWI3OTAyODQxYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxM1QwNzU0MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OWEzM2UzZDFhYTc1NzU3OGIzYzE1NDc3ZGE4OGQ1NmIwYzBiNWFiODc2YjM0NmUyY2U1M2I2OTNjOWMwNDkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7fjXDNyi7Jib_sCensAXS8vVr8c7i7o20Su2Z33MvOI",
-      "version": "3.3",
-      "author": "Genouka",
-      "description": "一个完全开源免费的WearOS手表和Android调试工具箱。麻雀虽小五脏俱全！",
-      "cutphoto": "none"
-    },
-    {
-      "name": "WearBili",
-      "url": "https://appcenter-filemanagement-distrib2ede6f06e.azureedge.net/c6399a48-9bf6-406f-a929-61383a116a36/Rel-AL%200.24.2.apk?sv=2019-02-02&sr=c&sig=kQtQ8lZK4CUDzRYMfP4eZGfQM%2FxqGNjLWsE1b6Bd5Eg%3D&se=2024-03-03T02%3A26%3A21Z&sp=r&download_origin=appcenter",
-      "icon": "none",
-      "version": "Rel-AL 0.24.2",
-      "author": "HankMi",
-      "description": "2024.03.02补新链 WearBili手表版app是专门为BiliBili设计的手表版，WearBili手表版app是专门为手表用户设计的",
-      "cutphoto": "none"
-    },
-    {
       "name": "腕上一言",
-      "url": "http://q5.697539.com/com.onetext.watch.apk",
+      "url": "https://q5.697539.com/com.onetext.watch.apk",
       "icon": "none",
       "version": "1.0",
       "author": "未知",
@@ -423,7 +397,7 @@
     },
     {
       "name": "Next快传",
-      "url": "http://xl2.ydyspc.com/wear.next.transfer_1.2.1_xlhs.com.apk",
+      "url": "https://xl2.ydyspc.com/wear.next.transfer_1.2.1_xlhs.com.apk",
       "icon": "none",
       "version": "1.2.1",
       "author": "未知",
@@ -432,7 +406,7 @@
     },
     {
       "name": "Lithium阅读器",
-      "url": "http://xl2.ydyspc.com/com.faultexception.reader_0.24.1_xlhs.com.apk",
+      "url": "https://xl2.ydyspc.com/com.faultexception.reader_0.24.1_xlhs.com.apk",
       "icon": "none",
       "version": "0.24.1",
       "author": "未知",
@@ -441,7 +415,7 @@
     },
     {
       "name": "ApkKit (Apk提取工具)",
-      "url": "http://fel.forxhr.top:2022/down.php/f96e88aae80e2bc7165185528a925e20.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/f96e88aae80e2bc7165185528a925e20.apk",
       "icon": "none",
       "version": "1.0",
       "author": "Github开源",
@@ -450,7 +424,7 @@
     },
     {
       "name": "哔哩哔哩可用",
-      "url": "http://fel.forxhr.top:2022/down.php/b5ad6d813385031e9a866fa9c367749d.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/b5ad6d813385031e9a866fa9c367749d.apk",
       "icon": "none",
       "version": "7.14.1(32位)",
       "author": "哔哩哔哩官方",
@@ -459,7 +433,7 @@
     },
     {
       "name": "手表鸡音盒",
-      "url": "http://fel.forxhr.top:2022/down.php/59acd0982e635054a6f80e9748d20355.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/59acd0982e635054a6f80e9748d20355.apk",
       "icon": "none",
       "version": "1.0",
       "author": "东山再起",
@@ -468,7 +442,7 @@
     },
     {
       "name": "手表微信",
-      "url": "http://fel.forxhr.top:2022/down.php/84b43250808fa3c883518a761abf216d.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/84b43250808fa3c883518a761abf216d.apk",
       "icon": "none",
       "version": "1.7.1",
       "author": "微信官方",
@@ -486,7 +460,7 @@
     },
     {
       "name": "易档社区",
-      "url": "http://x1.ydyspc.com/yidangshequ_4.1_xlhs.com.apk",
+      "url": "https://x1.ydyspc.com/yidangshequ_4.1_xlhs.com.apk",
       "icon": "none",
       "version": "4.1",
       "author": "奕奕",
@@ -531,7 +505,7 @@
     },
     {
       "name": "qq(谷歌版)",
-      "url": "http://fel.forxhr.top:2022/down.php/193714d361df47881ae1f7ae0780b046.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/193714d361df47881ae1f7ae0780b046.apk",
       "icon": "none",
       "version": "4.4.4",
       "author": "腾讯官方",
@@ -540,7 +514,7 @@
     },
     {
       "name": "瓯默笔记",
-      "url": "http://fel.forxhr.top:2022/down.php/2a74893f0714bee8c43e2d4f70fc9eaf.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/2a74893f0714bee8c43e2d4f70fc9eaf.apk",
       "icon": "none",
       "version": "22.11.13",
       "author": "来自饕餮提供1038113541",
@@ -549,7 +523,7 @@
     },
     {
       "name": "酷腕网易云音乐解析",
-      "url": "http://fel.forxhr.top:2022/down.php/9cb80c2034e26e4d4ea4a11665a8de39.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/9cb80c2034e26e4d4ea4a11665a8de39.apk",
       "icon": "none",
       "version": "1.0",
       "author": "酷腕官方",
@@ -558,7 +532,7 @@
     },
     {
       "name": "酷腕画板pro",
-      "url": "http://fel.forxhr.top:2022/down.php/daf66c0ea4712068b943e84e5c6ab4e8.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/daf66c0ea4712068b943e84e5c6ab4e8.apk",
       "icon": "none",
       "version": "1.0pro",
       "author": "酷腕官方",
@@ -567,7 +541,7 @@
     },
     {
       "name": "我的世界(dpi手表版)",
-      "url": "http://fel.forxhr.top:2022/down.php/9e5d3c2893488a8bb7d93735a2f8df6d.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/9e5d3c2893488a8bb7d93735a2f8df6d.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/e26e7a502e839e10f22705b854062702.png",
       "version": "0.11.0",
       "author": "我的世界官方",
@@ -577,7 +551,7 @@
     },
     {
       "name": "知乎极速版",
-      "url": "http://fel.forxhr.top:2022/down.php/56f9e1e8517039379699875f243bf319.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/56f9e1e8517039379699875f243bf319.apk",
       "icon": "none",
       "package": "com.zhihu.android.lite",
       "version": "1.7.0",
@@ -586,8 +560,8 @@
       "cutphoto": "none"
     },
     {
-      "name": "分屏率修改",
-      "url": "http://fel.forxhr.top:2022/down.php/0b4342877aeb64d870f7f48c9ae55b67.apk",
+      "name": "分辨率修改",
+      "url": "https://fel.forxhr.top:2022/down.php/0b4342877aeb64d870f7f48c9ae55b67.apk",
       "icon": "none",
       "package": "com.linesoft.fenbianlv",
       "version": "1.1.1",
@@ -597,7 +571,7 @@
     },
     {
       "name": "清浊",
-      "url": "http://fel.forxhr.top:2022/down.php/400e3b94b76f6e55b0ecd5bd9867666b.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/400e3b94b76f6e55b0ecd5bd9867666b.apk",
       "icon": "none",
       "package": "com.farplace.qingzhuo",
       "version": "1.8.7",
@@ -607,7 +581,7 @@
     },
     {
       "name": "拼多多",
-      "url": "http://fel.forxhr.top:2022/down.php/1b0d36d26c5d8f7dd0807ec742fc405c.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/1b0d36d26c5d8f7dd0807ec742fc405c.apk",
       "icon": "none",
       "package": "com.xunmeng.pinduoduo",
       "version": "5.88.1",
@@ -617,7 +591,7 @@
     },
     {
       "name": "支付宝",
-      "url": "http://fel.forxhr.top:2022/down.php/c5199a8a02cc4ac8e30a34211adfec80.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/c5199a8a02cc4ac8e30a34211adfec80.apk",
       "icon": "none",
       "package": "com.eg.android.AlipayGphone",
       "version": "10.3.1",
@@ -627,7 +601,7 @@
     },
     {
       "name": "酷我音乐vip版本",
-      "url": "http://fel.forxhr.top:2022/down.php/ff2305e7ca7f39bbb0f21fefdaecc498.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/ff2305e7ca7f39bbb0f21fefdaecc498.apk",
       "icon": "none",
       "package": "cn.kuwo.wearplayer",
       "version": "1.1.9",
@@ -636,18 +610,8 @@
       "cutphoto": "none"
     },
     {
-      "name": "歌词适配",
-      "url": "http://fel.forxhr.top:2022/down.php/f389249d91bd845c9b817db984054cfb.apk",
-      "icon": "none",
-      "package": "com.mylrc.mymusic",
-      "version": "4.1.0",
-      "author": "result.application.providers[0].authorities",
-      "description": "none",
-      "cutphoto": "none"
-    },
-    {
       "name": "微博",
-      "url": "http://fel.forxhr.top:2022/down.php/5b766557bad679f25b5ab07265f0a797.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/5b766557bad679f25b5ab07265f0a797.apk",
       "icon": "none",
       "package": "com.sina.weibo.watch",
       "version": "1.0.0",
@@ -657,7 +621,7 @@
     },
     {
       "name": "云和平精英",
-      "url": "http://dl.56ads.com/apk1/com.tencent.gamematrix.pubgmhd_v4.9.2.3970405_jxdown.com.apk",
+      "url": "https://dl.56ads.com/apk1/com.tencent.gamematrix.pubgmhd_v4.9.2.3970405_jxdown.com.apk",
       "icon": "none",
       "package": "com.tencent.gamematrix.pubgmhd",
       "version": "4.9.2",
@@ -677,7 +641,7 @@
     },
     {
       "name": "Gamers GLTool Pro",
-      "url": "http://t168.downqa.com/app/202307/05/gamersgltoolpro_258925.apk",
+      "url": "https://t168.downqa.com/app/202307/05/gamersgltoolpro_258925.apk",
       "icon": "none",
       "package": "inc.trilokia.gfxtool",
       "version": "1.3",
@@ -687,7 +651,7 @@
     },
     {
       "name": "夸克浏览器",
-      "url": "http://fel.forxhr.top:2022/down.php/d1ba8f467034cf248f40b78885131483.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/d1ba8f467034cf248f40b78885131483.apk",
       "icon": "none",
       "package": "com.quark.browser",
       "version": "2.0.3",
@@ -697,7 +661,7 @@
     },
     {
       "name": "智学网 Lite",
-      "url": "http://fel.forxhr.top:2022/down.php/2eb166b4034ced405be3078c79107b96.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/2eb166b4034ced405be3078c79107b96.apk",
       "icon": "none",
       "package": "we.jay.zhixue",
       "version": "1.2",
@@ -707,7 +671,7 @@
     },
     {
       "name": "西瓜视频",
-      "url": "http://fel.forxhr.top:2022/down.php/71290433450e06e2f91856efcef9e5cf.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/71290433450e06e2f91856efcef9e5cf.apk",
       "icon": "none",
       "package": "com.ss.android.article.videp",
       "version": "2.0.6",
@@ -717,7 +681,7 @@
     },
     {
       "name": "美团极速版",
-      "url": "http://fel.forxhr.top:2022/down.php/217ed947c449c6ae58d0821febd4ee41.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/217ed947c449c6ae58d0821febd4ee41.apk",
       "icon": "none",
       "package": "com.meituan.turbo",
       "version": "2.0",
@@ -727,7 +691,7 @@
     },
     {
       "name": "哔哩哔哩(车机版)",
-      "url": "http://fel.forxhr.top:2022/down.php/7b04fb16e1986b3ed3a1e42280ea3ecc.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/7b04fb16e1986b3ed3a1e42280ea3ecc.apk",
       "icon": "none",
       "package": "com.bilibili.bilithings",
       "version": "2.7.0",
@@ -759,7 +723,7 @@
     },
     {
       "name": "快手Kwai",
-      "url": "http://fel.forxhr.top:2022/down.php/9b4efa456615bc7d4763bbed5c47d2b9.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/9b4efa456615bc7d4763bbed5c47d2b9.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/63442c1d9bed7cc349f107ff64418a54.jpg",
       "package": "com.kwai.mercury",
       "version": "4.53.1",
@@ -770,7 +734,7 @@
     },
     {
       "name": "云原神",
-      "url": "http://fel.forxhr.top:2022/down.php/ba18a6117582b61741ed174fd226bdb6.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/ba18a6117582b61741ed174fd226bdb6.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/448a1d991adc4d070f818f756e6a1438.jpg",
       "package": "com.miHoYo.cloudgames.ys",
       "version": "1.7",
@@ -781,7 +745,7 @@
     },
     {
       "name": "抖音短视频",
-      "url": "http://fel.forxhr.top:2022/down.php/6edcb2d745f9449d80f9e8cfbd4676bc.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/6edcb2d745f9449d80f9e8cfbd4676bc.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/5dabe87d3927733f34a9c5f170098f5e.jpg",
       "package": "com.ss.android.ugc.awemf",
       "version": "9.9",
@@ -792,7 +756,7 @@
     },
     {
       "name": "雪豹速清",
-      "url": "http://fel.forxhr.top:2022/down.php/9e9a7ff0d478975ee6bed37b81bdf928.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/9e9a7ff0d478975ee6bed37b81bdf928.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/a4bbbc22cafabae3f54def702e10cbea.jpg",
       "package": "com.idaodan.clean.master",
       "version": "2.3",
@@ -803,7 +767,7 @@
     },
     {
       "name": "腾讯视频极速版",
-      "url": "http://fel.forxhr.top:2022/down.php/854b86e6141a381802308679b250f6be.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/854b86e6141a381802308679b250f6be.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/0538d6cb97557b4a12abad309246c4ec.jpg",
       "package": "com.tencent.videolite.android",
       "version": "3.9",
@@ -814,7 +778,7 @@
     },
     {
       "name": "WPS Office",
-      "url": "http://fel.forxhr.top:2022/down.php/650626992d1a581740b2d5b8840b7ca2.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/650626992d1a581740b2d5b8840b7ca2.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/dc0be9013a23c7514e400748e8a6fa76.jpg",
       "package": "cn.wps.moffice_eng",
       "version": "6.2",
@@ -825,7 +789,7 @@
     },
     {
       "name": "网易邮箱大师",
-      "url": "http://fel.forxhr.top:2022/down.php/524394667426a756788072a47bdb8e66.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/524394667426a756788072a47bdb8e66.apk",
       "icon": "https://so.360tres.com/dr/76_76_80/d/_open360/logo72nb/104697651_72.png.webp",
       "package": "com.netease.mail",
       "version": "7.9.5",
@@ -836,7 +800,7 @@
     },
     {
       "name": "好课帮",
-      "url": "http://fel.forxhr.top:2022/down.php/183215bf1bb7326ff8262966f4ab12a6.apk",
+      "url": "https://fel.forxhr.top:2022/down.php/183215bf1bb7326ff8262966f4ab12a6.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/fe7788926a7df28f0acdbd5911663eb1.jpg",
       "package": "com.haokebang.learning",
       "version": "13.15",
