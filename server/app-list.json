@@ -41,6 +41,16 @@
       "category": 8
     },
     {
+      "name": "我的世界0.16(手表适配)",
+      "url": "https://remycn-my.sharepoint.cn/:u:/g/personal/admin_cn_remyyyz_com/Eewxb-COZJ5LuXJA_bwcZnUBNBi9tczLzH2VjuBdrIHRCQ?download=1",
+      "icon": "https://fel.forxhr.top:2022/view.php/e26e7a502e839e10f22705b854062702.png",
+      "version": "0.16",
+      "author": "Mojang",
+      "description": "可能对手表性能要求略高",
+      "cutphoto": "none",
+      "category": 2
+    },
+    {
       "name": "bilimiao",
       "url": "https://mirror.ghproxy.com/https://github.com/10miaomiao/bilimiao2/releases/download/2.3.5/bilimiao-github-2.3.5.apk",
       "icon": "https://camo.githubusercontent.com/58a02f4d7aac4d7e65c8cdeaba14ba2592b0cc013584d15898cd8072e4230e5d/68747470733a2f2f6f73732e31306d69616f6d69616f2e636e2f696d616765732f62696c696d69616f2e706e67",
@@ -378,12 +388,12 @@
       "cutphoto": "none"
     },
     {
-      "name": "搜狗输入法",
+      "name": "搜狗输入法(WearOS)",
       "url": "https://fel.forxhr.top:2022/down.php/aaebc2cbd931e7d9dd5d2da495952b33.apk",
       "icon": "none",
       "version": "未知",
       "author": "搜狗官方",
-      "description": "一个在手表上使用的搜狗输入法（v2,手表版）九键输入法，适配手表，能手写、拼音、英文、语音转文字、Emoji表情、数字和标点，有词库",
+      "description": "一个在WearOS手表上使用的搜狗输入法，九键输入法，适配手表，能手写、拼音、英文、语音转文字、Emoji表情、数字和标点，有词库。不支持Android手表。",
       "cutphoto": "none"
     },
     {
@@ -531,11 +541,11 @@
       "cutphoto": "none"
     },
     {
-      "name": "我的世界(手表适配)",
+      "name": "我的世界0.11(手表适配)",
       "url": "https://fel.forxhr.top:2022/down.php/9e5d3c2893488a8bb7d93735a2f8df6d.apk",
       "icon": "https://fel.forxhr.top:2022/view.php/e26e7a502e839e10f22705b854062702.png",
       "version": "0.11.0",
-      "author": "我的世界官方",
+      "author": "Mojang",
       "description": "一个在手表上玩的我的世界dpi修改版",
       "cutphoto": "https://fel.forxhr.top:2022/view.php/c5fdbeba822ee78b8d6160142b7e1e6e.jpg",
       "category": 2
