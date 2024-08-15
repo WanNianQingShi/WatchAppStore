@@ -33,7 +33,7 @@
     {
       "name": "RareBox",
       "url": "https://mirror.ghproxy.com/https://github.com/Genouka/RareBox/releases/download/v3.3/RareBox3.3.apk",
-      "icon": "https://github.com/Genouka/RareBox/assets/142009020/90a9719c-9f8e-4d96-a1a2-4c9b7902841b",
+      "icon": "https://mirror.ghproxy.com/https://github.com/Genouka/RareBox/raw/main/app/src/main/res/drawable/ic_launcher.webp",
       "version": "3.3",
       "author": "Genouka",
       "description": "一个完全开源免费的WearOS手表和Android调试工具箱。麻雀虽小五脏俱全！",
