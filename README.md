@@ -1,1 +1,2 @@
-# 易档商店1.5
+# Removed
+Please look at https://gitee.com/genouka/edang-mirror
